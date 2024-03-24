@@ -10,6 +10,16 @@ import warnings
 # Ignore DeprecationWarning
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
+def http_cache(response):
+    # # Make soup object
+    # soup = BeautifulSoup(response, 'html.parser')
+
+    # # Save the last response in a file
+    # with open("cache.txt", "w") as file:
+    #     file.write(soup.prettyfy())
+
+    pass
+
 def return_content(response):
     # Decode and print the response
     soup = BeautifulSoup(response, 'html.parser')
@@ -88,10 +98,13 @@ def make_http_request(url):
 
     # Parse the response using BeautifulSoup
     soup = BeautifulSoup(response, 'html.parser')
-    
-    if soup.title.string == "301 Moved Permanently":
 
-        print("Redirecting to HTTPS...\n")
+    print(soup.prettify())
+    
+    # Check if the response is a redirect
+    if soup.decode().startswith("HTTP/1.1 301") or soup.decode().startswith("HTTP/1.1 302") or soup.decode().startswith("HTTP/1.1 303") or soup.decode().startswith("HTTP/1.1 307") or soup.decode().startswith("HTTP/1.1 308"):
+
+        print("Redirecting...\n")
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         ssl_socket = ssl.wrap_socket(client_socket, ssl_version=ssl.PROTOCOL_TLS)
         ssl_socket.connect((host, 443))
@@ -135,6 +148,9 @@ def main():
         # Print the content
         return_content(content)
 
+        # Save the last response in a file
+        http_cache(content)
+
         return
 
     elif sys.argv[1] == "-s" and len(sys.argv) == 3:
@@ -148,6 +164,11 @@ def main():
 
         # Print the search results
         return_search_results(results)
+
+        # Save the last response in a file
+        http_cache(results)
+
+        return
 
     elif sys.argv[1] == '-u' and sys.argv[3] == '-s' and len(sys.argv) == 5:
         # Get the URL from the command-line argument
@@ -163,6 +184,11 @@ def main():
 
         # Print the search results
         return_content(results)
+
+        # Save the last response in a file
+        http_cache(results)
+
+        return
     
 
 if __name__ == "__main__":
