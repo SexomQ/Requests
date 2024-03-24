@@ -30,15 +30,25 @@ def return_content(response):
     for tag in content:
         if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
             print("\n", end="")
-   
-        else:
-            if tag.name == 'ul':
-                for li in tag.find_all('li'):
-                    print("-", li.get_text())
-            print(tag.get_text())
-
-        if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
+            print(tag.get_text().strip())
             print("\n", end="")
+   
+        elif tag.name == 'ul':
+            for li in tag.find_all('li'):
+                print("-", li.get_text().strip())
+        
+        elif tag.name == 'a':
+            if tag.get('href')[:4] == 'http' or tag.get('href')[:5] == 'https':
+                print(tag.get_text().strip())
+                print("->", tag.get('href'))
+            else:
+                pass
+
+        elif tag.name == 'p':
+            print(tag.get_text().strip())
+        
+            
+            
 
 def return_search_results(response):
     # Get top 10 search results
