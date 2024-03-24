@@ -120,7 +120,7 @@ def search(search_term):
 
 def main():
     # Check if the correct number of arguments is provided
-    if len(sys.argv) > 3 or len(sys.argv) < 1 or sys.argv[1] == "-h":
+    if len(sys.argv) > 5 or len(sys.argv) < 1 or sys.argv[1] == "-h":
         print("Help:\n    go2web -u <URL>         # make an HTTP request to the specified URL and print the response \n    go2web -s <search-term> # make an HTTP request to search the term using your favorite search engine and print top 10 results \n    go2web -h               # show this help \n")
         return
     
@@ -149,6 +149,20 @@ def main():
         # Print the search results
         return_search_results(results)
 
+    elif sys.argv[1] == '-u' and sys.argv[3] == '-s' and len(sys.argv) == 5:
+        # Get the URL from the command-line argument
+        url = sys.argv[2]
+
+        # Get the search term from the command-line argument
+        search_term = sys.argv[4]
+        search_term = search_term.replace(" ", "+")
+        print(f"Searching for: {search_term}")
+
+        # Make the HTTP request
+        results = make_http_request(f"{url}/search?q={search_term}")
+
+        # Print the search results
+        return_content(results)
     
 
 if __name__ == "__main__":
