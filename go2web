@@ -11,14 +11,13 @@ import warnings
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 def http_cache(response):
-    # # Make soup object
-    # soup = BeautifulSoup(response, 'html.parser')
+    # Make soup object
+    soup = BeautifulSoup(response, 'html.parser')
 
-    # # Save the last response in a file
-    # with open("cache.txt", "w") as file:
-    #     file.write(soup.prettyfy())
+    # Save the last response in a file
+    with open("cache.txt", "w") as file:
+        file.write(soup.decode('latin-1'))
 
-    pass
 
 def return_content(response):
     # Decode and print the response
@@ -29,9 +28,8 @@ def return_content(response):
 
     # Print the content
     for tag in content:
-        print(" ")
         if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
-            print("\n")
+            print("\n", end="")
    
         else:
             if tag.name == 'ul':
@@ -40,7 +38,7 @@ def return_content(response):
             print(tag.get_text())
 
         if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
-            print("\n")
+            print("\n", end="")
 
 def return_search_results(response):
     # Get top 10 search results
