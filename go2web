@@ -5,6 +5,49 @@ import socket
 import ssl
 from ssl import SSLContext
 from bs4 import BeautifulSoup
+import warnings
+
+# Ignore DeprecationWarning
+warnings.filterwarnings('ignore', category=DeprecationWarning)
+
+def return_content(response):
+    # Decode and print the response
+    soup = BeautifulSoup(response, 'html.parser')
+
+    # Extract content from the response
+    content = soup.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'a'])
+
+    # Print the content
+    for tag in content:
+        print(" ")
+        if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
+            print("\n")
+   
+        else:
+            if tag.name == 'ul':
+                for li in tag.find_all('li'):
+                    print("-", li.get_text())
+            print(tag.get_text())
+
+        if tag.name == 'h1' or tag.name == 'h2' or tag.name == 'h3' or tag.name == 'h4' or tag.name == 'h5' or tag.name == 'h6':
+            print("\n")
+
+def return_search_results(response):
+    # Get top 10 search results
+    soup = BeautifulSoup(response, 'html.parser')
+    results = soup.find_all('li', class_='b_algo')
+
+    # Print the search results
+    for i, result in enumerate(results):
+        if i == 10:
+            break
+        else:
+            print(f"{i+1}. {result.h2.get_text()}")
+            link = result.find('cite')
+            print(f"   {link.get_text()}")
+            description = result.find('p')
+            print(f"   {description.get_text()}\n")
+        
 
 def make_http_request(url):
     # Parse the URL to get host and path
@@ -41,7 +84,7 @@ def make_http_request(url):
     client_socket.close()
 
     # Decode and print the response
-    print(response.decode("latin-1"))
+    # print(response.decode("latin-1"))
 
     # Parse the response using BeautifulSoup
     soup = BeautifulSoup(response, 'html.parser')
@@ -63,7 +106,17 @@ def make_http_request(url):
 
 
         ssl_socket.close()
-        print(response.decode("latin-1"))
+    
+    return response
+
+def search(search_term):
+    # Parse the search term
+    search_term = search_term.replace(' ', '+')
+
+    # Make an HTTP request to search the term using Bing
+    make_http_request(f"https://www.bing.com/search?q={search_term}")
+
+    return
 
 def main():
     # Check if the correct number of arguments is provided
@@ -72,12 +125,31 @@ def main():
         return
     
 
-    if sys.argv[1] == "-u":
+    if sys.argv[1] == "-u" and len(sys.argv) == 3:
         # Get the URL from the command-line argument
         url = sys.argv[2]
 
         # Make the HTTP request
-        make_http_request(url)
+        content = make_http_request(url)
+
+        # Print the content
+        return_content(content)
+
+        return
+
+    elif sys.argv[1] == "-s" and len(sys.argv) == 3:
+        # Get the search term from the command-line argument
+        search_term = sys.argv[2]
+        search_term = search_term.replace(" ", "+")
+        print(f"Searching for: {search_term}")
+
+        # Make the HTTP request
+        results = make_http_request(f"https://www.bing.com/search?q={search_term}")
+
+        # Print the search results
+        return_search_results(results)
+
+    
 
 if __name__ == "__main__":
     main()
