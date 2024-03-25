@@ -15,8 +15,8 @@ def http_cache(response):
     soup = BeautifulSoup(response, 'html.parser')
 
     # Save the last response in a file
-    with open("cache.txt", "w") as file:
-        file.write(soup.decode('latin-1'))
+    with open("cache", "w") as file:
+        file.write(soup.prettify())
 
 
 def return_content(response):
@@ -158,7 +158,7 @@ def main():
 
         if search_term == last_term:
             # Get the last response from the cache file
-            with open("cache.txt", "r") as file:
+            with open("cache", "r") as file:
                 results = file.read()
         
         else:
@@ -170,7 +170,7 @@ def main():
             results = make_http_request(f"https://www.bing.com/search?q={search_term}")
 
             # Save the last response in a file
-            http_cache(results.decode('latin-1'))
+            http_cache(results)
 
         # Print the search results
         return_search_results(results)
@@ -196,6 +196,38 @@ def main():
         # http_cache(results)
 
         return
+    
+    # # Access a link in the search results
+    # elif sys.argv[1] == '-a' and len(sys.argv) == 3:
+    #     # Get the link number from the command-line argument
+    #     link_number = int(sys.argv[2])
+
+    #     print(f"Accessing link number {link_number}...\n")
+
+    #     # Get the last response from the cache file
+    #     with open("cache.txt", "r") as file:
+    #         results = file.read()
+
+    #     # Parse the response using BeautifulSoup
+    #     soup = BeautifulSoup(results, 'html.parser')
+
+    #     # Get the search results
+    #     search_results = soup.find_all('li', class_='b_algo')
+        
+    #     # Get the link
+    #     link = search_results[link_number - 1].find('a')
+
+    #     # Get the URL
+    #     url = link.get('href')
+    #     print(f"URL: {url}")
+
+    #     # Make the HTTP request
+    #     content = make_http_request(url)
+
+    #     # Print the content
+    #     return_content(content)
+
+    #     return
     
 
 if __name__ == "__main__":

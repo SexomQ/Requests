@@ -1,30 +1,28 @@
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
 Cache-Control: private, max-age=0
-Expires: Sun, 24 Mar 2024 23:57:21 GMT
-X-EventID: 6600be1dcfad4cf097ce3dd5c7f5afd3
+Expires: Mon, 25 Mar 2024 08:49:34 GMT
+X-EventID: 66013adaef80491da16d0b664e7395eb
 UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
 P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
-Date: Sun, 24 Mar 2024 23:58:21 GMT
+Date: Mon, 25 Mar 2024 08:50:34 GMT
 Transfer-Encoding:  chunked
 Connection: close
 Connection: Transfer-Encoding
-Set-Cookie: MUID=18933118BF78642017E02554BE756580; domain=.bing.com; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
-Set-Cookie: MUIDB=18933118BF78642017E02554BE756580; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
-Set-Cookie: _EDGE_S=F=1&amp;SID=30CDD38EB74F671A1A08C7C2B6426659; domain=.bing.com; path=/
-Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
-Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
-Set-Cookie: SRCHUID=V=2&amp;GUID=9FC61F7AF90F48C09D48EF90EACB455D&amp;dmnchg=1; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
-Set-Cookie: SRCHUSR=DOB=20240324; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
-Set-Cookie: SRCHHPGUSR=SRCHLANG=ro&amp;IG=56243D86F2C4482F8078392B76A20654; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
-Set-Cookie: _SS=SID=30CDD38EB74F671A1A08C7C2B6426659; domain=.bing.com; path=/
-X-CDN-TraceID: 0.44677b5c.1711324701.4d6eda94
+Set-Cookie: MUID=0DAAA693027760120A2EB2DE037B61C7; domain=.bing.com; expires=Sat, 19-Apr-2025 08:50:34 GMT; path=/
+Set-Cookie: MUIDB=0DAAA693027760120A2EB2DE037B61C7; expires=Sat, 19-Apr-2025 08:50:34 GMT; path=/
+Set-Cookie: _EDGE_S=F=1&amp;SID=1465C3BBC279684831FBD7F6C375695C; domain=.bing.com; path=/
+Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Sat, 19-Apr-2025 08:50:34 GMT; path=/
+Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Wed, 25-Mar-2026 08:50:34 GMT; path=/
+Set-Cookie: SRCHUID=V=2&amp;GUID=D13C36A12896454CBB343A31944ECA7E&amp;dmnchg=1; domain=.bing.com; expires=Wed, 25-Mar-2026 08:50:34 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20240325; domain=.bing.com; expires=Wed, 25-Mar-2026 08:50:34 GMT; path=/
+Set-Cookie: SRCHHPGUSR=SRCHLANG=ro&amp;IG=134840BC684345AA8653F51CD4111F3F; domain=.bing.com; expires=Wed, 25-Mar-2026 08:50:34 GMT; path=/
+Set-Cookie: _SS=SID=1465C3BBC279684831FBD7F6C375695C; domain=.bing.com; path=/
+X-CDN-TraceID: 0.37677b5c.1711356634.c5542cb
 
-0000005A
+00003FF6
 <!DOCTYPE html>
-<html dir="ltr" lang="ro" xml:lang="ro" xmlns="http://www.w3.org/1999/xhtml
-00003F9C
-" xmlns:web="http://schemas.live.com/Web/">
+<html dir="ltr" lang="ro" xml:lang="ro" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="http://schemas.live.com/Web/">
  <script type="text/javascript">
   //<![CDATA[
 si_ST=new Date
@@ -33,20 +31,20 @@ si_ST=new Date
  <head>
   <!--pc-->
   <title>
-   wolfram alpha - CÄutaÈi
+   math - Căutați
   </title>
   <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
-  <meta content="CÄutarea inteligentÄ de la Bing faciliteazÄ gÄsirea rapidÄ a lucrurilor pe care le cÄutaÈi Èi vÄ premiazÄ." property="og:description"/>
+  <meta content="Căutarea inteligentă de la Bing facilitează găsirea rapidă a lucrurilor pe care le căutați și vă premiază." property="og:description"/>
   <meta content="Bing" property="og:site_name"/>
-  <meta content="wolfram alpha - Bing" property="og:title"/>
-  <meta content="https://www.bing.com/search?q=wolfram+alpha" property="og:url"/>
+  <meta content="math - Bing" property="og:title"/>
+  <meta content="https://www.bing.com/search?q=math" property="og:url"/>
   <meta content="3732605936979161" property="fb:app_id"/>
   <meta content="http://www.bing.com/sa/simg/facebook_sharing_5.png" property="og:image"/>
   <meta content="website" property="og:type"/>
   <meta content="600" property="og:image:width"/>
   <meta content="315" property="og:image:height"/>
-  <link data-orighref="" href="/search?format=rss&amp;q=wolfram+alpha" rel="alternate" title="XML" type="text/xml"/>
-  <link data-orighref="" href="/search?format=rss&amp;q=wolfram+alpha" rel="alternate" title="RSS" type="application/rss+xml"/>
+  <link data-orighref="" href="/search?format=rss&amp;q=math" rel="alternate" title="XML" type="text/xml"/>
+  <link data-orighref="" href="/search?format=rss&amp;q=math" rel="alternate" title="RSS" type="application/rss+xml"/>
   <link data-orighref="" href="/sa/simg/favicon-trans-bg-blue-mg.ico" rel="icon"/>
   <link href="https://r.bing.com" rel="preconnect"/>
   <link crossorigin="" href="https://r.bing.com" rel="preconnect"/>
@@ -58,13 +56,13 @@ si_ST=new Date
   <link crossorigin="" href="https://th.bing.com" rel="dns-prefetch"/>
   <script type="text/javascript">
    //<![CDATA[
-_G={Region:"WW",Lang:"ro-RO",ST:(typeof si_ST!=='undefined'?si_ST:new Date),Mkt:"ro-RO",RevIpCC:"md",RTL:false,Ver:"12",IG:"56243D86F2C4482F8078392B76A20654",EventID:"6600be1dcfad4cf097ce3dd5c7f5afd3",V:"web",P:"SERP",DA:"DUBE01",CID:"18933118BF78642017E02554BE756580",SUIH:"hVNGOJcTHzNnHiHnDgJ4_A",adc:"b_ad",EF:{bmasynctrigger:1,getslctspt:1,newtabsloppyclick:1,chevroncheckmousemove:1,sharepreview:1,shareoutimage:1,sharefixreadnum:1,chatskip2content:1},gpUrl:"\/fd\/ls\/GLinkPing.aspx?" }; _G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID ;curUrl="http:\/\/www.bing.com\/search";function si_T(a){ if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;}_G.NTT="600000";_G.CTT="3000";_G.BNFN="Default";_G.LG="160";;
+_G={Region:"WW",Lang:"ro-RO",ST:(typeof si_ST!=='undefined'?si_ST:new Date),Mkt:"ro-RO",RevIpCC:"md",RTL:false,Ver:"13",IG:"134840BC684345AA8653F51CD4111F3F",EventID:"66013adaef80491da16d0b664e7395eb",V:"web",P:"SERP",DA:"DUBE01",CID:"0DAAA693027760120A2EB2DE037B61C7",SUIH:"YmDhC3PVrHFpq4Um4Sezqg",adc:"b_ad",EF:{bmasynctrigger:1,getslctspt:1,newtabsloppyclick:1,chevroncheckmousemove:1,sharepreview:1,shareoutimage:1,chatskip2content:1},gpUrl:"\/fd\/ls\/GLinkPing.aspx?" }; _G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID ;curUrl="http:\/\/www.bing.com\/search";function si_T(a){ if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;}_G.NTT="600000";_G.CTT="3000";_G.BNFN="Default";_G.LG="160";;
 //]]>
   </script>
   <link href="/rp/WLmOdv9zuqhjvps5RyZ5DUP8vcQ.css" rel="stylesheet" type="text/css"/>
   <link href="https://r.bing.com/rb/6F/cc,nc/GZY3PyHImAjt56VIC2PBbIGPof4.css?bu=AaEV&amp;or=d" rel="stylesheet" type="text/css"/>
   <link href="/rp/Erq9eyxnIqqfCkw2PYReovqPn4w.css" rel="stylesheet" type="text/css"/>
-  <link href="https://r.bing.com/rb/6F/cc,nc/JXlehTGCkCL1Kyg-aOdZL6o0rRk.css?bu=IWhokA3BD2jXD6EQnhO2E8ATaGjzE-cZ5hpo1R_5Jmhonh3rBe4FaD-cAY8EaPsEiDe3N2ho&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6F/cc,nc/jgipgfZURcWxkf_bX-9eVn--ofQ.css?bu=IWho7QzBD2jXD6EQmhO2E8ATaGjzE-cZ5hpo1R_5Jmhonh3rBe4FaD-cAY8EaP8EjDe7N2ho&amp;or=d" rel="stylesheet" type="text/css"/>
   <link href="/rp/p2In0LCMH88GHZ8_Bauucrdw48w.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/hba2SqbP5ndWlozgQN-CVBVjbBU.css" rel="stylesheet" type="text/css"/>
   <link href="https://r.bing.com/rb/6F/cir3,cc,nc/mOKgSZ9LIvqjgrbVeS_iu5gte9c.css?bu=DP8ovyrGK8krgyziLZExaJgrnSloaA&amp;or=d" rel="stylesheet" type="text/css"/>
@@ -104,16 +102,16 @@ var logJSText=function(n,t){t===void 0&&(t=null);(new Image).src=_G.lsUrl+'&Type
   </script>
   <script type="text/javascript">
    //<![CDATA[
-var wlc_d = 1500, wlc_t =63846921501;;var perf;(function(n){function f(n){return i.hasOwnProperty(n)?i[n]:n}function e(n){var t="S";return n==0?t="P":n==2&&(t="M"),t}function o(n){for(var c,i=[],t={},r,l=0;l<n.length;l++){var a=n[l],o=a.v,s=a.t,h=a.k;s===0&&(h=f(h),o=o.toString(36));s===3?i.push("".concat(h,":").concat(o)):(r=t[s]=t[s]||[],r.push("".concat(h,":").concat(o)))}for(c in t)t.hasOwnProperty(c)&&(r=t[c],i.push("".concat(e(+c),':"').concat(r.join(","),'"')));return i.push(u),i}for(var r=["redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","secureConnectionStart","connectEnd","requestStart","responseStart","responseEnd","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","unloadEventStart","unloadEventEnd","firstChunkEnd","secondChunkStart","htmlEnd","pageEnd","msFirstPaint"],u="v:1.1",i={},t=0;t<r.length;t++)i[r[t]]=t;n.compress=o})(perf||(perf={}));window.perf=window.perf||{},function(n){n.log=function(t,i){var u=n.compress(t),e,r;u.push('T:"CI.Perf",FID:"CI",Name:"PerfV2"');var s="/fd/ls/lsp.aspx?",h="sendBeacon",f=_w.ChatMergeLogHelper;typeof f!="undefined"&&typeof f.getBotRequestId=="function"&&(e=f.getBotRequestId(),e&&u.push('rid:"'.concat(e,'"')));var l="<E><T>Event.ClientInst<\/T><IG>".concat(_G.IG,"<\/IG><TS>").concat(i,"<\/TS><D><![CDATA[{").concat(u.join(","),"}]\]><\/D><\/E>"),c="<ClientInstRequest><Events>".concat(l,"<\/Events><STS>").concat(i,"<\/STS><\/ClientInstRequest>"),o=!_w.navigator||!navigator[h];if(!o)try{navigator[h](s,c)}catch(a){o=!0}o&&(r=sj_gx(),r.open("POST",s,!0),r.setRequestHeader("Content-Type","text/xml"),r.send(c))}}(window.perf);var perf;(function(n){function a(){return c(Math.random()*1e4)}function o(){return y?c(f.now())+l:+new Date}function v(n,r,f){t.length===0&&i&&sb_st(u,1e3);t.push({k:n,v:r,t:f})}function p(n){return i||(r=n),!i}function w(n,t){t||(t=o());v(n,t,0)}function b(n,t){v(n,t,1)}function u(){var u,f;if(t.length){for(u=0;u<t.length;u++)f=t[u],f.t===0&&(f.v-=
+var wlc_d = 1500, wlc_t =63846953434;;var perf;(function(n){function f(n){return i.hasOwnProperty(n)?i[n]:n}function e(n){var t="S";return n==0?t="P":n==2&&(t="M"),t}function o(n){for(var c,i=[],t={},r,l=0;l<n.length;l++){var a=n[l],o=a.v,s=a.t,h=a.k;s===0&&(h=f(h),o=o.toString(36));s===3?i.push("".concat(h,":").concat(o)):(r=t[s]=t[s]||[],r.push("".concat(h,":").concat(o)))}for(c in t)t.hasOwnProperty(c)&&(r=t[c],i.push("".concat(e(+c),':"').concat(r.join(","),'"')));return i.push(u),i}for(var r=["redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","secureConnectionStart","connectEnd","requestStart","responseStart","responseEnd","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","unloadEventStart","unloadEventEnd","firstChunkEnd","secondChunkStart","htmlEnd","pageEnd","msFirstPaint"],u="v:1.1",i={},t=0;t<r.length;t++)i[r[t]]=t;n.compress=o})(perf||(perf={}));window.perf=window.perf||{},function(n){n.log=function(t,i){var u=n.compress(t),e,r;u.push('T:"CI.Perf",FID:"CI",Name:"PerfV2"');var s="/fd/ls/lsp.aspx?",h="sendBeacon",f=_w.ChatMergeLogHelper;typeof f!="undefined"&&typeof f.getBotRequestId=="function"&&(e=f.getBotRequestId(),e&&u.push('rid:"'.concat(e,'"')));var l="<E><T>Event.ClientInst<\/T><IG>".concat(_G.IG,"<\/IG><TS>").concat(i,"<\/TS><D><![CDATA[{").concat(u.join(","),"}]\]><\/D><\/E>"),c="<ClientInstRequest><Events>".concat(l,"<\/Events><STS>").concat(i,"<\/STS><\/ClientInstRequest>"),o=!_w.navigator||!navigator[h];if(!o)try{navigator[h](s,c)}catch(a){o=!0}o&&(r=sj_gx(),r.open("POST",s,!0),r.setRequestHeader("Content-Type","text/xml"),r.send(c))}}(window.perf);var perf;(function(n){function a(){return c(Math.random()*1e4)}function o(){return y?c(f.now())+l:+new Date}function v(n,r,f){t.length===0&&i&&sb_st(u,1e3);t.push({k:n,v:r,t:f})}function p(n){return i||(r=n),!i}function w(n,t){t||(t=o());v(n,t,0)}function b(n,t){v(n,t,1)}function u(){var u,f;if(t.length){for(u=0;u<t.length;u++)f=t[u],f.t===0&&(f.v-=r);t.push({k:"id",v:e,t:3});n.log(t,o());t=[];i=!0}}function k(
 00004000
-r);t.push({k:"id",v:e,t:3});n.log(t,o());t=[];i=!0}}function k(){r=o();e=a();i=!1;sj_evt.bind("onP1",u)}var s="performance",h=!!_w[s],f=_w[s],y=h&&!!f.now,c=Math.round,t=[],i=!1,l,r,e;h?l=r=f.timing.navigationStart:r=_w.si_ST?_w.si_ST:+new Date;e=a();n.setStartTime=p;n.mark=w;n.record=b;n.flush=u;n.reset=k;sj_be(window,"load",u,!1);sj_be(window,"beforeunload",u,!1)})(perf||(perf={}));_w.si_PP=function(n,t,i){var r,s,a,c,e,l,o,v;if(!_G.PPS){for(s=["FC","BC","SE","TC","H","BP",null];r=s.shift();)s.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));var u=_w.perf,h="navigation",r,f=i||_w.performance&&_w.performance.timing;if(f&&u){if(a=f.navigationStart,u.setStartTime(a),a>=0){for(r in f)c=f[r],typeof c=="number"&&c>0&&r!=="navigationStart"&&r!==h&&u.mark(r,c);_G.FCT&&u.mark("FN",_G.FCT);_G.BCT&&u.mark("BN",_G.BCT)}u.record("nav",h in f?f[h]:performance[h].type)}e="connection";l="";_w.navigator&&navigator[e]&&(l=',"net":"'.concat(navigator[e].type,'"'),navigator[e].downlinkMax&&(l+=',"dlMax":"'.concat(navigator[e].downlinkMax,'"')));o=_w.ChatMergeLogHelper;typeof o!="undefined"&&o&&typeof o.getBotRequestId=="function"&&(v=o.getBotRequestId());_G.PPImg=new Image;_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+s.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+l+(v?',"rid":"'+v+'"':"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:"");_G.PPS=1;sb_st(function(){u&&u.flush();sj_evt.fire("onPP");sj_evt.fire(_w.p1)},1)}};_w.onbeforeunload=function(){si_PP(new Date,"A")};sj_evt.bind("ajax.requestSent",function(){window.perf&&perf.reset()});var sj_log=function(n,t,i){var e=new RegExp('"',"g"),r=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(e,"")),u=_w.ChatMergeLogHelper,f;typeof u!="undefined"&&typeof u.getBotRequestId=="function"&&(f=u.getBotRequestId(),f&&(r+='","rid":"'+f));r+='"}]';(new Image).src=r};var BM=BM||{},adrule="."+_G.adc+" > ul";BM.rules={".b_scopebar":[0,0,0],".b_logo":[-1,-1,0],".b_searchboxForm":[100,40,0],"#id_h":[-1,0,0],"#b_tween":[-1,-1,1],"#b_results":[100,-1,1],"#b_context":[710,-1,1],".b_footer":[0,-1,0],"#b_notificationContainer":[-1,-1,0],"#ajaxMaskLayer":[-1,-1,0],"#me_gutter":[-1,-1,1],"#me_featurelist":[-1,-1,1],".sh_dayul":[-1,-1,1],".main":[-1,-1,1],".bottom":[-1,-1,0],".sw_menu":[-1,-1,1],"#Body_EventDetail":[-1,-1,1],".sb_adsNv2 > ul":[-1,-1,1],"img,div[data-src],.rms_img":[-1,-1,0],iframe:[-1,-1,0]};BM.rules[adrule]=[-1,-1,1];var BM=BM||{};(function(n){function u(n,u){n in t||(t[n]=[]);!u.compute||n in r||(r[n]=u.compute);!u.unload||n in i||(i[n]=u.unload);u.load&&u.load()}function f(n,i){t[n].push({t:s(),i:i})}function e(n){return n in i&&i[n](),n in t?t[n]:void 0}function o(){for(var n in r)r[n]()}function s(){return window.performance&&performance.now?Math.round(performance.now()):new Date-window.si_ST}var t={},i={},r={};n.wireup=u;n.enqueue=f;n.dequeue=e;n.trigger=o})(BM);(function(n){function i(){var i=document.documentElement,r=document.body,u="innerWidth"in window?window.innerWidth:i.clientWidth,f="innerHeight"in window?window.innerHeight:i.clientHeight,e=window.pageXOffset||i.scrollLeft,o=window.pageYOffset||i.scrollTop,s=document.visibilityState||"default";n.enqueue(t,{x:e,y:o,w:u,h:f,dw:r.clientWidth,dh:r.clientHeight,v:s})}var t="V";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function i(){var e,o,u,s,f,r;if(document.querySelector&&document.querySelectorAll){e=[];o=n.rules;for(u in o)for(s=o[u],u+=!s[2]?"":" >*",f=document.querySelectorAll(u),r=0;r<f.length;r++){var i=f[r],h=0,c=0,l=i.offsetWidth,a=i.offsetHeight;do h+=i.offsetLeft,c+=i.offsetTop;while(i=i.offsetParent);e.push({_e:f[r],x:h,y:c,w:l,h:a})}n.enqueue(t,e)}}var t="L";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function f(){u(sj_be,r)}function e(){var t=""+Math.round((new Date).getTime()/1e3),n;typeof sj_cook!="undefined"&&sj_cook.set("SRCHHPGUSR","HV",t,!1,"/");n=document.getElementById("b_content");n&&(n.style.visibility="hidden");_G&&_G.lsUrl&&((new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.BM","FID":"CI","Name":"HV"}]')}function r(i){return i&&n.enqueue(t,i),!0}function o(){u(sj_ue,r)}function u(n,t){for(var u,r=0;r<i.length;r++)u=i[r],n(u==="resize"?window:document,window.navigator.pointerEnabled?u.replace("mouse","pointer"):u,t,!1)}var t="EVT",i=["click","mousedown","mouseup","touchstart","touchend","mousemove","touchmove","scroll","keydown","resize"];n.wireup(t,{load:f,compute:e,unload:o})})(BM);
+){r=o();e=a();i=!1;sj_evt.bind("onP1",u)}var s="performance",h=!!_w[s],f=_w[s],y=h&&!!f.now,c=Math.round,t=[],i=!1,l,r,e;h?l=r=f.timing.navigationStart:r=_w.si_ST?_w.si_ST:+new Date;e=a();n.setStartTime=p;n.mark=w;n.record=b;n.flush=u;n.reset=k;sj_be(window,"load",u,!1);sj_be(window,"beforeunload",u,!1)})(perf||(perf={}));_w.si_PP=function(n,t,i){var r,s,a,c,e,l,o,v;if(!_G.PPS){for(s=["FC","BC","SE","TC","H","BP",null];r=s.shift();)s.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));var u=_w.perf,h="navigation",r,f=i||_w.performance&&_w.performance.timing;if(f&&u){if(a=f.navigationStart,u.setStartTime(a),a>=0){for(r in f)c=f[r],typeof c=="number"&&c>0&&r!=="navigationStart"&&r!==h&&u.mark(r,c);_G.FCT&&u.mark("FN",_G.FCT);_G.BCT&&u.mark("BN",_G.BCT)}u.record("nav",h in f?f[h]:performance[h].type)}e="connection";l="";_w.navigator&&navigator[e]&&(l=',"net":"'.concat(navigator[e].type,'"'),navigator[e].downlinkMax&&(l+=',"dlMax":"'.concat(navigator[e].downlinkMax,'"')));o=_w.ChatMergeLogHelper;typeof o!="undefined"&&o&&typeof o.getBotRequestId=="function"&&(v=o.getBotRequestId());_G.PPImg=new Image;_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+s.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+l+(v?',"rid":"'+v+'"':"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:"");_G.PPS=1;sb_st(function(){u&&u.flush();sj_evt.fire("onPP");sj_evt.fire(_w.p1)},1)}};_w.onbeforeunload=function(){si_PP(new Date,"A")};sj_evt.bind("ajax.requestSent",function(){window.perf&&perf.reset()});var sj_log=function(n,t,i){var e=new RegExp('"',"g"),r=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(e,"")),u=_w.ChatMergeLogHelper,f;typeof u!="undefined"&&typeof u.getBotRequestId=="function"&&(f=u.getBotRequestId(),f&&(r+='","rid":"'+f));r+='"}]';(new Image).src=r};var BM=BM||{},adrule="."+_G.adc+" > ul";BM.rules={".b_scopebar":[0,0,0],".b_logo":[-1,-1,0],".b_searchboxForm":[100,40,0],"#id_h":[-1,0,0],"#b_tween":[-1,-1,1],"#b_results":[100,-1,1],"#b_context":[710,-1,1],".b_footer":[0,-1,0],"#b_notificationContainer":[-1,-1,0],"#ajaxMaskLayer":[-1,-1,0],"#me_gutter":[-1,-1,1],"#me_featurelist":[-1,-1,1],".sh_dayul":[-1,-1,1],".main":[-1,-1,1],".bottom":[-1,-1,0],".sw_menu":[-1,-1,1],"#Body_EventDetail":[-1,-1,1],".sb_adsNv2 > ul":[-1,-1,1],"img,div[data-src],.rms_img":[-1,-1,0],iframe:[-1,-1,0]};BM.rules[adrule]=[-1,-1,1];var BM=BM||{};(function(n){function u(n,u){n in t||(t[n]=[]);!u.compute||n in r||(r[n]=u.compute);!u.unload||n in i||(i[n]=u.unload);u.load&&u.load()}function f(n,i){t[n].push({t:s(),i:i})}function e(n){return n in i&&i[n](),n in t?t[n]:void 0}function o(){for(var n in r)r[n]()}function s(){return window.performance&&performance.now?Math.round(performance.now()):new Date-window.si_ST}var t={},i={},r={};n.wireup=u;n.enqueue=f;n.dequeue=e;n.trigger=o})(BM);(function(n){function i(){var i=document.documentElement,r=document.body,u="innerWidth"in window?window.innerWidth:i.clientWidth,f="innerHeight"in window?window.innerHeight:i.clientHeight,e=window.pageXOffset||i.scrollLeft,o=window.pageYOffset||i.scrollTop,s=document.visibilityState||"default";n.enqueue(t,{x:e,y:o,w:u,h:f,dw:r.clientWidth,dh:r.clientHeight,v:s})}var t="V";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function i(){var e,o,u,s,f,r;if(document.querySelector&&document.querySelectorAll){e=[];o=n.rules;for(u in o)for(s=o[u],u+=!s[2]?"":" >*",f=document.querySelectorAll(u),r=0;r<f.length;r++){var i=f[r],h=0,c=0,l=i.offsetWidth,a=i.offsetHeight;do h+=i.offsetLeft,c+=i.offsetTop;while(i=i.offsetParent);e.push({_e:f[r],x:h,y:c,w:l,h:a})}n.enqueue(t,e)}}var t="L";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function f(){u(sj_be,r)}function e(){var t=""+Math.round((new Date).getTime()/1e3),n;typeof sj_cook!="undefined"&&sj_cook.set("SRCHHPGUSR","HV",t,!1,"/");n=document.getElementById("b_content");n&&(n.style.visibility="hidden");_G&&_G.lsUrl&&((new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.BM","FID":"CI","Name":"HV"}]')}function r(i){return i&&n.enqueue(t,i),!0}function o(){u(sj_ue,r)}function u(n,t){for(var u,r=0;r<i.length;r++)u=i[r],n(u==="resize"?window:document,window.navigator.pointerEnabled?u.replace("mouse","pointer"):u,t,!1)}var t="EVT",i=["click","mousedown","mouseup","touchstart","touchend","mousemove","touchmove","scroll","keydown","resize"];n.wireup(t,{load:f,compute:e,unload:o})})(BM);
 //]]>
   </script>
   <script crossorigin="anonymous" src="/rp/xaaagZPaOaaDByfCzYNs21gJ5yc.js" type="text/javascript">
   </script>
   <script type="text/javascript">
    //<![CDATA[
-FallBackToDefaultProfilePic = function (e) { var new_element = document.createElement('span'); new_element.setAttribute('id', 'id_p'); new_element.setAttribute('class', 'sw_spd id_avatar'); new_element.setAttribute('aria-label', "Imagine de profil implicitÄ"); new_element.setAttribute('role', 'link'); var p = e.parentNode; p && p.replaceChild(new_element, e); };var _d,sb_de;typeof _d=="undefined"&&(_d=document);sb_de=_d.documentElement;
+FallBackToDefaultProfilePic = function (e) { var new_element = document.createElement('span'); new_element.setAttribute('id', 'id_p'); new_element.setAttribute('class', 'sw_spd id_avatar'); new_element.setAttribute('aria-label', "Imagine de profil implicită"); new_element.setAttribute('role', 'link'); var p = e.parentNode; p && p.replaceChild(new_element, e); };var _d,sb_de;typeof _d=="undefined"&&(_d=document);sb_de=_d.documentElement;
 //]]>
   </script>
  </head>
@@ -122,39 +120,39 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
    <a data-priority="2" href="#" id="b_skip_to_content" role="button" tabindex="0">
     <div class="text-back">
      <div class="text" href="#">
-      Salt la conÈinut
+      Salt la conținut
      </div>
     </div>
    </a>
    <form action="/search" class="hassbi" id="sb_form">
     <a class="b_logoArea" h="ID=SERP,5038.1" href="/?FORM=Z9FD1" target="">
-     <h1 class="b_logo" title="Ãnapoi la CÄutare Bing">
+     <h1 class="b_logo" title="Înapoi la Căutare Bing">
      </h1>
     </a>
     <div class="b_searchboxForm" role="search">
      <div id="sb_search">
       <a h="ID=SERP,5039.1" href="javascript:void(0);" tabindex="-1">
-       <div data-sbtip="CÄutaÈi pe web" id="sb_go_par">
+       <div data-sbtip="Căutați pe web" id="sb_go_par">
         <div class="sb_icon" id="b_icon_spyglass">
         </div>
-        <input class="b_searchboxSubmit" id="sb_form_go" name="go" tabindex="0" type="submit" value="CÄutare"/>
+        <input class="b_searchboxSubmit" id="sb_form_go" name="go" tabindex="0" type="submit" value="Căutare"/>
        </div>
       </a>
      </div>
-     <input aria-autocomplete="both" aria-label="IntroduceÈi cÄutarea aici â sugestiile de cÄutare vor apÄrea Ã®n timp ce tastaÈi" autocapitalize="off" autocomplete="off" autocorrect="off" class="b_searchbox b_softkey" dir="" id="sb_form_q" maxlength="1000" name="q" placeholder="ÃntrebaÈi-mÄ orice..." spellcheck="false" type="search" value="wolfram alpha"/>
-     <div class="sb_clrhov" data-sbtipx="GoliÈi" data-second-sbtipx="GoliÈi" id="sb_clt">
-      <a aria-label="ÈtergeÈi textul" data-second-href="javascript:void(0)" id="sw_clx" role="button" tabindex="0">
+     <input aria-autocomplete="both" aria-label="Introduceți căutarea aici – sugestiile de căutare vor apărea în timp ce tastați" autocapitalize="off" autocomplete="off" autocorrect="off" class="b_searchbox b_softkey" dir="" id="sb_form_q" maxlength="1000" name="q" placeholder="Întrebați-mă orice..." spellcheck="false" type="search" value="math"/>
+     <div class="sb_clrhov" data-sbtipx="Goliți" data-second-sbtipx="Goliți" id="sb_clt">
+      <a aria-label="Ștergeți textul" data-second-href="javascript:void(0)" id="sw_clx" role="button" tabindex="0">
        <div class="sw_close">
        </div>
       </a>
      </div>
-     <span data-sbtip="CÄutaÈi utilizând o tastaturÄ vizualÄ" id="vkeyIcon">
+     <span data-sbtip="Căutați utilizând o tastatură vizuală" id="vkeyIcon">
       <div class="sb_icon" id="b_icon_keyboard">
       </div>
      </span>
      <div data-idprefix="sb" data-ptn="" id="sbiarea">
-      <div data-lgdgevt="0" data-sbtip="CÄutaÈi utilizând o imagine" id="sb_sbip">
-       <div aria-label="CÄutaÈi utilizÃ¢nd o imagine" data-scrtl="1" id="sb_sbi" role="button" tabindex="0">
+      <div data-lgdgevt="0" data-sbtip="Căutați utilizând o imagine" id="sb_sbip">
+       <div aria-label="Căutați utilizând o imagine" data-scrtl="1" id="sb_sbi" role="button" tabindex="0">
         <div class="sb_icon disabled" id="sbi_b">
         </div>
        </div>
@@ -166,10 +164,10 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
      <input name="form" type="hidden" value="QBRE"/>
     </div>
    </form>
-   <div aria-label="Premii Èi preferinÈe pentru cont" data-priority="2" id="id_h" role="complementary">
+   <div aria-label="Premii și preferințe pentru cont" data-priority="2" id="id_h" role="complementary">
     <a aria-controls="id_d" aria-expanded="false" aria-haspopup="true" class="id_button" data-clarity-mask="true" h="ID=SERP,5045.1" href="javascript:void(0);" id="id_l">
      <div>
-      <span class="cbtn" data-appns="SERP" data-k="5082.1" data-wire="I;button_init;; |" id="C62AB8_1_btn">
+      <span class="cbtn" data-appns="SERP" data-k="5082.1" data-wire="I;button_init;; |" id="85B1D8_1_btn">
        <input aria-label="" id="id_a" name="submit" type="submit" value="Conectare"/>
       </span>
      </div>
@@ -226,19 +224,19 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
     </a>
     <a class="b_hide" data-title="Microsoft Rewards" h="ID=SERP,5052.1" href="/rewards/dashboard" id="id_rwl">
     </a>
-    <span _ig="56243D86F2C4482F8078392B76A20654" _iid="SERP.5051" id="nc_iid">
+    <span _ig="134840BC684345AA8653F51CD4111F3F" _iid="SERP.5051" id="nc_iid">
     </span>
-    <a aria-controls="id_hbfo" aria-expanded="false" aria-haspopup="true" aria-label="SetÄri Èi linkuri rapide" class="idp_ham nohphbtop" h="ID=SERP,5062.1" href="javascript:void(0);" id="id_sc" role="button" tabindex="0">
+    <a aria-controls="id_hbfo" aria-expanded="false" aria-haspopup="true" aria-label="Setări și linkuri rapide" class="idp_ham nohphbtop" h="ID=SERP,5062.1" href="javascript:void(0);" id="id_sc" role="button" tabindex="0">
     </a>
     <span _iid="SERP.5063" aria-hidden="true" aria-labelledby="id_sc" aria-modal="true" class="slide_up nohpfo" id="id_hbfo" role="menu" tabindex="-1">
     </span>
    </div>
    <span class="b_hide" id="langChange">
-    <a data-noajax="1" h="ID=SERP,5036.1" href="/search?q=wolfram+alpha&amp;setlang=en&amp;sid=30CDD38EB74F671A1A08C7C2B6426659">
+    <a data-noajax="1" h="ID=SERP,5036.1" href="/search?q=math&amp;setlang=en&amp;sid=1465C3BBC279684831FBD7F6C375695C">
      English
     </a>
    </span>
-   <nav aria-label="Filtru de cÄutare" class="b_scopebar" role="navigation">
+   <nav aria-label="Filtru de căutare" class="b_scopebar" role="navigation">
     <ul class="b_scopehide">
      <li class="b_active" data-menuurl="" data-query="" id="b-scopeListItem-web">
       <a aria-current="page" class="" h="ID=SERP,5027.1" href="/?scope=web&amp;FORM=HDRSC1">
@@ -251,23 +249,23 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
       </a>
      </li>
      <li class="" data-menuurl="" data-query="" id="b-scopeListItem-images">
-      <a aria-current="false" class="" h="ID=SERP,5028.1" href="/images/search?q=wolfram+alpha&amp;FORM=HDRSC2">
+      <a aria-current="false" class="" h="ID=SERP,5028.1" href="/images/search?q=math&amp;FORM=HDRSC2">
        Imagini
       </a>
      </li>
      <li class="" data-menuurl="" data-query="" id="b-scopeListItem-video">
-      <a aria-current="false" class="" h="ID=SERP,5029.1" href="/videos/search?q=wolfram+alpha&amp;FORM=HDRSC3">
+      <a aria-current="false" class="" h="ID=SERP,5029.1" href="/videos/search?q=math&amp;FORM=HDRSC3">
        Videoclipuri
       </a>
      </li>
      <li class="" data-menuurl="" data-query="" id="b-scopeListItem-local">
-      <a aria-current="false" class="" h="ID=SERP,5030.1" href="/maps?q=wolfram+alpha&amp;FORM=HDRSC4">
-       HÄrÈi
+      <a aria-current="false" class="" h="ID=SERP,5030.1" href="/maps?q=math&amp;FORM=HDRSC4">
+       Hărți
       </a>
      </li>
      <li class="" data-menuurl="" data-query="" id="b-scopeListItem-news">
-      <a aria-current="false" class="" h="ID=SERP,5031.1" href="/news/search?q=wolfram+alpha&amp;FORM=HDRSC6">
-       Ètiri
+      <a aria-current="false" class="" h="ID=SERP,5031.1" href="/news/search?q=math&amp;FORM=HDRSC6">
+       Știri
       </a>
      </li>
      <li id="b-scopeListItem-menu">
@@ -283,17 +281,17 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
       <div class="b_sp_over_cont">
        <ul class="b_sp_over_menu">
         <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-flights">
-         <a aria-current="false" class="" h="ID=SERP,5032.1" href="/travel/search?q=wolfram+alpha&amp;m=flights&amp;FORM=FBSCOP">
+         <a aria-current="false" class="" h="ID=SERP,5032.1" href="/travel/search?q=math&amp;m=flights&amp;FORM=FBSCOP">
           Zboruri
          </a>
         </li>
         <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-travelhub">
-         <a aria-current="false" class="" h="ID=SERP,5033.1" href="/travel/search?q=wolfram+alpha&amp;m=travel&amp;FORM=THSCOP">
-          CÄlÄtorii
+         <a aria-current="false" class="" h="ID=SERP,5033.1" href="/travel/search?q=math&amp;m=travel&amp;FORM=THSCOP">
+          Călătorii
          </a>
         </li>
         <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-hotels">
-         <a aria-current="false" class="" h="ID=SERP,5034.1" href="/travel/search?q=wolfram+alpha&amp;m=hotels&amp;FORM=HTSCOP">
+         <a aria-current="false" class="" h="ID=SERP,5034.1" href="/travel/search?q=math&amp;m=hotels&amp;FORM=HTSCOP">
           Hoteluri
          </a>
         </li>
@@ -324,11 +322,11 @@ FallBackToDefaultProfilePic = function (e) { var new_element = document.createEl
   </header>
   <script type="text/javascript">
    //<![CDATA[
-var sj_b=_d.body;(function(n){var i,r,t;if(document.querySelector){i=[];r="ad";function u(){var w=sb_gt(),l=document.documentElement,s=document.body,t=0,r=-1,b=l.clientHeight,a=["#b_results ."+_G.adc,".sb_adsWv2",".ads"],n,f,e,p,c,o,u;if(s){n=0;f=document.querySelector("#b_pole .b_PolePAContainer");f&&(n=f.offsetHeight,r=f.offsetTop);var v=document.querySelector("#b_results #productAdCarousel"),h=document.querySelector("#b_results .pa_b_supertop"),y=document.querySelector("#b_results .bn_wide");for(h?(r=h.offsetTop,n=h.offsetHeight):y?n+=y.offsetHeight:v&&(n+=v.offsetHeight),t=n,e=0;e<a.length;e++)for(p=a[e],c=document.querySelectorAll(p),o=0;o<c.length;o++)u=c[o],u&&u.className.indexOf("b_adTop")!==-1&&(t+=u.offsetHeight,r===-1&&(r=u.offsetTop));t===0&&(t=-1);i=[r,t,l.clientWidth,b,s.offsetWidth,s.offsetHeight,sb_gt()-w]}}n?(t=n.onbeforefire,n.onbeforefire=function(){t&&t();u();n.mark(r,i)}):(t=si_PP,si_PP=function(){u();var n='"'+r+'":['+i.join()+"]";_G.C1=_G.C1?_G.C1+","+n:n;t.apply(null,[].slice.apply(arguments))})}})(_w.pp);_w.AM=["live.com","azureedge.net","virtualearth.net","windows.net","onenote","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com","chinacloudapp.cn","cbsnews.com","swx.cdn.skype.com","swc.cdn.skype.com","latest-swx.cdn.skype.com","a.config.skype.com","b.config.skype.com","platform.bing.com","microsofttranslator.com","bing.com","facebook.net",".delve.office.com",".uservoice.com",".cdn.office.net","platform.twitter.com","cdn.syndication.twimg.com","spoprod-a.akamaihd.net","bingstatic.com","yahoo.co.jp","youtube.com","ytimg.com","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","s.cn.bing.net","xpaycdn-int.azureedge.net","xpaycdn.azureedge.net","ssl.kaptcha.com","tst.kaptcha.com","snrproxy.bingint
-00000AE3
-ernal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","cetonc.binginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","ewlmaakam.staging-bing-int.com","bngpiglbalmenaabohcooocpnljgfemj","rwww.bing.com","vlscppe.microsoft.com","ov-df.microsoft.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com","cdn.fluidpreview.office.net"];_w.APD=[".delve.office.com",".uservoice.com",".cdn.office.net","a.config.skype.com","abcnews.go.com","amazon.com","apps.powerapps.com","app.powerbi.com","app.powerbi.cn","app.powerbi.de","app.powerbigov.us","b.config.skype.com","bfb","bfb-int","bing.com","bing.net","bing-int.com","bingsandbox.com","bingweathermap.azureedge.net","bloomberg.com","c.tenor.com","cbsnews.com","cdn.syndication.twimg.com","channel9.msdn.com","chinacloudapp.cn","clarity.ms","cnn.com","covid19healthbot.cdc.gov","covid19healthbot-dev.cdc.gov","ctmbing.azurefd.net","dailymotion.com","dict.bing.com.cn","downvids.com","downvids.net","edition.cnn.com","embed.vevo.com","euronews.com","facebook.com","fave.api.cnn.io","hexun.com","huffingtonpost.com","idsync.rlcdn.com","ign.com","imdb.com","latest-swx.cdn.skype.com","live.com","login.live-int.com","mashable.com","microsoft.com","microsoftonline.com","microsofttranslator.com","mathsolver.microsoft.com","msecnd.net","msftoffers.com","msit.powerbi.com","msn.com","mtv.com","onenote","photosynth.net","platform.bing.com","platform.twitter.com","powerbi-df.analysis-df.windows.net","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","rottentomatoes.com","s.cn.bing.net","skype.com","snrproxy.binginternal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","spoprod-a.akamaihd.net","substrate.office.com","swc.cdn.skype.com","swx.cdn.skype.com","variflight.com","video.disney.com","videoplayercdn.osi.office.net","vimeo.com","azureedge.net","virtualearth.net","web.powerapps.com","widgets.icanbuy.com","widgets.ign.com","windows.net","wsj.com","xpaycdn-int.azureedge.net","xpaycdn.azureed
-0000256A
-ge.net","ssl.kaptcha.com","tst.kaptcha.com","yahoo.co.jp","youtube.com","ytimg.com","zdnet.com","chrome-extension://haldlgldplgnggkjaafhelgiaglafanh","player.twitch.tv","mixer.com","3pcookiecheck.azureedge.net","cetonc.binginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","bngpiglbalmenaabohcooocpnljgfemj","opentable.com","wolframalpha.com","mswolfram-staging-tm.office.net","instacart.com","kayak.com","klarna.com","redfin.com","shopify.com","zillow.com","rwww.bing.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com"];_w.APC=["bm_","fb_","panelWrapper","df_topAlAs","df_playBut","df_vidTime","na_cai","ckt_","Light","Dark","taskbar","ssSIV","square_","partial-det","tall_","item","sw_","syd_","sb_","sml","ftrd","sa_","id_","sc_","flt_","fc_","cca","tab-","emb","ctx","dc_","cipa","dict","btm","wtr","wpc","fin","sp-","carousel","vp_","vid","nav_","vt","va_","avc","cic","sports","lc_","bing","dmap_","pvc_","ans_","mcd","composite","mt_","irp","iap","tv","aggtv","irhc","vrh","det","tit","sub","col","card","hlsel","hlblk","ovl","ctpt","bubble","memodal","meoverlay","c_","spl-","microsoft","skp","saa","unlockButton","overlay","MapPushpinBase","pa_","aa_","skype_","ftrSbR","quizContainer","alrt_","st_","expan","word","rpt_","o_","e_","searchbar","row","Traffic","tl","gray","bep","wk_","crs_","w10","personal","fs3_","ezp_","hp","post","mc_","fb","lgb","el_","perf","stb","PP","bw","infobubble","l_","ms-","NavBar_","cmt_","bottom","Copyright","upsell","ab_","w_","hlig","eachStep","close_","cGifIcon","cThIcon","autosuggest","showtimesMovie","sel","dish","formatShowtimes","wp_","hasExpandText","forecast","as_","ecmp","cmp","comp","userChat","bot","bTyp","team","serp","preG","option","azBxInsert","ec_","cs_","spin","skype-conversation","conversation","fs_","grammarly","filterBar","withFilters","textanno","mv_lm","usagTpVsDosage","trans_button_group","algo_action_template","meg_item","ev_","ol_","offer","embed","videoplayercdn","searchNearby","directionsPanel","dragOverlay","infobox","mss","noneG","usage","drImp","sf_","dfindOverModal","circuit","swc","CodeMirror","cm-s-default","msg msg-warning","LogoContainer","quadrantOverride","ac-","gc-","fsmd-","fsg-","fsmf-","msto_","rq","geoItm","bqaq_quotes","bqap_padding","loc","ent_cnt","r_mf","exp_","btOverlay","mnot_container","info_C","ev_talkbox_notification","ev_talkbox_wrapper_min","p_tr_","slide","bnc-","itr_poi","cg-","elmlr_","scrl","gam-","htv-","genel-","gs_","qo_","jss_","mapsresp","geochainContainer","scaleBar","ae-","CalendarSync","spl_","adbDef","layerFrame","esp-","elis-","elcan-","elec-","sharegeneralcard","edu_","br-","covt_dd","covt_dd_sel","msac_sel","msac_ddi","cov_tt_tr","cov_tt_tn","cov_","dr_","bt_","epv_","rich_card","mf-item-cntr","footer_mcp","ntro-","ntro_","th-answer-explanation-wrapper","th-questions-completed","th-next-question","th-modal-wrapper","th-show-hint-wrapper","th-show-hint-description","th-show-hint-example","th-word-carousel","th-audio-player","retail_btf","na_","news_","nws_","scs_","scadt","jb_","peregrine-","opalfeedblock","expnd_c","wfr_grid  ldeft","rwgradienttitle","azuremediaplayer","amp-","vjs-","logo-title-row","rwrl","wpt_hdrs","actionitem","sl_","ml_","wc_","rcld_","pst_expand_btn","pst_collapse_btn","hdr_rating","disambig-outline","editor-","sto_","tt_","nc_","dr_","pt_","qna-","qna_","paahybrid_content","b_floatrt","pec_","maplibregl","atlas-map","marker-collection-container","fui-","recharts","edgwklg_","dime-","msalSilentIframe"];_w.APN=["fb_ovrly_cnt","b_bfb","b_bfb_context_ans","b_mapOverlay","m365ChatPromptLibraryDialogSurface"];0;(function(){function t(t,i){if(!t)return!1;var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",i,u.substr(0,1)+":"+n.href.substr(0,r)),!1):!0}function e(n){for(var t=0;t<i.length;t++)if(n.indexOf(i[t])>=0)return!0;return!1}var i=_w.AM,r=100,n=document.createElement("A"),u,f;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,r))};typeof Element!="undefined"&&Element.prototype&&(u=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return t(n,"AC")?u.apply(this,arguments):null},f=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return t(n,"IB")?f.apply(this,arguments):null})})();_G!==undefined&&_G.EF!==undefined&&_G.EF.bmasynctrigger===1&&window.requestAnimationFrame!==undefined&&document.visibilityState!==undefined&&document.visibilityState==="visible"?requestAnimationFrame(function(){_G.EF.bmasynctrigger2===1?requestAnimationFrame(function(){BM.trigger()}):_G.EF.bmasynctrigger3===1?requestAnimationFrame(function(){setTimeout(function(){BM.trigger()},0)}):setTimeout(function(){BM.trigger()},0)}):BM.trigger();var NetworkPerformance;(function(){function n(){var r=window.navigator,n,t=0,i=0;typeof r!="undefined"&&(n=r.connection);typeof n!="undefined"&&(t=n.rtt||t,i=n.downlink||i,typeof Log!="undefined"&&typeof Log.Log==typeof Function&&Log.Log("NetworkPerformance","NetworkPerformanceDetails","timinginfo",!1,"Rtt",t.toString(),"Downlink",i.toString()))}sj_evt.bind("onPP",n,!0)})(NetworkPerformance||(NetworkPerformance={}));var AwayTimeThreshold = 15; var AwayTimeThresholdCustomControl = false; var AwayTimeScrollTopPoleRS = false;;var SBI;(function(n){var t;(function(n){function u(n){function r(){sj_evt.unbind(t,r);sj_evt.fire("sbidlg.show",n.parentElement)}i||(n.clicked||(sj_evt.bind(t,r,!0),n.clicked=!0),sj_log("CI.VisualSearch","SbiPreClick","BeforeLoad"))}function r(){i=!0;sj_evt.unbind(t,r)}var t="sbiLoaded",i=!1;n.handleIconClick=u;sj_evt.bind(t,r,!0)})(t=n.IconLoader||(n.IconLoader={}))})(SBI||(SBI={}));var Identity; (function(Identity) { Identity.sglid =false; Identity.orgIdPhotoUrl ="https://business.bing.com/api/v3/search/person/photo?caller=IP\u0026id={0}"; Identity.setLoginPreference =false; Identity.isExplicitMsaSignIn =false; })(Identity || (Identity = {}));;var wlc_d =10, wlc_t =63846921501, wlc_wfa =false;;window.data_iid = "SERP.5060";;var DynScopesDropdownRE;(function(n){function v(n,t,r,e,s,h,c){var a,l,v;u||(i=n,f=e,o=c,sj_evt.fire("dynamicscopesrearranging",t),o||(w(t,n,s,h),nt(r)),sj_evt.bind("onP1",p),((a=_G===null||_G===void 0?void 0:_G.EF)===null||a===void 0?void 0:a.logforctl)===1&&(l=_ge("b_header"),v=l===null||l===void 0?void 0:l.querySelector(".b_logoArea"),sj_be(v,"click",y)),u=!0)}function y(){var n="WebLogoClick";document.querySelector("cib-serp[mode='conversation']")&&(n="ConversationLogoClick");_w.sj_log&&sj_log("CI.HeaderMSLogo",n,(_G===null||_G===void 0?void 0:_G.V)||"other")}function p(){if(sj_cook&&sj_cook.set&&sj_cook.clear){var n="dsc";sj_cook.clear(n,"/");i&&sj_cook.set(n,"order",i,!1,"/")}}function w(n,t,i,r){var c=tt(),e,o,s,h,u;if(c){if(e=rt(c),b(e,i,r),n){var a=n.split(","),v=e.length,l=[],y=[];for(u=0;u<a.length;u++)o=a[u].split(":"),o&&o.length==2&&(s=parseInt(o[0]),h=parseInt(o[1]),s<v&&h<v&&(l[h]=e[s].innerHTML,y[h]=e[s].id));for(u=0;u<l.length;u++)e[u].innerHTML=l[u],e[u].id=y[u]}f&&k(e);c.className=""}}function b(n,t,i){var r,u;if(i)t?sessionStorage.setItem("RealEstateQuery",t):sessionStorage.removeItem("RealEstateQuery");else if(t)for(r=0;r<n.length;r++)n[r].id===a&&(u=n[r].innerHTML,n[r].innerHTML=u.replace(/href="[^"]*"/,'href="https://www.bing.com/homes/map?q='+t+'&FORM=000060"'))}function k(n){for(var i,u,f,t=0;t<n.length;t++)if(n[t].id===c||n[t].id===l){i=n.length-1;e&&r>0&&(i=r-1);t!=i&&(u=n[t].innerHTML,f=n[t].id,t<i?d(n,t,i):g(n,i,t),n[i].innerHTML=u,n[i].id=f,sj_evt.fire("dynamicchatscoperelocate"));break}}function d(n,t,i){for(var r=t;r<i;r++)n[r].innerHTML=n[r+1].innerHTML,n[r].id=n[r+1].id}function g(n,t,i){for(var r=i;r>t;r--)n[r].innerHTML=n[r-1].innerHTML,n[r].id=n[r-1].id}function nt(n){var e,o,h,u,c,l,f,a,r,i;if(n&&(h=n.split(":"),u=it(),(e=u===null||u===void 0?void 0:u.children)===null||e===void 0?void 0:e.length))for(c=u.children,l=s(),f=0;f<h.length;f++){for(a=t+h[f],r=0;r<c.length;r++)if(i=c[r],i.id===a){u.removeChild(i);break}for(r=0;r<l.length;r++)if(i=l[r],i.id===a){(o=i===null||i===void 0?void 0:i.parentElement)===null||o===void 0?void 0:o.removeChild(i);break}}}function tt(){var n=_d.querySelectorAll(".b_scopebar > .b_scopehide");return n&&n.length>0?n[0]:null}function it(){var n=_d.querySelectorAll(".b_scopebar");return(n===null||n===void 0?void 0:n.length)?n[0].firstChild:null}function rt(n){for(var f,i=[],u=n.children,t=0;t<u.length;t++)u[t].id===h?(r=t,f=s(),i.push.apply(i,f),e=!0):i.push(u[t]);return i}function s(){var n=_d.querySelectorAll(".b_scopebar #b-scopeListItem-menu .b_sp_over_menu .b_scopebar_item");return Array.prototype.slice.call(n)}var u=!1,i,f=!1,e=!1,r=-1,o=!1,t="b-scopeListItem-",h=t+"menu",c=t+"conv",l=t+"convups",a=t+"realestate";n.init=v})(DynScopesDropdownRE||(DynScopesDropdownRE={}));_G.AppVer="44708659";
+var sj_b=_d.body;(function(n){var i,r,t;if(document.querySelector){i=[];r="ad";function u(){var w=sb_gt(),l=document.documentElement,s=document.body,t=0,r=-1,b=l.clientHeight,a=["#b_results ."+_G.adc,".sb_adsWv2",".ads"],n,f,e,p,c,o,u;if(s){n=0;f=document.querySelector("#b_pole .b_PolePAContainer");f&&(n=f.offsetHeight,r=f.offsetTop);var v=document.querySelector("#b_results #productAdCarousel"),h=document.querySelector("#b_results .pa_b_supertop"),y=document.querySelector("#b_results .bn_wide");for(h?(r=h.offsetTop,n=h.offsetHeight):y?n+=y.offsetHeight:v&&(n+=v.offsetHeight),t=n,e=0;e<a.length;e++)for(p=a[e],c=document.querySelectorAll(p),o=0;o<c.length;o++)u=c[o],u&&u.className.indexOf("b_adTop")!==-1&&(t+=u.offsetHeight,r===-1&&(r=u.offsetTop));t===0&&(t=-1);i=[r,t,l.clientWidth,b,s.offsetWidth,s.offsetHeight,sb_gt()-w]}}n?(t=n.onbeforefire,n.onbeforefire=function(){t&&t();u();n.mark(r,i)}):(t=si_PP,si_PP=function(){u();var n='"'+r+'":['+i.join()+"]";_G.C1=_G.C1?_G.C1+","+n:n;t.apply(null,[].slice.apply(arguments))})}})(_w.pp);_w.AM=["live.com","azureedge.net","virtualearth.net","windows.net","onenote","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com","chinacloudapp.cn","cbsnews.com","swx.cdn.skype.com","swc.cdn.skype.com","latest-swx.cdn.skype.com","a.config.skype.com","b.config.skype.com","platform.bing.com","microsofttranslator.com","bing.com","facebook.net",".delve.office.com",".uservoice.com",".cdn.office.net","platform.twitter.com","cdn.syndication.twimg.com","spoprod-a.akamaihd.net","bingstatic.com","yahoo.co.jp","youtube.com","ytimg.com","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","s.cn.bing.net","xpaycdn-int.azureedge.net","xpaycdn.azureedge.net","ssl.kaptcha.com","tst.kaptcha.com","snrproxy.binginternal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","cetonc.b
+00000AEC
+inginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","ewlmaakam.staging-bing-int.com","bngpiglbalmenaabohcooocpnljgfemj","rwww.bing.com","vlscppe.microsoft.com","ov-df.microsoft.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com","cdn.fluidpreview.office.net"];_w.APD=[".delve.office.com",".uservoice.com",".cdn.office.net","a.config.skype.com","abcnews.go.com","amazon.com","apps.powerapps.com","app.powerbi.com","app.powerbi.cn","app.powerbi.de","app.powerbigov.us","b.config.skype.com","bfb","bfb-int","bing.com","bing.net","bing-int.com","bingsandbox.com","bingweathermap.azureedge.net","bloomberg.com","c.tenor.com","cbsnews.com","cdn.syndication.twimg.com","channel9.msdn.com","chinacloudapp.cn","clarity.ms","cnn.com","covid19healthbot.cdc.gov","covid19healthbot-dev.cdc.gov","ctmbing.azurefd.net","dailymotion.com","dict.bing.com.cn","downvids.com","downvids.net","edition.cnn.com","embed.vevo.com","euronews.com","facebook.com","fave.api.cnn.io","hexun.com","huffingtonpost.com","idsync.rlcdn.com","ign.com","imdb.com","latest-swx.cdn.skype.com","live.com","login.live-int.com","mashable.com","microsoft.com","microsoftonline.com","microsofttranslator.com","mathsolver.microsoft.com","msecnd.net","msftoffers.com","msit.powerbi.com","msn.com","mtv.com","onenote","photosynth.net","platform.bing.com","platform.twitter.com","powerbi-df.analysis-df.windows.net","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","rottentomatoes.com","s.cn.bing.net","skype.com","snrproxy.binginternal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","spoprod-a.akamaihd.net","substrate.office.com","swc.cdn.skype.com","swx.cdn.skype.com","variflight.com","video.disney.com","videoplayercdn.osi.office.net","vimeo.com","azureedge.net","virtualearth.net","web.powerapps.com","widgets.icanbuy.com","widgets.ign.com","windows.net","wsj.com","xpaycdn-int.azureedge.net","xpaycdn.azureedge.net","ssl.kaptcha.com","tst.kaptcha.com","yahoo.co.jp","youtube.com","ytimg.com","zdnet.com","chrome-extension://haldlgldplgnggkjaafhelgiaglafanh","pl
+000024D1
+ayer.twitch.tv","mixer.com","3pcookiecheck.azureedge.net","cetonc.binginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","bngpiglbalmenaabohcooocpnljgfemj","opentable.com","wolframalpha.com","mswolfram-staging-tm.office.net","instacart.com","kayak.com","klarna.com","redfin.com","shopify.com","zillow.com","rwww.bing.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com"];_w.APC=["bm_","fb_","panelWrapper","df_topAlAs","df_playBut","df_vidTime","na_cai","ckt_","Light","Dark","taskbar","ssSIV","square_","partial-det","tall_","item","sw_","syd_","sb_","sml","ftrd","sa_","id_","sc_","flt_","fc_","cca","tab-","emb","ctx","dc_","cipa","dict","btm","wtr","wpc","fin","sp-","carousel","vp_","vid","nav_","vt","va_","avc","cic","sports","lc_","bing","dmap_","pvc_","ans_","mcd","composite","mt_","irp","iap","tv","aggtv","irhc","vrh","det","tit","sub","col","card","hlsel","hlblk","ovl","ctpt","bubble","memodal","meoverlay","c_","spl-","microsoft","skp","saa","unlockButton","overlay","MapPushpinBase","pa_","aa_","skype_","ftrSbR","quizContainer","alrt_","st_","expan","word","rpt_","o_","e_","searchbar","row","Traffic","tl","gray","bep","wk_","crs_","w10","personal","fs3_","ezp_","hp","post","mc_","fb","lgb","el_","perf","stb","PP","bw","infobubble","l_","ms-","NavBar_","cmt_","bottom","Copyright","upsell","ab_","w_","hlig","eachStep","close_","cGifIcon","cThIcon","autosuggest","showtimesMovie","sel","dish","formatShowtimes","wp_","hasExpandText","forecast","as_","ecmp","cmp","comp","userChat","bot","bTyp","team","serp","preG","option","azBxInsert","ec_","cs_","spin","skype-conversation","conversation","fs_","grammarly","filterBar","withFilters","textanno","mv_lm","usagTpVsDosage","trans_button_group","algo_action_template","meg_item","ev_","ol_","offer","embed","videoplayercdn","searchNearby","directionsPanel","dragOverlay","infobox","mss","noneG","usage","drImp","sf_","dfindOverModal","circuit","swc","CodeMirror","cm-s-default","msg msg-warning","LogoContainer","quadrantOverride","ac-","gc-","fsmd-","fsg-","fsmf-","msto_","rq","geoItm","bqaq_quotes","bqap_padding","loc","ent_cnt","r_mf","exp_","btOverlay","mnot_container","info_C","ev_talkbox_notification","ev_talkbox_wrapper_min","p_tr_","slide","bnc-","itr_poi","cg-","elmlr_","scrl","gam-","htv-","genel-","gs_","qo_","jss_","mapsresp","geochainContainer","scaleBar","ae-","CalendarSync","spl_","adbDef","layerFrame","esp-","elis-","elcan-","elec-","sharegeneralcard","edu_","br-","covt_dd","covt_dd_sel","msac_sel","msac_ddi","cov_tt_tr","cov_tt_tn","cov_","dr_","bt_","epv_","rich_card","mf-item-cntr","footer_mcp","ntro-","ntro_","th-answer-explanation-wrapper","th-questions-completed","th-next-question","th-modal-wrapper","th-show-hint-wrapper","th-show-hint-description","th-show-hint-example","th-word-carousel","th-audio-player","retail_btf","na_","news_","nws_","scs_","scadt","jb_","peregrine-","opalfeedblock","expnd_c","wfr_grid  ldeft","rwgradienttitle","azuremediaplayer","amp-","vjs-","logo-title-row","rwrl","wpt_hdrs","actionitem","sl_","ml_","wc_","rcld_","pst_expand_btn","pst_collapse_btn","hdr_rating","disambig-outline","editor-","sto_","tt_","nc_","dr_","pt_","qna-","qna_","paahybrid_content","b_floatrt","pec_","maplibregl","atlas-map","marker-collection-container","fui-","recharts","edgwklg_","dime-","msalSilentIframe"];_w.APN=["fb_ovrly_cnt","b_bfb","b_bfb_context_ans","b_mapOverlay","m365ChatPromptLibraryDialogSurface"];0;(function(){function t(t,i){if(!t)return!1;var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",i,u.substr(0,1)+":"+n.href.substr(0,r)),!1):!0}function e(n){for(var t=0;t<i.length;t++)if(n.indexOf(i[t])>=0)return!0;return!1}var i=_w.AM,r=100,n=document.createElement("A"),u,f;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,r))};typeof Element!="undefined"&&Element.prototype&&(u=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return t(n,"AC")?u.apply(this,arguments):null},f=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return t(n,"IB")?f.apply(this,arguments):null})})();_G!==undefined&&_G.EF!==undefined&&_G.EF.bmasynctrigger===1&&window.requestAnimationFrame!==undefined&&document.visibilityState!==undefined&&document.visibilityState==="visible"?requestAnimationFrame(function(){_G.EF.bmasynctrigger2===1?requestAnimationFrame(function(){BM.trigger()}):_G.EF.bmasynctrigger3===1?requestAnimationFrame(function(){setTimeout(function(){BM.trigger()},0)}):setTimeout(function(){BM.trigger()},0)}):BM.trigger();var NetworkPerformance;(function(){function n(){var r=window.navigator,n,t=0,i=0;typeof r!="undefined"&&(n=r.connection);typeof n!="undefined"&&(t=n.rtt||t,i=n.downlink||i,typeof Log!="undefined"&&typeof Log.Log==typeof Function&&Log.Log("NetworkPerformance","NetworkPerformanceDetails","timinginfo",!1,"Rtt",t.toString(),"Downlink",i.toString()))}sj_evt.bind("onPP",n,!0)})(NetworkPerformance||(NetworkPerformance={}));var AwayTimeThreshold = 15; var AwayTimeThresholdCustomControl = false; var AwayTimeScrollTopPoleRS = false;;var SBI;(function(n){var t;(function(n){function u(n){function r(){sj_evt.unbind(t,r);sj_evt.fire("sbidlg.show",n.parentElement)}i||(n.clicked||(sj_evt.bind(t,r,!0),n.clicked=!0),sj_log("CI.VisualSearch","SbiPreClick","BeforeLoad"))}function r(){i=!0;sj_evt.unbind(t,r)}var t="sbiLoaded",i=!1;n.handleIconClick=u;sj_evt.bind(t,r,!0)})(t=n.IconLoader||(n.IconLoader={}))})(SBI||(SBI={}));var Identity; (function(Identity) { Identity.sglid =false; Identity.orgIdPhotoUrl ="https://business.bing.com/api/v3/search/person/photo?caller=IP\u0026id={0}"; Identity.setLoginPreference =false; Identity.isExplicitMsaSignIn =false; })(Identity || (Identity = {}));;var wlc_d =10, wlc_t =63846953434, wlc_wfa =false;;window.data_iid = "SERP.5060";;var DynScopesDropdownRE;(function(n){function v(n,t,r,e,s,h,c){var a,l,v;u||(i=n,f=e,o=c,sj_evt.fire("dynamicscopesrearranging",t),o||(w(t,n,s,h),nt(r)),sj_evt.bind("onP1",p),((a=_G===null||_G===void 0?void 0:_G.EF)===null||a===void 0?void 0:a.logforctl)===1&&(l=_ge("b_header"),v=l===null||l===void 0?void 0:l.querySelector(".b_logoArea"),sj_be(v,"click",y)),u=!0)}function y(){var n="WebLogoClick";document.querySelector("cib-serp[mode='conversation']")&&(n="ConversationLogoClick");_w.sj_log&&sj_log("CI.HeaderMSLogo",n,(_G===null||_G===void 0?void 0:_G.V)||"other")}function p(){if(sj_cook&&sj_cook.set&&sj_cook.clear){var n="dsc";sj_cook.clear(n,"/");i&&sj_cook.set(n,"order",i,!1,"/")}}function w(n,t,i,r){var c=tt(),e,o,s,h,u;if(c){if(e=rt(c),b(e,i,r),n){var a=n.split(","),v=e.length,l=[],y=[];for(u=0;u<a.length;u++)o=a[u].split(":"),o&&o.length==2&&(s=parseInt(o[0]),h=parseInt(o[1]),s<v&&h<v&&(l[h]=e[s].innerHTML,y[h]=e[s].id));for(u=0;u<l.length;u++)e[u].innerHTML=l[u],e[u].id=y[u]}f&&k(e);c.className=""}}function b(n,t,i){var r,u;if(i)t?sessionStorage.setItem("RealEstateQuery",t):sessionStorage.removeItem("RealEstateQuery");else if(t)for(r=0;r<n.length;r++)n[r].id===a&&(u=n[r].innerHTML,n[r].innerHTML=u.replace(/href="[^"]*"/,'href="https://www.bing.com/homes/map?q='+t+'&FORM=000060"'))}function k(n){for(var i,u,f,t=0;t<n.length;t++)if(n[t].id===c||n[t].id===l){i=n.length-1;e&&r>0&&(i=r-1);t!=i&&(u=n[t].innerHTML,f=n[t].id,t<i?d(n,t,i):g(n,i,t),n[i].innerHTML=u,n[i].id=f,sj_evt.fire("dynamicchatscoperelocate"));break}}function d(n,t,i){for(var r=t;r<i;r++)n[r].innerHTML=n[r+1].innerHTML,n[r].id=n[r+1].id}function g(n,t,i){for(var r=i;r>t;r--)n[r].innerHTML=n[r-1].innerHTML,n[r].id=n[r-1].id}function nt(n){var e,o,h,u,c,l,f,a,r,i;if(n&&(h=n.split(":"),u=it(),(e=u===null||u===void 0?void 0:u.children)===null||e===void 0?void 0:e.length))for(c=u.children,l=s(),f=0;f<h.length;f++){for(a=t+h[f],r=0;r<c.length;r++)if(i=c[r],i.id===a){u.removeChild(i);break}for(r=0;r<l.length;r++)if(i=l[r],i.id===a){(o=i===null||i===void 0?void 0:i.parentElement)===null||o===void 0?void 0:o.removeChild(i);break}}}function tt(){var n=_d.querySelectorAll(".b_scopebar > .b_scopehide");return n&&n.length>0?n[0]:null}function it(){var n=_d.querySelectorAll(".b_scopebar");return(n===null||n===void 0?void 0:n.length)?n[0].firstChild:null}function rt(n){for(var f,i=[],u=n.children,t=0;t<u.length;t++)u[t].id===h?(r=t,f=s(),i.push.apply(i,f),e=!0):i.push(u[t]);return i}function s(){var n=_d.querySelectorAll(".b_scopebar #b-scopeListItem-menu .b_sp_over_menu .b_scopebar_item");return Array.prototype.slice.call(n)}var u=!1,i,f=!1,e=!1,r=-1,o=!1,t="b-scopeListItem-",h=t+"menu",c=t+"conv",l=t+"convups",a=t+"realestate";n.init=v})(DynScopesDropdownRE||(DynScopesDropdownRE={}));_G.AppVer="44714277";
 //]]>
   </script>
   <script type="text/javascript">
@@ -342,8 +340,8 @@ _G.FCT=new Date;
 _G.BCT=new Date;
 //]]>
   </script>
-  <link href="/rp/GMw-emKtBI4niBEd1QYct2VdwMA.css" rel="st 00000004 yles 0000005A heet" type="text/css"/>
-  <link 00003f9c="" h="" ref="/rp/T0alytyTRnhWDuOgX_RPliEUL0g.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/GMw-emKtBI4niBEd1QYct2VdwMA.css" rel="st 00003FFA ylesheet" type="text/css"/>
+  <link href="/rp/T0alytyTRnhWDuOgX_RPliEUL0g.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/9Z_VGwmfEjJgLeE8Le77khSS-Os.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/jd_KiktC3sAWYJsOn4s4PoSvu18.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/99qjl7T6mB_lkyHiZ8-j-xXwTqA.css" rel="stylesheet" type="text/css"/>
@@ -354,13 +352,13 @@ _G.BCT=new Date;
   <link href="/rp/HQ4tPWnGCQf3VvZ3gmTBCqHDPpU.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/-kOKVlBm-bVq20_zFZBlq1udLhY.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/P4nVm9cQ78FaxD0VO8pzAuFypbk.css" rel="stylesheet" type="text/css"/>
-  <link href="/rp/rway94-HvrsojFu2NvvkNbS_jAE.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/2RmylgM07PFTAgB4z_LZMTFIHs4.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/F-IF4wgehfRGX-BIpe9lrxew-Eo.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/iUcoezJYOt0ROQ8xiYOm_7e96aA.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rs/7c/4o/cc,nc/AMXGnaW6DcZhCS1RFU6K_U6siV8.css?or=d" rel="stylesheet" type="text/css"/>
   <link href="/rp/EpR1iHlQbv86VKrI0rWd8XuDGXg.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/vJG6QkR9vyUmM05ksDfTtldkbJI.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/ihYUI2GVpPjr_SdswXuJ_mTxxwI.css" rel="stylesheet" type="text/css"/>
-  <link href="https://r.bing.com/rs/7c/4o/cc,nc/AMXGnaW6DcZhCS1RFU6K_U6siV8.css?or=d" rel="stylesheet" type="text/css"/>
   <link href="https://r.bing.com/rb/4o/cc,nc/ZOYbVXpq18yLnUtuc0-dHAFFlHs.css?bu=ApICrQI&amp;or=d" rel="stylesheet" type="text/css"/>
   <link href="/rp/1eKIeyooZiEJw30ckcqbIrA6364.css" rel="stylesheet" type="text/css"/>
   <link href="/rp/9Z7TZcFuApTnbjn4WeglGvmfTC4.css" rel="stylesheet" type="text/css"/>
@@ -384,18 +382,18 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
 //]]>
   </script>
   <div class="" id="b_content">
-   <main aria-label="Rezultatele cÄutÄrii">
+   <main aria-label="Rezultatele căutării">
     <div class="" id="b_tween">
      <div id="b_tween_searchResults">
       <span class="sb_count">
-       Circa 1,300,000 rezultate
+       Circa 62,000,000 rezultate
       </span>
      </div>
      <div class="b_hide" id="b_tween_searchTools">
       <span class="ftrB">
-       <a aria-controls="d20095" aria-expanded="false" aria-haspopup="true" aria-label="Filtrat dupÄ DatÄ" class="ftrH" h="ID=SERP,5321.1" href="javascript:" id="h20095" role="button">
+       <a aria-controls="d20095" aria-expanded="false" aria-haspopup="true" aria-label="Filtrat după Dată" class="ftrH" h="ID=SERP,5342.1" href="javascript:" id="h20095" role="button">
         <span class="fs_label">
-         DatÄ
+         Dată
         </span>
         <span class="sw_ddbk">
         </span>
@@ -406,217 +404,329 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
     <ol class="" id="b_results">
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5119.1" href="https://www.wolframalpha.com/">
+       <a class="tilk" h="ID=SERP,5120.1" href="https://www.mathway.com/">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolframalpha.com
+          mathway.com
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
+          <div class="b_attribution" tabindex="0" u="0|5086|4620448887475756|GYvJR1ChUWg1IwwnvxnemmWehgKMiEef">
            <cite>
             https://
             <strong>
-             www.wolframalpha.com
+             www.mathway.com
             </strong>
            </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5121.1">
+            </span>
+           </span>
           </div>
          </div>
         </div>
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5119.2" href="https://www.wolframalpha.com/">
+       <a h="ID=SERP,5120.2" href="https://www.mathway.com/">
         <strong>
-         Wolfram|Alpha
+         Mathway
         </strong>
-        : Computational Intelligence
+        | Algebra Problem Solver
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
-       <p class="b_lineclamp4 b_algoSlug">
+       <p class="b_lineclamp2 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
-        Everyday Life âº. Compute answers using
+        Free
         <strong>
-         Wolfram
+         math
         </strong>
-        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦.
+        problem solver answers your algebra homework questions with step-by-step explanations.
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5134.1" href="https://www.wolframalpha.com/input/?i=">
+       <a class="tilk" h="ID=SERP,5137.1" href="https://www.khanacademy.org/math">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolframalpha.com
+          khanacademy.org
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
+          <div class="b_attribution" tabindex="0" u="1|5087|4584431297053612|5LDAuKcJi-Ikwi-j1MyTDubrR2PY-lw0">
            <cite>
             https://
             <strong>
-             www.wolframalpha.com
+             www.khanacademy.org
             </strong>
-            /input/?i=
+            /
+            <strong>
+             math
+            </strong>
            </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5138.1">
+            </span>
+           </span>
           </div>
          </div>
         </div>
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5134.2" href="https://www.wolframalpha.com/input/?i=">
-        -
+       <a h="ID=SERP,5137.2" href="https://www.khanacademy.org/math">
         <strong>
-         Wolfram|Alpha
+         Math
+        </strong>
+        |
+        <strong>
+         Khan Academy
         </strong>
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
-        Compute answers using
+        Learn fifth grade
         <strong>
-         Wolfram
+         math
         </strong>
-        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦
+        aligned to the Eureka
+        <strong>
+         Math
+        </strong>
+        /EngageNY curriculum—arithmetic with fractions and decimals, volume problems, unit conversion, graphing points, and more.
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5149.1" href="http://www3.wolframalpha.com/resources/">
+       <a class="tilk" h="ID=SERP,5155.1" href="https://www.mathsisfun.com/">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolframalpha.com
+          mathsisfun.com
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
+          <div class="b_attribution" tabindex="0" u="2|5088|4766460599545297|UDNuENKGQLZ3iT-faQp4ex7xkzC_tGb9">
            <cite>
-            http://www3.
+            https://
             <strong>
-             wolframalpha
+             www.mathsisfun.com
             </strong>
-            .com/resources
            </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5156.1">
+            </span>
+           </span>
           </div>
          </div>
         </div>
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5149.2" href="http://www3.wolframalpha.com/resources/">
+       <a h="ID=SERP,5155.2" href="https://www.mathsisfun.com/">
         <strong>
-         Wolfram|Alpha
+         Math
         </strong>
-        Resources &amp; Tools
+        is Fun
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
+        <span class="news_dt">
+         19 apr. 2010
+        </span>
+        ·
         <strong>
-         Wolfram|Alpha
+         Math
         </strong>
-        for Math » Browse resources specifically for mathâfrom learning more about Math Input to the Step-by-Step Solutions feature, find what you need to improve your math skills.
+        Tools ::
         <strong>
-         Wolfram
+         Math
         </strong>
-        Problem Generator » Unlimited AI-generated practice problems and answers with online practice problems, printable worksheets and step-by-step solutions.
+        Links. Mathematics is commonly called
+        <strong>
+         Math
+        </strong>
+        in the US and Maths in the UK.
+        <strong>
+         Math
+        </strong>
+        explained in easy language, plus puzzles, games, worksheets and an illustrated dictionary. For K …
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5164.1" href="http://products.wolframalpha.com/">
+       <a class="tilk" h="ID=SERP,5172.1" href="https://math.microsoft.com/en">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolframalpha.com
+          microsoft.com
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
+          <div class="b_attribution" tabindex="0" u="3|5089|4852660593576083|yJ3yOsD5G2CevGjbfqFnNdxMnoroQzwx">
            <cite>
-            http://products.
+            https://
             <strong>
-             wolframalpha
+             math
             </strong>
-            .com
+            .microsoft.com/e
            </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5173.1">
+            </span>
+           </span>
           </div>
          </div>
         </div>
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5164.2" href="http://products.wolframalpha.com/">
+       <a h="ID=SERP,5172.2" href="https://math.microsoft.com/en">
+        Microsoft
         <strong>
-         Wolfram|Alpha
+         Math
         </strong>
-        : Products
+        Solver -
+        <strong>
+         Math
+        </strong>
+        Problem Solver &amp; Calculator
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
-        Products and Services. Free
+        Get
         <strong>
-         WolframAlpha
+         math
         </strong>
-        .com Website » Access the computational knowledge engine in any standard web browser. Plus, sign up for free to save favorites, history and more. Toolbars and Extensions » Download free toolbars and extensions for Chrome, Firefox and Edge.
+        help in your language. Online
         <strong>
-         Wolfram
+         math
         </strong>
-        Problem Generator »
+        solver with free step by step solutions to algebra, calculus, and other
+        <strong>
+         math
+        </strong>
+        problems. Get help on the web or with our
+        <strong>
+         math
+        </strong>
+        app.
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5180.1" href="https://en.wikipedia.org/wiki/WolframAlpha">
+       <a class="tilk" h="ID=SERP,5189.1" href="https://www.mathgames.com/">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          mathgames.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="4|5090|4967082816831609|-KSOBDg8tNLSxIbg5kJl_D7h7tIb1cQv">
+           <cite>
+            https://www.
+            <strong>
+             math
+            </strong>
+            games.com
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5190.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5189.2" href="https://www.mathgames.com/">
+        <strong>
+         Math
+        </strong>
+        Games,
+        <strong>
+         Math
+        </strong>
+        Worksheets and Practice Quizzes
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         Rezultat web
+        </span>
+        Explore Video Tutorials. - CCSS Aligned Questions. - Mathematicians. - Questions Answered.
+        <strong>
+         Math
+        </strong>
+        games online that practice
+        <strong>
+         math
+        </strong>
+        skills using fun interactive content. Over 1000 free skill testing apps and games - …
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5206.1" href="https://en.wikipedia.org/wiki/Mathematics">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
@@ -626,7 +736,7 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
           wikipedia.org
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0" u="4|5090|4757389625355978|ecW7WtuHIjtzaWBhT_5as1K-46OoWW2H">
+          <div class="b_attribution" tabindex="0" u="5|5091|4909092165073433|yMhZvGoe6rO4Ze4vhfw64mkhfxzDGHLD">
            <cite>
             https://
             <strong>
@@ -634,11 +744,11 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
             </strong>
             /wiki/
             <strong>
-             WolframAlpha
+             Mathematics
             </strong>
            </cite>
            <span class="c_tlbxTrg">
-            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5181.1">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5207.1">
             </span>
            </span>
           </div>
@@ -647,9 +757,9 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5180.2" href="https://en.wikipedia.org/wiki/WolframAlpha">
+       <a h="ID=SERP,5206.2" href="https://en.wikipedia.org/wiki/Mathematics">
         <strong>
-         WolframAlpha
+         Mathematics
         </strong>
         -
         <strong>
@@ -660,45 +770,49 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
+        It is often shortened to maths or, in North America,
         <strong>
-         WolframAlpha
+         math
         </strong>
-        (/ Ë w Ê l f. r Ém-/ WUULf-rÉm-) is an answer engine developed by
+        . Areas of
         <strong>
-         Wolfram
+         mathematics
         </strong>
-        Research. It is offered as an online service that answers factual queries by computing answers from externally sourced data.
+        . Before the Renaissance,
+        <strong>
+         mathematics
+        </strong>
+        was divided into two main areas: arithmetic, regarding the manipulation of numbers, and geometry, regarding the study of …
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5197.1" href="https://www.wolfram.com/">
+       <a class="tilk" h="ID=SERP,5223.1" href="http://www.math.com/">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolfram.com
+          math.com
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0" u="5|5091|4682575591189883|cBY1p3zu91JRY9uKlChAc6O6aN7Pbg2m">
+          <div class="b_attribution" tabindex="0" u="6|5092|5051650724485669|sDPx-IRJIxH5Of13W8KtkO1VerqdN6zB">
            <cite>
-            https://www.
+            http://
             <strong>
-             wolfram
+             www.math.com
             </strong>
-            .com
            </cite>
            <span class="c_tlbxTrg">
-            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5198.1">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5224.1">
             </span>
            </span>
           </div>
@@ -707,263 +821,227 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5197.2" href="https://www.wolfram.com/">
+       <a h="ID=SERP,5223.2" href="http://www.math.com/">
         <strong>
-         Wolfram
+         Math.com
         </strong>
-        : Computation Meets Knowledge
+        - World of
+        <strong>
+         Math
+        </strong>
+        Online
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
-        SCIENCE &amp; TECHNOLOGY INNOVATION.
+        Free
         <strong>
-         Wolfram
+         math
         </strong>
-        is more than a software company. Over the past 35 years, we've been responsible for a stream of major new directions in both technology and basic science.
+        lessons and
         <strong>
-         Wolfram
+         math
         </strong>
-        Notebooks A New Kind of Science
+        homework help from basic
         <strong>
-         Wolfram
+         math
         </strong>
-        Physics Project. Just Use.
+        to algebra, geometry and beyond. Students, teachers, parents, and everyone can find solutions to their
         <strong>
-         Wolfram
+         math
         </strong>
-        . Language.
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        . Intelligence. Our Experts, Your â¦
+        problems instantly.
        </p>
       </div>
      </li>
      <li class="b_algo" data-id="">
       <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5214.1" href="https://www.wolfram.com/wolfram-alpha-notebook-edition/">
+       <a class="tilk" h="ID=SERP,5240.1" href="https://www.khanacademy.org/math/algebra">
         <div class="tpic">
          <div class="wr_fav" data-priority="2">
           <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
            </div>
           </div>
          </div>
         </div>
         <div class="tptxt">
          <div class="tptt">
-          wolfram.com
+          khanacademy.org
          </div>
          <div class="tpmeta">
-          <div class="b_attribution" tabindex="0" u="6|5092|4613946304842539|RKUYPrsK_UsyLlpQucxHW1zwHcB_Intn">
-           <cite>
-            https://www.
-            <strong>
-             wolfram
-            </strong>
-            .com/
-            <strong>
-             wolfram-alpha
-            </strong>
-            -notebook-edition
-           </cite>
-           <span class="c_tlbxTrg">
-            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5215.1">
-            </span>
-           </span>
-          </div>
-         </div>
-        </div>
-       </a>
-      </div>
-      <h2>
-       <a h="ID=SERP,5214.2" href="https://www.wolfram.com/wolfram-alpha-notebook-edition/">
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        Notebook Edition
-       </a>
-      </h2>
-      <div class="b_caption" role="contentinfo">
-       <p class="b_lineclamp4 b_algoSlug">
-        <span class="algoSlug_icon" data-priority="2">
-         web
-        </span>
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        Notebook Edition combines the best of both
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        and Mathematica into a single, unified tool perfect for teaching and learning. Use free-form input to get instant answers to questions, create and customize graphs, and turn static examples into dynamic models.
-       </p>
-      </div>
-     </li>
-     <li class="b_algo" data-id="">
-      <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5230.1" href="https://products.wolframalpha.com/mobile/">
-        <div class="tpic">
-         <div class="wr_fav" data-priority="2">
-          <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="tptxt">
-         <div class="tptt">
-          wolframalpha.com
-         </div>
-         <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
-           <cite>
-            https://products.
-            <strong>
-             wolframalpha
-            </strong>
-            .com/mobile
-           </cite>
-          </div>
-         </div>
-        </div>
-       </a>
-      </div>
-      <h2>
-       <a h="ID=SERP,5230.2" href="https://products.wolframalpha.com/mobile/">
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        Mobile Apps
-       </a>
-      </h2>
-      <div class="b_caption" role="contentinfo">
-       <p class="b_lineclamp4 b_algoSlug">
-        <span class="algoSlug_icon" data-priority="2">
-         web
-        </span>
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        Apps. Use
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        how and where you want with our natively designed apps. From additional features to specially designed keyboards, weâve made it easy to use
-        <strong>
-         Wolfram|Alpha
-        </strong>
-        on the go. Download for iOS â¦
-       </p>
-      </div>
-     </li>
-     <li class="b_algo" data-id="">
-      <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5246.1" href="https://www.wolfram.com/mathematica/">
-        <div class="tpic">
-         <div class="wr_fav" data-priority="2">
-          <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
-           </div>
-          </div>
-          00004000
-         </div>
-        </div>
-        <div class="tptxt">
-         <div class="tptt">
-          wolfram.com
-         </div>
-         <div class="tpmeta">
-          <div class="b_attribution" tabindex="0" u="8|5094|4932087423172771|iSNj09GPTYTC2ovuZlr5SyU8fMkigJTp">
-           <cite>
-            https://www.
-            <strong>
-             wolfram
-            </strong>
-            .com/
-            <strong>
-             mathematica
-            </strong>
-           </cite>
-           <span class="c_tlbxTrg">
-            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5247.1">
-            </span>
-           </span>
-          </div>
-         </div>
-        </div>
-       </a>
-      </div>
-      <h2>
-       <a h="ID=SERP,5246.2" href="https://www.wolfram.com/mathematica/">
-        <strong>
-         Wolfram Mathematica
-        </strong>
-        : Modern Technical Computing
-       </a>
-      </h2>
-      <div class="b_caption" role="contentinfo">
-       <p class="b_lineclamp4 b_algoSlug">
-        <span class="algoSlug_icon" data-priority="2">
-         web
-        </span>
-        <strong>
-         Wolfram Mathematica
-        </strong>
-        : Modern Technical Computing. The world's definitive system for modern technical computing. Available on desktop, cloud &amp; mobile. Overview. Core Areas. What's New. Customer Stories. Resources. Pricing. Try Now.
-       </p>
-      </div>
-     </li>
-     <li class="b_algo" data-id="">
-      <div class="b_tpcn">
-       <a class="tilk" h="ID=SERP,5262.1" href="https://www.wolframalpha.com/input/?i=calculator">
-        <div class="tpic">
-         <div class="wr_fav" data-priority="2">
-          <div class="cico siteicon" style="width:32px;height:32px;">
-           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="tptxt">
-         <div class="tptt">
-          wolframalpha.com
-         </div>
-         <div class="tpmeta">
-          <div class="b_attribution" tabindex="0">
+          <div class="b_attribution" tabindex="0" u="7|5093|4880083954317128|wXxTCOwq83mrNMfC013riBXOdWhpTlnk">
            <cite>
             https://
             <strong>
-             www.wolframalpha.com
+             www.khanacademy.org
             </strong>
-            /input/?i=calculator
+            /
+            <strong>
+             math
+            </strong>
+            /
+            <strong>
+             algebra
+            </strong>
            </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5241.1">
+            </span>
+           </span>
           </div>
          </div>
         </div>
        </a>
       </div>
       <h2>
-       <a h="ID=SERP,5262.2" href="https://www.wolframalpha.com/input/?i=calculator">
+       <a h="ID=SERP,5240.2" href="https://www.khanacademy.org/math/algebra">
         <strong>
-         calculator - Wolfram|Alpha
+         Algebra 1
+        </strong>
+        |
+        <strong>
+         Math
+        </strong>
+        |
+        <strong>
+         Khan Academy
         </strong>
        </a>
       </h2>
       <div class="b_caption" role="contentinfo">
        <p class="b_lineclamp4 b_algoSlug">
         <span class="algoSlug_icon" data-priority="2">
-         web
+         Rezultat web
         </span>
-        Compute answers using
+        The
         <strong>
-         Wolfram
+         Algebra 1
         </strong>
-        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦
+        course, often taught in the 9th grade, covers Linear equations, inequalities, functions, and graphs; Systems of equations and inequalities; Extension of the concept of a function; Exponential models; and Quadratic equations, functions, and graphs.
+        <strong>
+         Khan Academy
+        </strong>
+        's
+        <strong>
+         Algebra 1
+        </strong>
+        course is built to …
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5258.1" href="https://byjus.com/maths/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;heigh
+00004000
+t:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          byjus.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="8|5094|131075|">
+           <cite>
+            https://byjus.com/
+            <strong>
+             maths
+            </strong>
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5259.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5258.2" href="https://byjus.com/maths/">
+        <strong>
+         Maths
+        </strong>
+        | Mathematics | Learn Basic
+        <strong>
+         Maths
+        </strong>
+        Online - BYJU'S
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         Rezultat web
+        </span>
+        <span class="news_dt">
+         26 iun. 2019
+        </span>
+        ·
+        <strong>
+         Maths
+        </strong>
+        is available here online for K-12 students, teachers and parents. Visit BYJU'S to different concepts in Mathematics such as algebra, trigonometry, calculus, etc., with worksheets.
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5276.1" href="https://mathworld.wolfram.com/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="Pictogramă web globală" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolfram.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="9|5095|4853055727164997|flMwI6wuQTWe6nCctnDcw9dAgAGat1FF">
+           <cite>
+            https://
+            <strong>
+             math
+            </strong>
+            world.wolfram.com
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5277.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5276.2" href="https://mathworld.wolfram.com/">
+        Wolfram MathWorld: The Web's Most Extensive Mathematics …
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         Rezultat web
+        </span>
+        <span class="news_dt">
+         15 mar. 2024
+        </span>
+        · New in MathWorld. Created, developed &amp; nurtured by Eric Weisstein with contributions from the world's mathematical community. Comprehensive encyclopedia of mathematics with 13,000 detailed entries. Continually updated, extensively illustrated, and with interactive examples.
        </p>
       </div>
      </li>
@@ -973,7 +1051,7 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
       </a>
      </li>
      <li class="b_pag">
-      <nav aria-label="Mai multe rezultate pentru wolfram alpha" role="navigation">
+      <nav aria-label="Mai multe rezultate pentru math" role="navigation">
        <h4 class="b_hide">
         Paginare
        </h4>
@@ -984,29 +1062,29 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
          </a>
         </li>
         <li>
-         <a aria-label="Pagina 2" class="b_widePag sb_bp" h="ID=SERP,5305.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=11&amp;FORM=PERE">
+         <a aria-label="Pagina 2" class="b_widePag sb_bp" h="ID=SERP,5326.1" href="/search?q=math&amp;FPIG=134840BC684345AA8653F51CD4111F3F&amp;first=11&amp;FORM=PERE">
           2
          </a>
         </li>
         <li>
-         <a aria-label="Pagina 3" class="b_widePag sb_bp" h="ID=SERP,5306.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=21&amp;FORM=PERE1">
+         <a aria-label="Pagina 3" class="b_widePag sb_bp" h="ID=SERP,5327.1" href="/search?q=math&amp;FPIG=134840BC684345AA8653F51CD4111F3F&amp;first=21&amp;FORM=PERE1">
           3
          </a>
         </li>
         <li>
-         <a aria-label="Pagina 4" class="b_widePag sb_bp" h="ID=SERP,5307.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=31&amp;FORM=PERE2">
+         <a aria-label="Pagina 4" class="b_widePag sb_bp" h="ID=SERP,5328.1" href="/search?q=math&amp;FPIG=134840BC684345AA8653F51CD4111F3F&amp;first=31&amp;FORM=PERE2">
           4
          </a>
         </li>
         <li>
-         <a aria-label="Pagina 5" class="b_widePag sb_bp" h="ID=SERP,5308.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=41&amp;FORM=PERE3">
+         <a aria-label="Pagina 5" class="b_widePag sb_bp" h="ID=SERP,5329.1" href="/search?q=math&amp;FPIG=134840BC684345AA8653F51CD4111F3F&amp;first=41&amp;FORM=PERE3">
           5
          </a>
         </li>
         <li>
-         <a class="sb_pagN sb_pagN_bp b_widePag sb_bp" h="ID=SERP,5309.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=11&amp;FORM=PORE" title="Pagina urmÄtoare">
+         <a class="sb_pagN sb_pagN_bp b_widePag sb_bp" h="ID=SERP,5330.1" href="/search?q=math&amp;FPIG=134840BC684345AA8653F51CD4111F3F&amp;first=11&amp;FORM=PORE" title="Pagina următoare">
           <div class="sw_next">
-           UrmÄtoarea
+           Următoarea
           </div>
          </a>
         </li>
@@ -1015,7 +1093,7 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
      </li>
      <li class="b_fabHide fabcolapse" data-priority="2" id="mfa_root">
       <div class="b_ds5">
-       <a aria-label="CÄutaÈi mai multe" class="mfa_btn" h="ID=SERP,5331.1" href="javascript:void(0);" id="mfa_srch" role="button">
+       <a aria-label="Căutați mai multe" class="mfa_btn" h="ID=SERP,5352.1" href="javascript:void(0);" id="mfa_srch" role="button">
         <div class="fba_sbicn" style="width: 40px; height: 40px;">
         </div>
        </a>
@@ -1025,17 +1103,17 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
    </main>
    <aside aria-label="Rezultate suplimentare">
     <div class="crhide" data-priority="2" id="b_mtp">
-     <a class="mtprt" h="ID=SERP,5346.1" href="javascript: void(0);">
+     <a class="mtprt" h="ID=SERP,5367.1" href="javascript: void(0);">
       <img class="mtpsvg mtparr rms_img" height="40" src="/rp/iHQfTi0EehsP4io4sHfua6J2vo4.svg" width="40"/>
       <div class="mtpseem">
-       VedeÈi mai multe
+       Vedeți mai multe
       </div>
      </a>
     </div>
     <ol class="crinvis" id="b_context">
     </ol>
    </aside>
-   <aside aria-label="ExploraÈi mai mult">
+   <aside aria-label="Explorați mai mult">
     <ol id="b_dynRail">
     </ol>
    </aside>
@@ -1049,13 +1127,13 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
      <li>
       <div class="mcp_footer" data-mcp-url="https://www.bing.com:443/shared/mcp" id="mcp_footer">
        <span>
-        GestionaÈi preferinÈele privind modulele cookie
+        Gestionați preferințele privind modulele cookie
        </span>
       </div>
      </li>
      <li>
       <a h="ID=SERP,5070.1" href="http://go.microsoft.com/fwlink/?LinkId=521839" id="sb_privacy">
-       ConfidenÈialitate Èi module cookie
+       Confidențialitate și module cookie
       </a>
      </li>
      <li>
@@ -1075,7 +1153,7 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
      </li>
      <li>
       <a h="ID=SERP,5074.1" href="#" id="sb_feedback" role="button">
-       PÄrere
+       Părere
       </a>
      </li>
     </ul>
@@ -1089,23 +1167,23 @@ var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":
    <div class="b_hide" data-check="true" data-dist="0" data-lat="0" data-lon="0" data-norefresh="true" id="PromptDetails">
    </div>
    <div class="b_hide b_dropdown" data-filterkey="" id="d20095" role="menu">
-    <div class="ftrD" id="ftrD_DatÄ">
-     <a class="b_toggle" h="ID=SERP,5333.1" href="/search?q=wolfram+alpha&amp;FORM=000017&amp;qpvt=wolfram+alpha" role="menuitem">
+    <div class="ftrD" id="ftrD_Dată">
+     <a class="b_toggle" h="ID=SERP,5354.1" href="/search?q=math&amp;FORM=000017&amp;qpvt=math" role="menuitem">
       Toate
      </a>
-     <a class="b_toggle" h="ID=SERP,5334.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez1%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+     <a class="b_toggle" h="ID=SERP,5355.1" href="/search?q=math&amp;filters=ex1%3a%22ez1%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
       Ultimele 24 de ore
      </a>
-     <a class="b_toggle" h="ID=SERP,5335.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez2%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
-      Ultima sÄptÄmânÄ
+     <a class="b_toggle" h="ID=SERP,5356.1" href="/search?q=math&amp;filters=ex1%3a%22ez2%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Ultima săptămână
      </a>
-     <a class="b_toggle" h="ID=SERP,5336.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez3%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
-      Ultima lunÄ
+     <a class="b_toggle" h="ID=SERP,5357.1" href="/search?q=math&amp;filters=ex1%3a%22ez3%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Ultima lună
      </a>
-     <a class="b_toggle" h="ID=SERP,5337.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez5_19441_19806%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+     <a class="b_toggle" h="ID=SERP,5358.1" href="/search?q=math&amp;filters=ex1%3a%22ez5_19442_19807%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
       Anul trecut
      </a>
-     <span data-url="/control/tfcalendar?q=wolfram%20alpha&amp;IG=56243D86F2C4482F8078392B76A20654&amp;StartDate=03%2f15%2f2024+01%3a58%3a21&amp;EndDate=03%2f25%2f2024+01%3a58%3a21&amp;IsApplied=False&amp;DisplayText=Interval+particularizat&amp;DateOffset=0&amp;FormCode=&amp;ApplyLinkUrl=%2fsearch%3fq%3dwolfram%2balpha%26filters%3dex1%253a%2522ez5_0_0%2522%26FORM%3d000017%26qpvt%3dwolfram%2balpha&amp;ApplyLinkText=ez5&amp;IID=SERP.20095" id="drvph">
+     <span data-url="/control/tfcalendar?q=math&amp;IG=134840BC684345AA8653F51CD4111F3F&amp;StartDate=03%2f15%2f2024+10%3a50%3a34&amp;EndDate=03%2f25%2f2024+10%3a50%3a34&amp;IsApplied=False&amp;DisplayText=Interval+particularizat&amp;DateOffset=0&amp;FormCode=&amp;ApplyLinkUrl=%2fsearch%3fq%3dmath%26filters%3dex1%253a%2522ez5_0_0%2522%26FORM%3d000017%26qpvt%3dmath&amp;ApplyLinkText=ez5&amp;IID=SERP.20095" id="drvph">
      </span>
     </div>
    </div>
@@ -1134,9 +1212,9 @@ sj_be(_d.body, 'load', function(){if(_w.lb)lb();}, false);;
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-MultiLingualKeyboardScriptLoader.init("rost:Rom&#226;nÄ (Romanian)",1, 0, true, false);;var Identity = Identity || {}; (function(i) { i.wlImgSm ="https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026sid=30CDD38EB74F671A1A08C7C2B6426659\u0026fofoff=1"; i.wlImgLg ="https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026sid=30CDD38EB74F671A1A08C7C2B6426659\u0026fofoff=1";i.popupLoginUrls = {"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1711324701\u0026rver=6.0.5286.0\u0026wp=MBI_SSL\u0026wreply=https:%2F%2fwww.bing.com%2Fsecu
-0000093A
-re%2FPassport.aspx%3Fpopup%3D1\u0026lc=4096\u0026id=264960"}; })(Identity);;
+MultiLingualKeyboardScriptLoader.init("rost:Rom&#226;nă (Romanian)",1, 0, true, false);;var Identity = Identity || {}; (function(i) { i.wlImgSm ="https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026sid=1465C3BBC279684831FBD7F6C375695C\u0026fofoff=1"; i.wlImgLg ="https://storage.live.com/u
+00001C13
+sers/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026sid=1465C3BBC279684831FBD7F6C375695C\u0026fofoff=1";i.popupLoginUrls = {"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1711356634\u0026rver=6.0.5286.0\u0026wp=MBI_SSL\u0026wreply=https:%2F%2fwww.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1\u0026lc=4096\u0026id=264960"}; })(Identity);;
 //]]>-->
    </div>
    <div "="" style="display:none">
@@ -1151,19 +1229,17 @@ if (typeof (performance) !== 'undefined' && _G.BCT && performance.timing && perf
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-sa_CTBConfig={"CU":"http://cc.bingj.com/cache.aspx?q=wolfram+alpha\u0026d={0}\u0026mkt=en-WW\u0026setlang=ro-RO\u0026w={1}","CT":"Memorat Ã®n cache","NW":"0","disableMetaData":"0","GenCapString":"Subtitrare generatÄ de inteligenÈa artificialÄ","useOffsetParent":"1","TRGT":"AcÅ£iuni pentru acest site","selectedIconClass":"sw_ddw","toolboxTriggerClassName":"c_tlbxTrg","staticIconClass":"sw_ddgn","parentId":"b_results"};var webResultsUrls =["6266F2EE4BB8D13DD30D06857D5C972A","196EA4C05C2E4C4686D6629EEEB6D93B","E772772D28921F6BB1A101E87085C7F1","68433D3DBEBF2F0A62EB7FBA8ACBDBB4","736960614FFE5AB352BEE3A3A8596D87","5163DB8A94284073A3BA68DECF6E0DA6","322E5A50B9CC475B5CF01DC07F227B67","825D653AD5355CDD320E3BD8F0E4C24C","C2DA8BEE665AF94B253C7CC9228094E9","CBD934EC86CDE9CC86F00C86FDC61D0F"];var MiniTPTriggerWidth = 1020; var EnableMiniTPRightRailRS = false; var EnableSuperCaptionContextRegionTrigger = false; var ZoomThreshhold = 1164;;
+sa_CTBConfig={"CU":"http://cc.bingj.com/cache.aspx?q=math\u0026d={0}\u0026mkt=en-WW\u0026setlang=ro-RO\u0026w={1}","CT":"Memorat în cache","NW":"0","disableMetaData":"0","GenCapString":"Subtitrare generată de inteligența artificială","useOffsetParent":"1","TRGT":"Acţiuni pentru acest site","selectedIconClass":"sw_ddw","toolboxTriggerClassName":"c_tlbxTrg","staticIconClass":"sw_ddgn","parentId":"b_results"};var webResultsUrls =["35230C27BF19DE9A659E86028C88479F","24C22FA3D4CC930EE6EB4763D8FA5C34","77893F9F690A787B1EF19330BFB466FD","9EBC68DB7EA16735DC4C9E8AE8433C31","D2C486E0E64265FC3EE1EED21BD5C42F","B865EE2F85FC3AE269217F1CC31872C3","F939FD775BC2AD90ED557ABA9D37ACC1","AB34C7C2D35DEB8815CE7568694E59E4","70F3DCF06CD173A47278C7D0397DB670","9EEA709CB670DCC3D74080019AB75145"];var MiniTPTriggerWidth = 1020; var EnableMiniTPRightRailRS = false; var EnableSuperCaptionContextRegionTrigger = false; var ZoomThreshhold = 1164;;
 //]]>-->
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-var fbpkgiid = fbpkgiid || {}; fbpkgiid.page = 'SERP.5347';;
+var fbpkgiid = fbpkgiid || {}; fbpkgiid.page = 'SERP.5368';;
 //]]>-->
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-sj_evt.bind("ajax.feedback.initialized", function(args) { args[1].debugCollector.setContextValue("FederationDebugInfo", "QueryID : 2f7621d1d03948afb92bc6a0bfdd5411"); });;sa_config={"f":"sb_form","i":"sb_form_q","c":"sw_as","zisParent":"sa_zis_parent","aadManageHistoryUrl":"/profile/history?FORM=O2HV46","u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dwolfram%2balpha%26mkt%3dro-md%26qry%3d","removeSuggUrl":"/historyHandler?oma=delete_matching_queries\u0026qt=%7b0%7d\u002
-00001199
-6sig=30CDD38EB74F671A1A08C7C2B6426659\u0026response=json\u0026FORM=ASRMHS","searchHistoryUrl":"/profile/history?FORM=ASRMHP","partner":"page.serp","ghostingWithGreyText":"","enableTabPrompt":"","enabledSearchTypes":["RS","PASF"],"enabledDataSources":["Web"],"eHC":1,"fetchOnEmpty":1,"fetchOnDownArrowKey":1,"t":1,"enableSbUpdate":1,"isPathSearch":1,"asmobbacks":1,"longquery":1,"dsarialv":1,"aslogtel":1,"asszrdc":1,"eNw":1,"nwLim":1,"IsRequeryPresent":1,"ezis":1,"imeghmb":1,"leftIconOnSuggestions":1,"EnableHistoryIcon":1,"leftIconOnMsbSuggestions":1,"waitForCompositionEnd":1,"enableClientPerfLatencyCalc":1,"asLowNetworkScneario":1,"noNextWordTermination":1,"nextWordNFullSuggsOne":1,"enableAsPanelExpansion":1,"hitHighlightPaa":1,"backfillRichRequery":1,"rrboxshadow":1,"prioritizePAAInterrogative":1,"FastEntMulti":1,"CommonFooter":1,"asdsg":1,"asoptcss":1,"aspreinitcss":1,"aschaturl":1,"ascssdis":1,"zisPaneexpansion":1,"asbugfix":1,"easpm":1,"handleDuplicateFetch":1,"maxRSSuggLenLimitRichRequery":48,"maxPAASuggLenLimitRichRequery":48,"prioritizePAAMinWords":3,"d":5,"removeTextLength":53,"ascqsl":100,"zisr1":5,"maxSuggestionsToShow":[3,5]};sa_loc= {"Suggestions":"Sugestii","Feedback":"Feedback privind aceste sugestii","SearchRemoved":"AceastÄ cÄutare a fost eliminatÄ din %eIstoric cÄutÄri%E","ManageHistory":"%eGestionaÈi istoricul cÄutÄrilor%E","RelatedSearches":"CÄutÄri asociate","PeopleAlsoAsk":"Oamenii au mai Ã®ntrebat Èi","PeopleAlsoSearchFor":"Persoanele mai cautÄ","SeeMore":"VedeÈi mai multe","NudgesAStoChatClickthrough":"Un clic pe aceasta va redirecÈiona cÄtre Copilot","MsbBannerClickThrough":"DacÄ faceÈi clic pe aceasta, se va redirecÈiona la Verticala de lucru"};;
+sj_evt.bind("ajax.feedback.initialized", function(args) { args[1].debugCollector.setContextValue("FederationDebugInfo", "QueryID : 9a57bb5e7b414d0a9b4a8292cc6eda66"); });;sa_config={"f":"sb_form","i":"sb_form_q","c":"sw_as","zisParent":"sa_zis_parent","aadManageHistoryUrl":"/profile/history?FORM=O2HV46","u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dmath%26mkt%3dro-md%26qry%3d","removeSuggUrl":"/historyHandler?oma=delete_matching_queries\u0026qt=%7b0%7d\u0026sig=1465C3BBC279684831FBD7F6C375695C\u0026response=json\u0026FORM=ASRMHS","searchHistoryUrl":"/profile/history?FORM=ASRMHP","partner":"page.serp","ghostingWithGreyText":"","enableTabPrompt":"","enabledSearchTypes":["RS","PASF"],"enabledDataSources":["Web"],"eHC":1,"fetchOnEmpty":1,"fetchOnDownArrowKey":1,"t":1,"enableSbUpdate":1,"isPathSearch":1,"asmobbacks":1,"longquery":1,"dsarialv":1,"aslogtel":1,"asszrdc":1,"eNw":1,"nwLim":1,"IsRequeryPresent":1,"ezis":1,"imeghmb":1,"leftIconOnSuggestions":1,"EnableHistoryIcon":1,"leftIconOnMsbSuggestions":1,"waitForCompositionEnd":1,"enableClientPerfLatencyCalc":1,"asLowNetworkScneario":1,"noNextWordTermination":1,"nextWordNFullSuggsOne":1,"enableAsPanelExpansion":1,"hitHighlightPaa":1,"backfillRichRequery":1,"rrboxshadow":1,"prioritizePAAInterrogative":1,"FastEntMulti":1,"CommonFooter":1,"asdsg":1,"asoptcss":1,"aspreinitcss":1,"aschaturl":1,"ascssdis":1,"zisPaneexpansion":1,"asbugfix":1,"easpm":1,"handleDuplicateFetch":1,"maxRSSuggLenLimitRichRequery":48,"maxPAASuggLenLimitRichRequery":48,"prioritizePAAMinWords":3,"d":5,"removeTextLength":53,"ascqsl":100,"zisr1":5,"maxSuggestionsToShow":[3,5]};sa_loc= {"Suggestions":"Sugestii","Feedback":"Feedback privind aceste sugestii","SearchRemoved":"Această căutare a fost eliminată din %eIstoric căutări%E","ManageHistory":"%eGestionați istoricul căutărilor%E","RelatedSearches":"Căutări asociate","PeopleAlsoAsk":"Oamenii au mai întrebat și","PeopleAlsoSearchFor":"Persoanele mai caută","SeeMore":"Vedeți mai multe","NudgesAStoChatClickthrough":"Un clic pe aceasta va redirecționa către Copilot","MsbBannerClickThrough":"Dacă faceți clic pe aceasta, se va redirecționa la Verticala de lucru"};;
 //]]>-->
    </div>
    <div "="" style="display:none">
@@ -1178,12 +1254,12 @@ BingAtWork.HeaderWithAutoSuggestState.init && BingAtWork.HeaderWithAutoSuggestSt
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-(function() { var config ={"url":"https%3a%2f%2flogin.microsoftonline.com%2fcommon%2foauth2%2fauthorize%3fclient_id%3d9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%26response_type%3did_token%26nonce%3df043aa32-fb7e-4514-a0d5-12ab9a52f3d2%26redirect_uri%3dhttps%253a%252f%252fwww.bing.com%252forgid%252fidtoken%252fnosignin%26scope%3dopenid%2520email%2520profile%25209ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%2f.default%26response_mode%3dform_post%26instance_aware%3dtrue%26msafed%3d0%26prompt%3dnone%26state%3d%257b%2522ig%2522%253a%252256243D86F2C4482F8078392B76A20654%2522%257d","sandbox":"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts","currentEpoch":"1711324701000"}; if (false) { if (typeof dbg !== "undefined") { dbg.trace("OrgId", "Delaying SSO on postRBComplete event"); } sj_evt.bind('postRBComplete', function() { setTimeout(function() {_w.rms.js({'rms:answers:OrgId:SsoFrame':'\/rp\/KjCBfzuZ475zX0-Fu2bdXt9qifQ.js',d:1});sj_evt.fire('ssoFrameExists', config); }, 500); }, true, null, true); } else { sj_evt.fire('ssoFrameExists', config); } })();;(function () { var identityBtn = document.getElementById("id_l"); if (identityBtn) { identityBtn.addEventListener("click", function () { sj_log("CI.ICPopup", "popup", "1"); }); } })();;
+(function() { var config ={"url":"https%3a%2f%2flogin.microsoftonline.com%2fcommon%2foauth2%2fauthorize%3fclient_id%3d9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%26response_type%3did_token%26nonce%3d88933156-de18-4422-bf6b-2b43a966d9c6%26redirect_uri%3dhttps%253a%252f%252fwww.bing.com%252forgid%252fidtoken%252fnosignin%26scope%3dopenid%2520email%2520profile%25209ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%2f.default%26response_mode%3dform_post%26instance_aware%3dtrue%26msafed%3d0%26prompt%3dnone%26state%3d%257b%2522ig%2522%253a%2522134840BC684345AA8653F51CD4111F3F%2522%257d","sandbox":"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts","currentEpoch":"1711356634000"}; if (false) { if (typeof dbg !== "undefined") { dbg.trace("OrgId", "Delaying SSO on postRBComplete event"); } sj_evt.bind('postRBComplete', function() { setTimeout(function() {_w.rms.js({'rms:answers:OrgId:SsoFrame':'\/rp\/KjCBfzuZ475zX0-Fu2bdXt9qifQ.js',d:1});sj_evt.fire('ssoFrameExists', config); }, 500); }, true, null, true); } else { sj_evt.fire('ssoFrameExists', config); } })();;(function () { var identityBtn = document.getElementById("id_l"); if (identityBtn) { identityBtn.addEventListener("click", function () { sj_log("CI.ICPopup", "popup", "1"); }); } })();;
 //]]>-->
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-(function() { var accLinkParams ={"accLinkRefreshEndPointUrl":"/orgid/acclink/refresh","isAadAuthenticated":false,"refreshAccountLinkInfoTimeInSeconds":3600,"refreshAccountLinkInfoRetryTimeInSeconds":600,"correlationId":"6600be1dcfad4cf097ce3dd5c7f5afd3","hasActiveLinkedAccount":false}; AccountLink.init(accLinkParams); })();;
+(function() { var accLinkParams ={"accLinkRefreshEndPointUrl":"/orgid/acclink/refresh","isAadAuthenticated":false,"refreshAccountLinkInfoTimeInSeconds":3600,"refreshAccountLinkInfoRetryTimeInSeconds":600,"correlationId":"66013adaef80491da16d0b664e7395eb","hasActiveLinkedAccount":false}; AccountLink.init(accLinkParams); })();;
 //]]>-->
    </div>
    <div "="" style="display:none">
@@ -1203,7 +1279,7 @@ window["fbk_12"] = function() { Feedback.Bootstrap.InitializeFeedback({page:true
    </div>
    <div "="" style="display:none">
     <!--//<![CDATA[
-sj_evt.bind("promptForUserLocationInit", function() { SHPromptForUserLocation.init(true,"30CDD38EB74F671A1A08C7C2B6426659"); }, 1);;
+sj_evt.bind("promptForUserLocationInit", function() { SHPromptForUserLocation.init(true,"1465C3BBC279684831FBD7F6C375695C"); }, 1);;
 //]]>-->
    </div>
   </div>
