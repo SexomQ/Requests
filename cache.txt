@@ -1,1285 +1,1217 @@
 HTTP/1.1 200 OK
-Server: nginx/1.14.0 (Ubuntu)
-Date: Sun, 24 Mar 2024 22:53:57 GMT
-Content-Type: text/html
-Content-Length: 34122
-Last-Modified: Thu, 22 Feb 2024 20:12:00 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private, max-age=0
+Expires: Sun, 24 Mar 2024 23:57:21 GMT
+X-EventID: 6600be1dcfad4cf097ce3dd5c7f5afd3
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Date: Sun, 24 Mar 2024 23:58:21 GMT
+Transfer-Encoding:  chunked
 Connection: close
-ETag: "65d7aa90-854a"
-X-Frame-Options: SAMEORIGIN
-Accept-Ranges: bytes
+Connection: Transfer-Encoding
+Set-Cookie: MUID=18933118BF78642017E02554BE756580; domain=.bing.com; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
+Set-Cookie: MUIDB=18933118BF78642017E02554BE756580; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
+Set-Cookie: _EDGE_S=F=1&amp;SID=30CDD38EB74F671A1A08C7C2B6426659; domain=.bing.com; path=/
+Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Fri, 18-Apr-2025 23:58:21 GMT; path=/
+Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
+Set-Cookie: SRCHUID=V=2&amp;GUID=9FC61F7AF90F48C09D48EF90EACB455D&amp;dmnchg=1; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20240324; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
+Set-Cookie: SRCHHPGUSR=SRCHLANG=ro&amp;IG=56243D86F2C4482F8078392B76A20654; domain=.bing.com; expires=Tue, 24-Mar-2026 23:58:21 GMT; path=/
+Set-Cookie: _SS=SID=30CDD38EB74F671A1A08C7C2B6426659; domain=.bing.com; path=/
+X-CDN-TraceID: 0.44677b5c.1711324701.4d6eda94
+
+0000005A
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="ro" xml:lang="ro" xmlns="http://www.w3.org/1999/xhtml
+00003F9C
+" xmlns:web="http://schemas.live.com/Web/">
+ <script type="text/javascript">
+  //<![CDATA[
+si_ST=new Date
+//]]>
+ </script>
  <head>
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23296419-22">
-  </script>
-  <script>
-   window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-23296419-22');
-  </script>
+  <!--pc-->
   <title>
-   Making HTTP requests with sockets in Python  - Internal Pointers
+   wolfram alpha - CÄutaÈi
   </title>
-  <meta charset="utf-8"/>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta content="Monocasual Laboratories" name="author"/>
-  <meta content="A practical introduction to network programming, from socket configuration to network buffers and HTTP connection modes. " name="description"/>
-  <meta content="internet,network programming,socket,Python,http" name="keywords"/>
-  <meta content="2015-2024 Monocasual Laboratories" name="copyright"/>
-  <meta content="Internal Pointers" name="application-name"/>
-  <meta content="d6wzhBnnEXNHg7kty5SNXVBKd4e29wUFP69SROd-3eI" name="google-site-verification">
-   <meta content="Making HTTP requests with sockets in Python " property="og:title">
-    <meta content="article" property="og:type">
-     <meta content="https://www.internalpointers.com/post/making-http-requests-sockets-python" property="og:url">
-      <meta content="https://raw.githubusercontent.com/monocasual/internalpointers-files/master/2022/01/network7/making-http-requests-sockets-python.png" property="og:image">
-       <meta content="1200" property="og:image:width">
-        <meta content="900" property="og:image:height">
-         <meta content="Internal Pointers" property="og:site_name">
-          <meta content="A practical introduction to network programming, from socket configuration to network buffers and HTTP connection modes. " property="og:description"/>
-          <meta content="summary" name="twitter:card"/>
-          <meta content="https://www.internalpointers.com/post/making-http-requests-sockets-python" name="twitter:url"/>
-          <meta content="Making HTTP requests with sockets in Python " name="twitter:title"/>
-          <meta content="A practical introduction to network programming, from socket configuration to network buffers and HTTP connection modes. " name="twitter:description"/>
-          <meta content="https://raw.githubusercontent.com/monocasual/internalpointers-files/master/2022/01/network7/making-http-requests-sockets-python.png" name="twitter:image"/>
-          <link href="/img/favicon.ico" rel="icon"/>
-          <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed"/>
-          <link href="/main-1.4.0.css" rel="stylesheet"/>
-          <link href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/monokai-sublime.min.css" rel="stylesheet"/>
-          <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-          </script>
-          <script defer="" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js">
-          </script>
-          <script defer="" src="/main-1.4.0.js">
-          </script>
-          <script defer="" src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js">
-          </script>
-          <script>
-           document.addEventListener("DOMContentLoaded", function() {
-	hljs.initHighlighting();
-});
-          </script>
-         </meta>
-        </meta>
-       </meta>
-      </meta>
-     </meta>
-    </meta>
-   </meta>
-  </meta>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <meta content="CÄutarea inteligentÄ de la Bing faciliteazÄ gÄsirea rapidÄ a lucrurilor pe care le cÄutaÈi Èi vÄ premiazÄ." property="og:description"/>
+  <meta content="Bing" property="og:site_name"/>
+  <meta content="wolfram alpha - Bing" property="og:title"/>
+  <meta content="https://www.bing.com/search?q=wolfram+alpha" property="og:url"/>
+  <meta content="3732605936979161" property="fb:app_id"/>
+  <meta content="http://www.bing.com/sa/simg/facebook_sharing_5.png" property="og:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="600" property="og:image:width"/>
+  <meta content="315" property="og:image:height"/>
+  <link data-orighref="" href="/search?format=rss&amp;q=wolfram+alpha" rel="alternate" title="XML" type="text/xml"/>
+  <link data-orighref="" href="/search?format=rss&amp;q=wolfram+alpha" rel="alternate" title="RSS" type="application/rss+xml"/>
+  <link data-orighref="" href="/sa/simg/favicon-trans-bg-blue-mg.ico" rel="icon"/>
+  <link href="https://r.bing.com" rel="preconnect"/>
+  <link crossorigin="" href="https://r.bing.com" rel="preconnect"/>
+  <link href="https://r.bing.com" rel="dns-prefetch"/>
+  <link crossorigin="" href="https://r.bing.com" rel="dns-prefetch"/>
+  <link href="https://th.bing.com" rel="preconnect"/>
+  <link crossorigin="" href="https://th.bing.com" rel="preconnect"/>
+  <link href="https://th.bing.com" rel="dns-prefetch"/>
+  <link crossorigin="" href="https://th.bing.com" rel="dns-prefetch"/>
+  <script type="text/javascript">
+   //<![CDATA[
+_G={Region:"WW",Lang:"ro-RO",ST:(typeof si_ST!=='undefined'?si_ST:new Date),Mkt:"ro-RO",RevIpCC:"md",RTL:false,Ver:"12",IG:"56243D86F2C4482F8078392B76A20654",EventID:"6600be1dcfad4cf097ce3dd5c7f5afd3",V:"web",P:"SERP",DA:"DUBE01",CID:"18933118BF78642017E02554BE756580",SUIH:"hVNGOJcTHzNnHiHnDgJ4_A",adc:"b_ad",EF:{bmasynctrigger:1,getslctspt:1,newtabsloppyclick:1,chevroncheckmousemove:1,sharepreview:1,shareoutimage:1,sharefixreadnum:1,chatskip2content:1},gpUrl:"\/fd\/ls\/GLinkPing.aspx?" }; _G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID ;curUrl="http:\/\/www.bing.com\/search";function si_T(a){ if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;}_G.NTT="600000";_G.CTT="3000";_G.BNFN="Default";_G.LG="160";;
+//]]>
+  </script>
+  <link href="/rp/WLmOdv9zuqhjvps5RyZ5DUP8vcQ.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6F/cc,nc/GZY3PyHImAjt56VIC2PBbIGPof4.css?bu=AaEV&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/Erq9eyxnIqqfCkw2PYReovqPn4w.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6F/cc,nc/JXlehTGCkCL1Kyg-aOdZL6o0rRk.css?bu=IWhokA3BD2jXD6EQnhO2E8ATaGjzE-cZ5hpo1R_5Jmhonh3rBe4FaD-cAY8EaPsEiDe3N2ho&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/p2In0LCMH88GHZ8_Bauucrdw48w.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/hba2SqbP5ndWlozgQN-CVBVjbBU.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6F/cir3,cc,nc/mOKgSZ9LIvqjgrbVeS_iu5gte9c.css?bu=DP8ovyrGK8krgyziLZExaJgrnSloaA&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/VMUjEuIwlGjapNwAWK9rOprSjyU.css" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+   .b_searchbox { width: 571px; } .hasmic .b_searchbox { width: 535px; } .hassbi .b_searchbox { width: 535px; } .hasmic.hassbi .b_searchbox { width: 499px; } #b_header .b_searchboxForm .b_searchbox.b_softkey { width: 533px; } #b_header .hasmic .b_searchboxForm .b_searchbox.b_softkey { width: 497px; } #b_header .hassbi .b_searchboxForm .b_searchbox.b_softkey { width: 497px; } #b_header .hasmic.hassbi .b_searchboxForm .b_searchbox.b_softkey { width: 461px; } .b_searchboxForm.as_rsform .b_searchbox { width: 897px; } .hasmic .b_searchboxForm.as_rsform .b_searchbox { width: 861px; } .hassbi .b_searchboxForm.as_rsform .b_searchbox { width: 861px; } .hasmic.hassbi .b_searchboxForm.as_rsform .b_searchbox { width: 825px; } #b_header .b_searchboxForm.as_rsform .b_searchbox.b_softkey { width: 859px; } #b_header .hasmic .b_searchboxForm.as_rsform .b_searchbox.b_softkey { width: 823px; } #b_header .hassbi .b_searchboxForm.as_rsform .b_searchbox.b_softkey { width: 823px; } #b_header .hasmic.hassbi .b_searchboxForm.as_rsform .b_searchbox.b_softkey { width: 787px; }
+  </style>
+  <link href="https://r.bing.com/rb/6D/cir3,cc,nc/AnMEznCRiTj2tRYXe1V9eMESRYw.css?bu=Bk9PqRG0EpEUTw&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/0cST_3C1JrZfV70VDmmnAtsFGCY.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/Hgrb7jMDFa47DinximwgoHwr5Fc.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/aecY5_exLNG8jZ-qGh_ErZSJH-Q.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/n9BHk0WmVm-KoCKnBvQBaU3dJgo.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/XIzdzxQDa1UI7RgnNbwT_M0eFes.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/RqJwi9iqZ24YLvU44XOE8XBmj_c.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6D/cir3,cc,nc/nFSaC8oLMJdY38viCMJKFFF-dFc.css?bu=AqkV0hU&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/JnfKpfPlpyaRPcu6Va9rA7skhnI.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/7X80bVmcX4OBz_H3Zghz3Z13wsM.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/VJKJYU5pCjcN3AtsCiobFnft7fw.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/3sj96d6X08Y5ULsNDwa2qjAbdq0.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/KhpjzaqQvA3ITNHlsQNlgqqyB44.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/Nv7CxJv4aytALHs4il9S5MneVMA.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6D/cc,nc/wjYCRG9Qy5DeJmTItx62vVUJI0g.css?bu=BE_yFO8U6BQ&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/s0DWQSJdiTBCA4KEyk6uw1W3FbE.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/YY6W6pDJRXxL-NjtyPCn0v-ZrcU.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/tZme7v3I4Mu9-8ncmZdYbzJWIFk.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/smvkiJczx2J4SQXFhD0znUhnHzo.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/MNJSwXCFZCCBLvir3T1Qzw5bH2I.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/KrKjL5wROxYLKZFERweV2S9M8Zk.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/lqNzuXAg0UXgJVBhddp9UAWgmUo.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/M9icSw9krUVbe0_w7aODPg3Yzug.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   //<![CDATA[
+var logJSText=function(n,t){t===void 0&&(t=null);(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.ClientInst","FID":"CI","Name":"'+escape(n)+(t?'","Text":"'+escape(t):"")+'"}]'},getHref=function(){return location.href};try{var ignErr=["ResizeObserver loop completed with undelivered notifications.","ResizeObserver loop limit exceeded"],rszMsg="ResizeObserverLimit",maxErr=3,ignoreCurrentError=function(n,t){return ignErr.indexOf(n)<0?!1:(window.WRC||logJSText(rszMsg),window.WRC=1,t!=null&&(typeof sj_sp!="undefined"&&sj_sp(t),typeof sj_pd!="undefined"&&sj_pd(t)),!0)},regexEsc=function(n){return n.replace(/([.?*+^$&[\]\\(){}|<>-])/g,"\\$1")};window.jsErrorHandler=function(n){var f,p,h,rt,ut,u,e,ft,o,a,v,s;try{if(f='"noMessage"',p=(n.error||n).message||f,ignoreCurrentError(p,n))return;if(h=(window.ERC?window.ERC:0)+1,window.ERC=h,h>maxErr){logJSText("max errors reached");return}var c=n.error||n,w=n.filename,b=n.lineno,k=n.colno,d=n.extra,l=c.severity||"Error",g=c.message||f,i=c.stack,t='"'+escape(g.replace(/"/g,""))+'"',nt=new RegExp(regexEsc(getHref()),"g"),tt=window.lirab,it=window.liraa,r=tt?" hint == ["+tt:"";if(r=r+(it?", "+it+")":r?"]":""),i){for(rt=/\(([^\)]+):[0-9]+:[0-9]+\)/g,u={};(ut=rt.exec(i))!==null;)e=ut[1],u[e]?u[e]++:u[e]=1;o=0;for(a in u)u[a]>1&&(v=regexEsc(a),ft=new RegExp(v,"g"),i=i.replace(ft,o),i+="#"+o+"="+v,o++);i=i.replace(nt,"self").replace(/"/g,"");t+=',"Stack":"'+(escape(i)+'"')}if(w?t+=',"Meta":"'+escape(w.replace(nt,"self"))+r+'"':r&&(t+=',"Meta":"'+r+'"'),b&&(t+=',"Line":"'+b+'"'),k&&(t+=',"Char":"'+k+'"'),d&&(t+=',"ExtraInfo":"'+d+'"'),g===f)if(l="Warning",t+=',"ObjectToString":"'+n.toString()+'"',JSON&&JSON.stringify)t+=',"JSON":"'+escape(JSON.stringify(n))+'"';else for(s in n)n.hasOwnProperty(s)&&(t+=',"'+s+'":"'+n[s]+'"');var et=(new Date).getTime(),ot='"T":"CI.'+l+'","FID":"CI","Name":"JS'+l+'","Text":'+t+"",st="<E><T>Event.ClientInst<\/T><IG>"+_G.IG+"<\/IG><TS>"+et+"<\/TS><D><![CDATA[[{"+ot+"}]]\]><\/D><\/E>",ht="<ClientInstRequest><Events>"+st+"<\/Events><STS>"+et+"<\/STS><\/ClientInstRequest>",y=new XMLHttpRequest;y.open("POST","/fd/ls/lsp.aspx?",!0);y.setRequestHeader("Content-Type","text/xml");y.send(ht);typeof sj_evt!="undefined"&&sj_evt.fire("ErrorInstrumentation",t)}catch(ct){logJSText("MetaJSError","Failed to execute error handler. "+ct.message)}};window.addEventListener&&window.addEventListener("error",window.jsErrorHandler,!1)}catch(e){logJSText("MetaJSError","Failed to bind error handler "+e.message)};var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:i,callback:u},r(n))}function r(n){if(n){if(n)return u(n)}else{if(!f){for(var r in t)u(r);f=!0}return i}}function u(n){var s,e;if(i[n])return i[n];if(t.hasOwnProperty(n)){var h=t[n],f=h.dependencies,l=h.callback,a=r,o={},c=[a,o];if(f.length<2)throw"invalid usage";else if(f.length>2)for(s=f.slice(2,f.length),e=0;e<s.length;e++)c.push(u(s[e]));return l.apply(this,c),i[n]=o,o}}var t={},i={},f=!1;n.define=e;n.require=r})(amd||(amd={}));define=amd.define;require=amd.require;var _w=window,_d=document,sb_ie=window.ActiveXObject!==undefined,sb_i6=sb_ie&&!_w.XMLHttpRequest,_ge=function(n){return _d.getElementById(n)},_qs=function(n,t){return t=typeof t=="undefined"?_d:t,t.querySelector?t.querySelector(n):null},sb_st=function(n,t){return setTimeout(n,t)},sb_rst=sb_st,sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return(new Date).getTime()},sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sj_ce=function(n,t,i){var r=_d.createElement(n);return t&&(r.id=t),i&&(r.className=i),r};_w.sj_cook=_w.sj_cook||{get:function(n,t){var i=_d.cookie.match(new RegExp("\\b"+n+"=[^;]+")),r;return t&&i?(r=i[0].match(new RegExp("\\b"+t+"=([^&]*)")),r?r[1]:null):i?i[0]:null}};_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n});_w.ChatMergeLogHelper={getBotRequestId:function(){var n=_w.GlobalInstTracker,t;return typeof n!="undefined"&&n&&n.currBotRequestId?n.currBotRequestId:(t=location.href.match(new RegExp("[?&]IID=Codex-[^?&#]*")))&&t[0]?t[0].split("=Codex-")[1]:null}};_w.bbe="A:rms:answers:Shared:BingCore.Bundle";define("fallback",["require","exports"],function(n,t){function f(){return function(){for(var r,h,c,t=[],n=0;n<arguments.length;n++)t[n]=arguments[n];if(r=s(arguments.callee),u&&(h=e(r),h.toString()!=f().toString()))return h.apply(null,arguments);c=i[r].q;t[0]==="onPP"&&o();c.push(t)}}function s(n){for(var t in i)if(i[t].h===n)return t}function e(n,t){for(var u,e=n.split("."),i=_w,r=0;r<e.length;r++)u=e[r],typeof i[u]=="undefined"&&t&&(i[u]=r===e.length-1?f():{}),i=i[u];return i}function o(){var e=i["rms.js"].q,o,f,r,n,s,u,t;if(e.length>0)for(o=!1,f=0;f<e.length;f++){for(r=e[f],n=0;n<r.length;n++)if(s=_w.bbe,u=r[n][s],u||(u=r[n]["A:rmsBu0"]),u){t=_d.createElement("script");t.setAttribute("data-rms","1");t.setAttribute("crossorigin","anonymous");t.src=u;t.type="text/javascript";setTimeout(function(){_d.body.appendChild(t)},0);r.splice(n,1);o=!0;break}if(o)break}}function h(){var n,t,f;for(u=!1,n=0;n<r.length;n++)t=r[n],f=e(t,!0),i[t]={h:f,q:[]}}function c(){for(var t,n=0;n<r.length;n++){var o=r[n],s=i[o].q,h=e(o);for(t=0;t<s.length;t++)h.toString()!==f().toString()&&h.apply(null,s[t])}u=!0}function l(n,t,i,r){n&&((n===_w||n===_d||n===_d.body)&&t=="load"?_w.sj_evt.bind("onP1",i,!0):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i)}t.__esModule=!0;t.replay=void 0;var r=["rms.js","sj_evt.bind","sj_evt.fire","sj_jb","sj_wf","sj_cook.get","sj_cook.set","sj_pd","sj_sp","sj_be","sj_go","sj_ev","sj_ue","sj_evt.unbind","sj_et","Log.Log","sj_mo","sj_so"],i={},u=!1;_w.fb_is=o;t.replay=c;h();_w.sj_be=l});function lb(){_w.si_sendCReq&&sb_st(_w.si_sendCReq,800);_w.lbc&&_w.lbc()};(function(){function n(n){n=sb_ie?_w.event:n;(!n.altKey||n.ctrlKey||n.shiftKey)&&(n.key&&n.key==="Enter"||n.keyCode&&n.keyCode===13)&&_w.si_ct(sb_ie?n.srcElement:n.target,!1,n,"enter")}sj_be(document,"keydown",n,!1)})();(function(){function n(n){_w.si_ct(sb_ie?_w.event.srcElement:n.target,!1,_w.event||n)}sj_be(document,"mousedown",n,!1)})();ClTrCo={furl:!0};var ctcc=0,clc=_w.ClTrCo||{};_w.si_ct=function(n,t,i,r){var u,o,e,h,f,y,c,a,s,v,l;if(clc.SharedClickSuppressed)return!0;u="getAttribute";try{for(;n!==document.body;n=n.parentNode){if(!n||n===document||n[u]("data-noct"))break;if(o=(n.tagName==="A"||n[u]("data-clicks"))&&(n[u]("h")||n[u]("data-h")||n[u]("data-cspi"))||n[u]("_ct"),o){e=n[u]("_ctf");h=-1;i&&(i.type==="keydown"?h=-2:i.button!=null&&(h=i.button));e&&_w[e]||(e="si_T");e==="si_T"&&(f=n[u]("href"),_G!==undefined&&_G.EF!==undefined&&_G.EF.newtabredironclicktracking===1&&f.indexOf("/newtabredir")==0?(y=new RegExp("[?&]?url=([^&]*)(&|$)"),c=f.match(y),c&&(f=f.indexOf("&be=1")>=0?encodeURIComponent(atob(decodeURIComponent(c[1]))):c[1])):f=encodeURIComponent(n[u]("href")),clc.furl&&!n[u]("data-private")?o+="&url="+f:clc.mfurl&&(o+="&abc="+f));r&&(o+="&source="+r);a="";clc.mc&&(a="&c="+ctcc++);s=_w.ChatMergeLogHelper;typeof s!="undefined"&&s&&typeof s.getBotRequestId=="function"&&(v=s.getBotRequestId());l="&"+o+a;v&&(l+="&rid="+v);_w.si_sbwu(l)||_w[e]&&_w[e](l,n,i,h);break}if(t)break}}catch(p){_w.SharedLogHelper?SharedLogHelper.LogWarning("clickEX",null,p):(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.Warning","FID":"CI","Name":"JSWarning","Text":'+p.message+"}]"}return!0};_w.si_sbwu||(_w.si_sbwu=function(){return!1}),function(){_w._G&&(_G.si_ct_e="click")}();
+//]]>
+  </script>
+  <script crossorigin="anonymous" src="/rp/XjmDFJMt2Y0y9xQDddmKe1ensMQ.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+var wlc_d = 1500, wlc_t =63846921501;;var perf;(function(n){function f(n){return i.hasOwnProperty(n)?i[n]:n}function e(n){var t="S";return n==0?t="P":n==2&&(t="M"),t}function o(n){for(var c,i=[],t={},r,l=0;l<n.length;l++){var a=n[l],o=a.v,s=a.t,h=a.k;s===0&&(h=f(h),o=o.toString(36));s===3?i.push("".concat(h,":").concat(o)):(r=t[s]=t[s]||[],r.push("".concat(h,":").concat(o)))}for(c in t)t.hasOwnProperty(c)&&(r=t[c],i.push("".concat(e(+c),':"').concat(r.join(","),'"')));return i.push(u),i}for(var r=["redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","secureConnectionStart","connectEnd","requestStart","responseStart","responseEnd","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","unloadEventStart","unloadEventEnd","firstChunkEnd","secondChunkStart","htmlEnd","pageEnd","msFirstPaint"],u="v:1.1",i={},t=0;t<r.length;t++)i[r[t]]=t;n.compress=o})(perf||(perf={}));window.perf=window.perf||{},function(n){n.log=function(t,i){var u=n.compress(t),e,r;u.push('T:"CI.Perf",FID:"CI",Name:"PerfV2"');var s="/fd/ls/lsp.aspx?",h="sendBeacon",f=_w.ChatMergeLogHelper;typeof f!="undefined"&&typeof f.getBotRequestId=="function"&&(e=f.getBotRequestId(),e&&u.push('rid:"'.concat(e,'"')));var l="<E><T>Event.ClientInst<\/T><IG>".concat(_G.IG,"<\/IG><TS>").concat(i,"<\/TS><D><![CDATA[{").concat(u.join(","),"}]\]><\/D><\/E>"),c="<ClientInstRequest><Events>".concat(l,"<\/Events><STS>").concat(i,"<\/STS><\/ClientInstRequest>"),o=!_w.navigator||!navigator[h];if(!o)try{navigator[h](s,c)}catch(a){o=!0}o&&(r=sj_gx(),r.open("POST",s,!0),r.setRequestHeader("Content-Type","text/xml"),r.send(c))}}(window.perf);var perf;(function(n){function a(){return c(Math.random()*1e4)}function o(){return y?c(f.now())+l:+new Date}function v(n,r,f){t.length===0&&i&&sb_st(u,1e3);t.push({k:n,v:r,t:f})}function p(n){return i||(r=n),!i}function w(n,t){t||(t=o());v(n,t,0)}function b(n,t){v(n,t,1)}function u(){var u,f;if(t.length){for(u=0;u<t.length;u++)f=t[u],f.t===0&&(f.v-=
+00004000
+r);t.push({k:"id",v:e,t:3});n.log(t,o());t=[];i=!0}}function k(){r=o();e=a();i=!1;sj_evt.bind("onP1",u)}var s="performance",h=!!_w[s],f=_w[s],y=h&&!!f.now,c=Math.round,t=[],i=!1,l,r,e;h?l=r=f.timing.navigationStart:r=_w.si_ST?_w.si_ST:+new Date;e=a();n.setStartTime=p;n.mark=w;n.record=b;n.flush=u;n.reset=k;sj_be(window,"load",u,!1);sj_be(window,"beforeunload",u,!1)})(perf||(perf={}));_w.si_PP=function(n,t,i){var r,s,a,c,e,l,o,v;if(!_G.PPS){for(s=["FC","BC","SE","TC","H","BP",null];r=s.shift();)s.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));var u=_w.perf,h="navigation",r,f=i||_w.performance&&_w.performance.timing;if(f&&u){if(a=f.navigationStart,u.setStartTime(a),a>=0){for(r in f)c=f[r],typeof c=="number"&&c>0&&r!=="navigationStart"&&r!==h&&u.mark(r,c);_G.FCT&&u.mark("FN",_G.FCT);_G.BCT&&u.mark("BN",_G.BCT)}u.record("nav",h in f?f[h]:performance[h].type)}e="connection";l="";_w.navigator&&navigator[e]&&(l=',"net":"'.concat(navigator[e].type,'"'),navigator[e].downlinkMax&&(l+=',"dlMax":"'.concat(navigator[e].downlinkMax,'"')));o=_w.ChatMergeLogHelper;typeof o!="undefined"&&o&&typeof o.getBotRequestId=="function"&&(v=o.getBotRequestId());_G.PPImg=new Image;_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+s.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+l+(v?',"rid":"'+v+'"':"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:"");_G.PPS=1;sb_st(function(){u&&u.flush();sj_evt.fire("onPP");sj_evt.fire(_w.p1)},1)}};_w.onbeforeunload=function(){si_PP(new Date,"A")};sj_evt.bind("ajax.requestSent",function(){window.perf&&perf.reset()});var sj_log=function(n,t,i){var e=new RegExp('"',"g"),r=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(e,"")),u=_w.ChatMergeLogHelper,f;typeof u!="undefined"&&typeof u.getBotRequestId=="function"&&(f=u.getBotRequestId(),f&&(r+='","rid":"'+f));r+='"}]';(new Image).src=r};var BM=BM||{},adrule="."+_G.adc+" > ul";BM.rules={".b_scopebar":[0,0,0],".b_logo":[-1,-1,0],".b_searchboxForm":[100,40,0],"#id_h":[-1,0,0],"#b_tween":[-1,-1,1],"#b_results":[100,-1,1],"#b_context":[710,-1,1],".b_footer":[0,-1,0],"#b_notificationContainer":[-1,-1,0],"#ajaxMaskLayer":[-1,-1,0],"#me_gutter":[-1,-1,1],"#me_featurelist":[-1,-1,1],".sh_dayul":[-1,-1,1],".main":[-1,-1,1],".bottom":[-1,-1,0],".sw_menu":[-1,-1,1],"#Body_EventDetail":[-1,-1,1],".sb_adsNv2 > ul":[-1,-1,1],"img,div[data-src],.rms_img":[-1,-1,0],iframe:[-1,-1,0]};BM.rules[adrule]=[-1,-1,1];var BM=BM||{};(function(n){function u(n,u){n in t||(t[n]=[]);!u.compute||n in r||(r[n]=u.compute);!u.unload||n in i||(i[n]=u.unload);u.load&&u.load()}function f(n,i){t[n].push({t:s(),i:i})}function e(n){return n in i&&i[n](),n in t?t[n]:void 0}function o(){for(var n in r)r[n]()}function s(){return window.performance&&performance.now?Math.round(performance.now()):new Date-window.si_ST}var t={},i={},r={};n.wireup=u;n.enqueue=f;n.dequeue=e;n.trigger=o})(BM);(function(n){function i(){var i=document.documentElement,r=document.body,u="innerWidth"in window?window.innerWidth:i.clientWidth,f="innerHeight"in window?window.innerHeight:i.clientHeight,e=window.pageXOffset||i.scrollLeft,o=window.pageYOffset||i.scrollTop,s=document.visibilityState||"default";n.enqueue(t,{x:e,y:o,w:u,h:f,dw:r.clientWidth,dh:r.clientHeight,v:s})}var t="V";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function i(){var e,o,u,s,f,r;if(document.querySelector&&document.querySelectorAll){e=[];o=n.rules;for(u in o)for(s=o[u],u+=!s[2]?"":" >*",f=document.querySelectorAll(u),r=0;r<f.length;r++){var i=f[r],h=0,c=0,l=i.offsetWidth,a=i.offsetHeight;do h+=i.offsetLeft,c+=i.offsetTop;while(i=i.offsetParent);e.push({_e:f[r],x:h,y:c,w:l,h:a})}n.enqueue(t,e)}}var t="L";n.wireup(t,{load:null,compute:i,unload:null})})(BM);(function(n){function f(){u(sj_be,r)}function e(){var t=""+Math.round((new Date).getTime()/1e3),n;typeof sj_cook!="undefined"&&sj_cook.set("SRCHHPGUSR","HV",t,!1,"/");n=document.getElementById("b_content");n&&(n.style.visibility="hidden");_G&&_G.lsUrl&&((new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.BM","FID":"CI","Name":"HV"}]')}function r(i){return i&&n.enqueue(t,i),!0}function o(){u(sj_ue,r)}function u(n,t){for(var u,r=0;r<i.length;r++)u=i[r],n(u==="resize"?window:document,window.navigator.pointerEnabled?u.replace("mouse","pointer"):u,t,!1)}var t="EVT",i=["click","mousedown","mouseup","touchstart","touchend","mousemove","touchmove","scroll","keydown","resize"];n.wireup(t,{load:f,compute:e,unload:o})})(BM);
+//]]>
+  </script>
+  <script crossorigin="anonymous" src="/rp/xaaagZPaOaaDByfCzYNs21gJ5yc.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+FallBackToDefaultProfilePic = function (e) { var new_element = document.createElement('span'); new_element.setAttribute('id', 'id_p'); new_element.setAttribute('class', 'sw_spd id_avatar'); new_element.setAttribute('aria-label', "Imagine de profil implicitÄ"); new_element.setAttribute('role', 'link'); var p = e.parentNode; p && p.replaceChild(new_element, e); };var _d,sb_de;typeof _d=="undefined"&&(_d=document);sb_de=_d.documentElement;
+//]]>
+  </script>
  </head>
- <body>
-  <div class="ip-follow-us-popup">
-   <div class="ip-follow-us-popup__side">
-    <img alt="Like it!" src="/img/facebook-like-thumb.svg"/>
-   </div>
-   <div class="ip-follow-us-popup__header">
-    <p>
-     Join us on Facebook!
-    </p>
-   </div>
-   <div class="ip-follow-us-popup__body">
-    <div class="ip-follow-us-popup__body__ok">
-     <img alt="Like it!" src="/img/facebook-like-thumb.svg"/>
-    </div>
-   </div>
-   <div class="ip-follow-us-popup__footer">
-    <div>
-     <a class="ip-follow-us-popup__footer__nope" href="#">
-      Nope, thanks anyway.
-     </a>
-    </div>
-   </div>
-  </div>
-  <div class="ip-cookie-banner">
-   <div class="ip-container">
-    <p>
-     We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. By using our site, you acknowledge that you have read and understand our
-     <a href="{{ url('/privacy/') }}">
-      Privacy Policy
-     </a>
-     , and our
-     <a href="{{ url('/tos/') }}">
-      Terms of Service
-     </a>
-     . Your use of this site is subject to these policies and terms. |
-     <a class="ip-cookie-banner__close" href="#">
-      ok, got it
-     </a>
-    </p>
-   </div>
-  </div>
-  <div class="ip-header">
-   <div class="ip-container">
-    <div class="ip-header__logo">
-     <a href="/">
-      **internal / pointers
-     </a>
-    </div>
-    <div class="ip-header__links">
-     <ul>
-      <li>
-       <a href="/rss">
-        rss
-       </a>
-      </li>
-      <li>
-       <a href="/about">
-        about
-       </a>
-      </li>
-     </ul>
-    </div>
-   </div>
-  </div>
-  <div class="ip-sub-header">
-  </div>
-  <div class="ip-body">
-   <div class="ip-container">
-    <div class="ip-post">
-     <div class="ip-post__info">
-      <p>
-       — Written by Triangles on January 01, 2022 
-								• updated on January 05, 2022  
-								• ID 94 —
-      </p>
+ <body class="b_respl">
+  <header class="" id="b_header" role="banner">
+   <a data-priority="2" href="#" id="b_skip_to_content" role="button" tabindex="0">
+    <div class="text-back">
+     <div class="text" href="#">
+      Salt la conÈinut
      </div>
-     <div class="ip-post__title">
-      <h1>
-       Making HTTP requests with sockets in Python
-      </h1>
+    </div>
+   </a>
+   <form action="/search" class="hassbi" id="sb_form">
+    <a class="b_logoArea" h="ID=SERP,5038.1" href="/?FORM=Z9FD1" target="">
+     <h1 class="b_logo" title="Ãnapoi la CÄutare Bing">
+     </h1>
+    </a>
+    <div class="b_searchboxForm" role="search">
+     <div id="sb_search">
+      <a h="ID=SERP,5039.1" href="javascript:void(0);" tabindex="-1">
+       <div data-sbtip="CÄutaÈi pe web" id="sb_go_par">
+        <div class="sb_icon" id="b_icon_spyglass">
+        </div>
+        <input class="b_searchboxSubmit" id="sb_form_go" name="go" tabindex="0" type="submit" value="CÄutare"/>
+       </div>
+      </a>
      </div>
-     <div class="ip-post__intro">
-      <p>
-       A practical introduction to network programming, from socket configuration to network buffers and HTTP connection modes.
-      </p>
+     <input aria-autocomplete="both" aria-label="IntroduceÈi cÄutarea aici â sugestiile de cÄutare vor apÄrea Ã®n timp ce tastaÈi" autocapitalize="off" autocomplete="off" autocorrect="off" class="b_searchbox b_softkey" dir="" id="sb_form_q" maxlength="1000" name="q" placeholder="ÃntrebaÈi-mÄ orice..." spellcheck="false" type="search" value="wolfram alpha"/>
+     <div class="sb_clrhov" data-sbtipx="GoliÈi" data-second-sbtipx="GoliÈi" id="sb_clt">
+      <a aria-label="ÈtergeÈi textul" data-second-href="javascript:void(0)" id="sw_clx" role="button" tabindex="0">
+       <div class="sw_close">
+       </div>
+      </a>
      </div>
-     <div class="ip-post__other-box">
-      <div class="ip-post__other-box__section-title">
-       Other articles from this series
+     <span data-sbtip="CÄutaÈi utilizând o tastaturÄ vizualÄ" id="vkeyIcon">
+      <div class="sb_icon" id="b_icon_keyboard">
       </div>
-      <ul class="ip-post__other-box__post-list">
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/introduction-computer-networks">
-           Introduction to computer networks
-          </a>
-         </span>
-         —
-         <span class="intro">
-          A bird's-eye view on the art of resource sharing from one computer to another.
-         </span>
-        </p>
-       </li>
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/understanding-internet">
-           Understanding the Internet
-          </a>
-         </span>
-         —
-         <span class="intro">
-          “Is that thing still around?” — Homer Simpson
-         </span>
-        </p>
-       </li>
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/introduction-tcp-ip-protocol">
-           Introduction to the TCP/IP protocol
-          </a>
-         </span>
-         —
-         <span class="intro">
-          The official rules that allow computers to communicate over the Internet.
-         </span>
-        </p>
-       </li>
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/introduction-ip-internet-protocol">
-           Introduction to IP: the Internet Protocol
-          </a>
-         </span>
-         —
-         <span class="intro">
-          From routing to IP addressing, a look at the protocol that gives life to the Internet.
-         </span>
-        </p>
-       </li>
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/introduction-tcp-transmission-control-protocol">
-           Introduction to TCP: Transmission Control Protocol
-          </a>
-         </span>
-         —
-         <span class="intro">
-          One of the most important, high-level protocols in the Internet Protocol Suite.
-         </span>
-        </p>
-       </li>
-       <li>
-        <p>
-         <span class="title">
-          <a href="/post/network-programming-beginners-overview">
-           Network programming for beginners: introduction to sockets
-          </a>
-         </span>
-         —
-         <span class="intro">
-          A theoretical look at one of the most popular programming tools for exchanging data over computer networks.
-         </span>
-        </p>
-       </li>
-      </ul>
+     </span>
+     <div data-idprefix="sb" data-ptn="" id="sbiarea">
+      <div data-lgdgevt="0" data-sbtip="CÄutaÈi utilizând o imagine" id="sb_sbip">
+       <div aria-label="CÄutaÈi utilizÃ¢nd o imagine" data-scrtl="1" id="sb_sbi" role="button" tabindex="0">
+        <div class="sb_icon disabled" id="sbi_b">
+        </div>
+       </div>
+      </div>
      </div>
-     <div class="ip-post__body">
-      <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1778432007040046">
-      </script>
-      <!-- internalpointers responsive -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-1778432007040046" data-ad-format="auto" data-ad-slot="1269254897" data-full-width-responsive="true" style="display:block">
-      </ins>
-      <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      <p>
-       Welcome to the 7th episode of the
-       <a href="https://internalpointers.com/post-group/networking-101">
-        Networking 101 series
-       </a>
-       ! In the
-       <a href="https://internalpointers.com/post/network-programming-beginners-overview">
-        previous chapter
-       </a>
-       I spent some time digging into the concept of
-       <strong>
-        sockets
-       </strong>
-       and the
-       <strong>
-        Berkeley sockets interface
-       </strong>
-       . This time I want to explore the practical side of network programming by issuing an
-       <strong>
-        HTTP request
-       </strong>
-       through Python and its
-       <a href="https://docs.python.org/3/library/socket.html">
-        <code>
-         socket
-        </code>
-        module
-       </a>
-       .
-      </p>
-      <h2>
-       Sockets: a quick refresher
-      </h2>
-      <p>
-       A socket is a software object that allows programs to exchange data. The most popular socket API is the Berkeley sockets interface, usually implemented by operating systems in low-level languages such as C. I will be using Python for this experiment as its
-       <code>
-        socket
-       </code>
-       module follows very closely the original C implementation, without the memory-related complexities imposed by the C language.
-      </p>
-      <p>
-       <strong>
-        Hypertext Transfer Protocol (HTTP)
-       </strong>
-       is a protocol for fetching resources such as HTML documents and is the foundation of the
-       <a href="https://internalpointers.com/post/understanding-internet#internet-applications">
-        World Wide Web
-       </a>
-       as we know it today. The point of this experiment is to use sockets to send an HTTP request to a web server out there and read its response: in other words, I will write an ultra-primitive web browser.
-      </p>
-      <p>
-       I haven't touched HTTP in this series yet, but don't worry: it's just a matter or sending and receiving text strings. I assume however you know how Python works and a bit of familiarity with the
-       <a href="https://internalpointers.com/post/introduction-tcp-ip-protocol">
-        TCP/IP protocol stack
-       </a>
-       . Let's get started!
-      </p>
-      <h2>
-       Python's HTTP request: first attempts
-      </h2>
-      <p>
-       As explained in the previous chapter, a socket must be created and configured first. Then you connect it to a host and start sending/receiving data. Finally you close the socket when you are done with it.
-      </p>
-      <h3>
-       1. Configuring the socket
-      </h3>
-      <p>
-       First thing import the
-       <code>
-        socket
-       </code>
-       module:
-      </p>
-      <pre><code class="lang-python">import socket
-</code></pre>
-      <p>
-       Now it's time to create a new socket object through the
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket">
-        <code>
-         socket()
-        </code>
-        constructor
-       </a>
-       . It expects two parameters: the
-       <strong>
-        socket family
-       </strong>
-       and the
-       <strong>
-        socket type
-       </strong>
-       , chosen from a set of constants that start with the
-       <code>
-        AF_
-       </code>
-       prefix for the family and the
-       <code>
-        SOCK_
-       </code>
-       prefix for the type. The full list is available
-       <a href="https://docs.python.org/3/library/socket.html#constants">
-        here
-       </a>
-       .
-      </p>
-      <p>
-       What constants should we pick? HTTP is based on the
-       <a href="https://internalpointers.com/post/introduction-tcp-transmission-control-protocol">
-        <strong>
-         Transmission Control Protocol (TCP)
-        </strong>
-       </a>
-       , which in turn is based on the
-       <a href="https://internalpointers.com/post/introduction-ip-internet-protocol">
-        <strong>
-         Internet Protocol (IP)
-        </strong>
-       </a>
-       . This means that HTTP is
-       <em>
-        stream-oriented
-       </em>
-       (because of TCP) and wants an
-       <em>
-        IP address
-       </em>
-       to work (because of IP). Those requirements are fulfilled by picking:
-      </p>
-      <ol>
-       <li>
-        <p>
-         the
-         <code>
-          AF_INET
-         </code>
-         constant for the socket family. It stands for
-         <em>
-          In
-         </em>
-         tern
-         <em>
-          et
-         </em>
-         Protocol with IPv4 addresses;
-        </p>
-       </li>
-       <li>
-        <p>
-         the
-         <code>
-          SOCK_STREAM
-         </code>
-         for the socket type. We want a
-         <em>
-          stream
-         </em>
-         -based protocol because of TCP.
-        </p>
-       </li>
-      </ol>
-      <p>
-       Those constants are passed to the
-       <code>
-        socket()
-       </code>
-       constructor:
-      </p>
-      <pre><code class="lang-python">sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-</code></pre>
-      <p>
-       We have now a working socket object
-       <code>
-        sock
-       </code>
-       configured for HTTP transmission. This type of socket is also known as
-       <strong>
-        stream socket
-       </strong>
-       .
-      </p>
-      <h3>
-       2. Connecting the socket to a server
-      </h3>
-      <p>
-       The next step is to choose a web address to connect to. I will be using
-       <code>
-        www.example.com
-       </code>
-       but you can pick whatever you like — just don't abuse it!
-      </p>
-      <p>
-       In the
-       <a href="https://internalpointers.com/post/introduction-tcp-transmission-control-protocol#client-server-model">
-        5th episode of this series
-       </a>
-       I mentioned how TCP uses special numbers called
-       <strong>
-        ports
-       </strong>
-       to determine the type of service you want from the server. Web servers usually provide HTTP services on port 80, so I'll pick that too.
-      </p>
-      <p>
-       The web address and the port number are then passed to the
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket.connect">
-        <code>
-         connect()
-        </code>
-       </a>
-       method as a tuple:
-      </p>
-      <pre><code class="lang-python">sock.connect(("www.example.com", 80))
-</code></pre>
-      <p>
-       At this point our socket has established a connection to the web server that is responsible for serving web pages from
-       <code>
-        www.example.com
-       </code>
-       on port 80. Where's the IP address, anyway? The
-       <code>
-        connect()
-       </code>
-       method automatically translates the string
-       <code>
-        www.example.com
-       </code>
-       into the corresponding IP address by issuing a
-       <a href="https://en.wikipedia.org/wiki/Domain_Name_System">
-        <strong>
-         DNS lookup
-        </strong>
-       </a>
-       . Don't worry about it for now; I will write an article on how the DNS mechanism works in the future.
-      </p>
-      <h3>
-       3. Sending data to the server
-      </h3>
-      <p>
-       Here comes the fun. An HTTP communication always starts with a
-       <em>
-        request
-       </em>
-       made by the client (i.e. us!) with the page we want to obtain, followed by some additional information. Such request is sent as a normal text string and looks like this:
-      </p>
-      <pre><code class="lang-nocode">GET / HTTP/1.1\r\nHost:www.example.com\r\n\r\n
-</code></pre>
-      <p>
-       In words: give me (
-       <code>
-        GET
-       </code>
-       ) the index page (
-       <code>
-        /
-       </code>
-       ) through
-       <code>
-        HTTP
-       </code>
-       version
-       <code>
-        1.1
-       </code>
-       (HTTP comes in multiple versions,
-       <code>
-        1.1
-       </code>
-       is OK for our purpose) from the host called
-       <code>
-        www.example.com
-       </code>
-       . Fields are separated by
-       <code>
-        \r\n
-       </code>
-       and the request ends with
-       <code>
-        \r\n\r\n
-       </code>
-       .
-      </p>
-      <p>
-       It's now time to send this string to the web server, by calling the
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket.send">
-        <code>
-         send()
-        </code>
-       </a>
-       method on our socket. Normally, data is sent over the Internet in binary form, that is as a bunch of
-       <code>
-        0
-       </code>
-       s and
-       <code>
-        1
-       </code>
-       s packed together: this is why the
-       <code>
-        send()
-       </code>
-       method wants
-       <em>
-        bytes
-       </em>
-       in input. So our text string must be converted to binary first. In Python this is done by prepending a
-       <code>
-        b
-       </code>
-       to it:
-      </p>
-      <pre><code class="lang-python">b"GET / HTTP/1.1\r\nHost:www.example.com\r\n\r\n"
-</code></pre>
-      <p>
-       The string now has been turned into a
-       <a href="https://docs.python.org/3/library/stdtypes.html#bytes">
-        sequence of bytes
-       </a>
-       , ready for transmission:
-      </p>
-      <pre><code class="lang-python">sock.send(b"GET / HTTP/1.1\r\nHost:www.example.com\r\n\r\n")
-</code></pre>
-      <h3>
-       4. Receiving data from the server
-      </h3>
-      <p>
-       At this point the server should have received our request and is ready to reply back with some data, that is the page we asked for. The data is obtained by calling the
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket.recv">
-        <code>
-         recv()
-        </code>
-       </a>
-       method:
-      </p>
-      <pre><code class="lang-python">response = sock.recv(4096)
-</code></pre>
-      <p>
-       The
-       <code>
-        recv()
-       </code>
-       method wants the maximum amount of data to be received at once, in bytes: 4096 should be good enough for now. The method returns the data as a byte string, the same format we used for the request. So we can either print it as it is, or convert it into something meaningful by
-       <em>
-        decoding
-       </em>
-       it with the
-       <a href="https://docs.python.org/3/library/stdtypes.html#bytes.decode">
-        <code>
-         decode()
-        </code>
-       </a>
-       method:
-      </p>
-      <pre><code class="lang-python">print(response)             # raw byte string
-print(response.decode())    # UTF-8-encoded string
-</code></pre>
-      <p>
-       Either way we should end up with a text string made of the
-       <strong>
-        response headers
-       </strong>
-       followed by the
-       <strong>
-        response body
-       </strong>
-       . The former are additional metadata, while the latter is the actual HTML code of the web page you have requested.
-      </p>
-      <h3>
-       5. Closing the socket
-      </h3>
-      <p>
-       Once the entire response has been received,
-       <a href="https://docs.python.org/3/library/socket.html#socket.close">
-        <code>
-         close()
-        </code>
-       </a>
-       the socket:
-      </p>
-      <pre><code class="lang-python">sock.close()
-</code></pre>
-      <p>
-       A socket should always be closed properly once you're done with it. And now the code we have produced so far:
-      </p>
-      <pre><code class="lang-python">import socket
-
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.connect(("www.example.com", 80))
-sock.send(b"GET / HTTP/1.1\r\nHost:www.example.com\r\n\r\n")
-response = sock.recv(4096)
-sock.close()
-print(response.decode())
-</code></pre>
-      <p>
-       It's a good start, but we can do better: let's see how.
-      </p>
-      <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1778432007040046">
-      </script>
-      <!-- internalpointers responsive -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-1778432007040046" data-ad-format="auto" data-ad-slot="1269254897" data-full-width-responsive="true" style="display:block">
-      </ins>
-      <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      <h2>
-       Understanding network buffers
-      </h2>
-      <p>
-       Two things can go wrong in the program above: 1) the request might be sent incompletely, 2) the response might be received incompletely. Let's introduce the concept of
-       <strong>
-        network buffers
-       </strong>
-       to understand why.
-      </p>
-      <p>
-       When you move stuff through a socket, data is not transmitted right away through the network card one byte at a time. Instead, the operating system temporarily puts it inside a
-       <strong>
-        buffer
-       </strong>
-       — a chunk of memory used to hold data while it is being moved from one place to another.
-      </p>
-      <p>
-       So when you
-       <code>
-        send()
-       </code>
-       something, the operating system copies a piece of your message into the buffer, then flushes it to the outside world when it's full. Receiving data works similarly, just the other way around. As bytes sent by the server arrive to your network card, the operating system collects them into another network buffer, waiting for your app to
-       <code>
-        recv()
-       </code>
-       it.
-      </p>
-      <p>
-       You have no control over those buffers: they might be empty, partially filled, completely filled with more data to be sent/received and so on, for multiple reasons — slow network, busy operating system, servers down, ... . The only thing you can do is to keep
-       <code>
-        send()
-       </code>
-       ing and
-       <code>
-        recv()
-       </code>
-       ing
-       <em>
-        until there is data available
-       </em>
-       , if you want to be 100% sure you are not missing anything.
-      </p>
-      <h3>
-       A better send
-      </h3>
-      <p>
-       The
-       <code>
-        send()
-       </code>
-       method returns the number of bytes actually sent: since we know the length of the message we want to send, let's keep track of the total bytes sent on each
-       <code>
-        send()
-       </code>
-       call, compare that value to the length of the message and eventually send what's left. Something like this:
-      </p>
-      <pre><code class="lang-python">request = b"GET / HTTP/1.1\r\nHost:www.example.com\r\n\r\n"
-sent    = 0
-while sent &lt; len(request):
-    sent = sent + sock.send(request[sent:])    # Send a portion of 'request', starting from 'sent' byte
-</code></pre>
-      <p>
-       Additionally, Python features the
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket.sendall">
-        <code>
-         sendall()
-        </code>
-       </a>
-       method that behaves exactly as the snippet above: use it if you don't want to be bothered by internals.
-      </p>
-      <h3>
-       A better receive
-      </h3>
-      <p>
-       The original code has an additional problem: 4096 bytes might not be enough to store the full response. We can fix that and the buffering issue by looping over
-       <code>
-        recv()
-       </code>
-       as we did above with
-       <code>
-        send()
-       </code>
-       . However things are trickier here, because we don't know exactly how long the incoming message will be beforehand. This is due to the stream-oriented nature of TCP, where data is seen as
-       <em>
-        an unlimited stream of bytes
-       </em>
-       , with no delimiters or other message boundaries.
-      </p>
-      <p>
-       Not all hope is lost, though. The
-       <code>
-        recv()
-       </code>
-       method returns the number of bytes received, and
-       <em>
-        0 bytes are returned
-       </em>
-       when the server has terminated the connection. So we can loop over
-       <code>
-        recv()
-       </code>
-       until we get 0 bytes in return. Something like this:
-      </p>
-      <pre><code class="lang-python"># [...]
-response = b""
-while True:
-    chunk = sock.recv(4096)
-    if len(chunk) == 0:     # No more data received, quitting
-        break
-    response = response + chunk;
-# [...]
-</code></pre>
-      <p>
-       The code should now be ready to handle messages of any length, or at least should be capable of receiving all the data sent by the server. However if you try to run it you will notice that the program gets stuck before printing the final response. Why?
-      </p>
-      <h2>
-       HTTP connection mode versus blocking sockets
-      </h2>
-      <p>
-       The first release of HTTP (version 1.0) uses one socket per transfer. You send a request, the server sends a reply, then it closes the connection. When the connection is closed your socket can be trashed: there's no way to use it again. Want to issue a new request? Just create a new socket and start over again. Over time this approach turned out to be very limited, so in HTTP version 1.1 — the version we are using! — new connection models were created. In HTTP 1.1 all connections are
-       <strong>
-        persistent
-       </strong>
-       unless declared otherwise: the server keeps the connection alive so that the socket can be reused for additional transmission.
-      </p>
-      <p>
-       Unfortunately the persistent mode clashes a bit with sockets, which are
-       <strong>
-        blocking
-       </strong>
-       by default: they pause the program waiting for data to be sent or received. Or better, they block until some data — even a single byte — is available in the network buffers. Since the server never closes the connection in persistent mode, the socket just waits for more data to arrive. No more data will be sent by the server (unless we issue a new request), so the socket hangs forever.
-      </p>
-      <p>
-       There are three ways to fix the problem in addition to revert back to HTTP/1.0: 1) disable the persistent HTTP connection, 2) set a
-       <strong>
-        timeout
-       </strong>
-       on the socket or 3) read the HTTP response headers to determine when to quit. Let's take a look.
-      </p>
-      <h3>
-       1. Disable the persistent HTTP connection
-      </h3>
-      <p>
-       The
-       <code>
-        Connection
-       </code>
-       header controls whether the connection with the server stays open after the transmission finishes. In HTTP/1.1 the default value is
-       <code>
-        keep-alive
-       </code>
-       . Change it to
-       <code>
-        close
-       </code>
-       in the HTTP request string to mimic the HTTP/1.0 default behavior:
-      </p>
-      <pre><code class="lang-python">sock.send(b"GET / HTTP/1.1\r\nHost:www.example.com\r\nConnection: close\r\n\r\n")
-</code></pre>
-      <p>
-       This way the server will gracefully close the connection once all the data is sent. The socket detects it,
-       <code>
-        recv()
-       </code>
-       returns 0 and the code can make progress.
-      </p>
-      <h3>
-       2. Set a
-       <strong>
-        timeout
-       </strong>
-       on the socket
-      </h3>
-      <p>
-       You can decide how long the socket should block before giving up. This is done by calling
-       <a href="https://docs.python.org/3/library/socket.html#socket.socket.settimeout">
-        <code>
-         settimeout()
-        </code>
-       </a>
-       on the socket object during configuration. Now all socket operations (
-       <code>
-        connect()
-       </code>
-       ,
-       <code>
-        send()
-       </code>
-       ,
-       <code>
-        recv()
-       </code>
-       , ...) will raise a
-       <a href="https://docs.python.org/3/library/socket.html#socket.timeout">
-        <code>
-         socket.timeout
-        </code>
-       </a>
-       exception if they take more time than requested. You can catch that error while calling
-       <code>
-        recv()
-       </code>
-       in the
-       <code>
-        while
-       </code>
-       loop and interpret it as the end of data. For example:
-      </p>
-      <pre><code class="lang-python">import socket
-
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.settimeout(10)  # In seconds. Choose a value that makes sense to you
-# [...]
-response = b""
-try:
-    while True:
-        response = response + sock.recv(4096);
-except socket.timeout as e:
-    print("Time out!")
-# [...]
-</code></pre>
-      <p>
-       Note: in Python 3.10 and greater
-       <code>
-        socket.timeout
-       </code>
-       is just a deprecated alias for
-       <a href="https://docs.python.org/3/library/exceptions.html#TimeoutError">
-        <code>
-         TimeoutError
-        </code>
-       </a>
-       exception.
-      </p>
-      <h3>
-       3. Read the HTTP response headers to determine when to quit
-      </h3>
-      <p>
-       The
-       <code>
-        Content-Length
-       </code>
-       response header indicates the size of the message body, in bytes, that the server is sending you back. The idea here is to keep checking the incoming data for the presence of that header and read its value when available. Then you can stop
-       <code>
-        recv()
-       </code>
-       ing data from the socket as soon as you got a number of bytes that matches the value reported by
-       <code>
-        Content-Length
-       </code>
-       .
-      </p>
-      <p>
-       Parsing HTTP responses is a bit annoying but doable also without a library. Each header is separated by
-       <code>
-        \r\n
-       </code>
-       and the body (i.e. the actual HTML code) starts after
-       <code>
-        \r\n\r\n
-       </code>
-       . Obviously this approach only works with HTTP: other protocols might send the content length in a different format, or might not send it at all.
-      </p>
-      <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1778432007040046">
-      </script>
-      <!-- internalpointers responsive -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-1778432007040046" data-ad-format="auto" data-ad-slot="1269254897" data-full-width-responsive="true" style="display:block">
-      </ins>
-      <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      <h2>
-       Final notes
-      </h2>
-      <p>
-       This article wants to be a practical introduction to Berkeley sockets over a stream-based protocol. I've just scratched the surface of the topic; the following is a list of cool things to keep in mind:
-      </p>
-      <ul>
-       <li>
-        <p>
-         All socket methods used along the way can throw other exceptions beyond
-         <code>
-          socket.timeout
-         </code>
-         . I didn't do it for brevity, but you should catch them and act accordingly;
-        </p>
-       </li>
-       <li>
-        <p>
-         A socket can be set to
-         <strong>
-          non-blocking
-         </strong>
-         mode. All socket operations (
-         <code>
-          connect()
-         </code>
-         ,
-         <code>
-          send()
-         </code>
-         ,
-         <code>
-          recv()
-         </code>
-         , ...) no longer wait in this mode: they
-         <em>
-          return immediately
-         </em>
-         as soon as you call them. This solves the problem of hanging sockets, however writing a correct program with non-blocking functions is quite tricky. I will try to rethink the code seen so far in a non-blocking way in one of the next articles;
-        </p>
-       </li>
-       <li>
-        <p>
-         Our socket was configured to run over IPv4. You can switch it to IPv6 by setting the socket family to
-         <code>
-          AF_INET6
-         </code>
-         during the configuration. The code changes a little bit though, especially the
-         <code>
-          connect()
-         </code>
-         part.
-         <a href="https://docs.python.org/3/library/socket.html#example">
-          This example in the official documentation
+     <div data-ep="0" data-evt="" data-iconpl="1" data-iid=".5079" data-ptn="Web" id="sbicom_loader" style="display:none">
+     </div>
+     <input id="sa_qs" name="qs" type="hidden" value="ds"/>
+     <input name="form" type="hidden" value="QBRE"/>
+    </div>
+   </form>
+   <div aria-label="Premii Èi preferinÈe pentru cont" data-priority="2" id="id_h" role="complementary">
+    <a aria-controls="id_d" aria-expanded="false" aria-haspopup="true" class="id_button" data-clarity-mask="true" h="ID=SERP,5045.1" href="javascript:void(0);" id="id_l">
+     <div>
+      <span class="cbtn" data-appns="SERP" data-k="5082.1" data-wire="I;button_init;; |" id="C62AB8_1_btn">
+       <input aria-label="" id="id_a" name="submit" type="submit" value="Conectare"/>
+      </span>
+     </div>
+     <span aria-hidden="true" id="id_n" style="display:none">
+     </span>
+     <img alt="Imagine de profil" class="id_avatar sw_spd" data-alt="" data-src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" id="id_p" role="presentation" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" style="display:none"/>
+     <div id="id_linkicon" style="position:relative;vertical-align:top;margin-right:-10px;right:10px;display:none">
+      <svg class="id_linkicon_svg" fill="none" height="16" style="width:16px;height:16px;vertical-align:top;margin-top:27px;" viewbox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#a)">
+        <circle cx="10" cy="9" fill="#fff" r="8">
+        </circle>
+       </g>
+       <path d="M8.2 6a.6.6 0 0 1 .07 1.196L8.2 7.2H7a1.8 1.8 0 0 0-.106 3.597L7 10.8h1.2a.6.6 0 0 1 .07 1.196L8.2 12H7a3 3 0 0 1-.13-5.997L7 6h1.2ZM13 6a3 3 0 0 1 .13 5.997L13 12h-1.2a.6.6 0 0 1-.07-1.196l.07-.004H13a1.8 1.8 0 0 0 .106-3.597L13 7.2h-1.2a.6.6 0 0 1-.07-1.196L11.8 6H13ZM7 8.4h6a.6.6 0 0 1 .07 1.196L13 9.6H7a.6.6 0 0 1-.07-1.196L7 8.4h6-6Z" fill="#767676">
+       </path>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterunits="userSpaceOnUse" height="20" id="a" width="20" x="0" y="0">
+         <feflood flood-opacity="0" result="BackgroundImageFix">
+         </feflood>
+         <fecolormatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </fecolormatrix>
+         <feoffset dy="1">
+         </feoffset>
+         <fegaussianblur stddeviation="1">
+         </fegaussianblur>
+         <fecomposite in2="hardAlpha" operator="out">
+         </fecomposite>
+         <fecolormatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0">
+         </fecolormatrix>
+         <feblend in2="BackgroundImageFix" result="effect1_dropShadow_1352_97902">
+         </feblend>
+         <feblend in="SourceGraphic" in2="effect1_dropShadow_1352_97902" result="shape">
+         </feblend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </a>
+    <span _iid="SERP.5064" id="id_d">
+    </span>
+    <a aria-controls="bepfo" aria-expanded="false" aria-haspopup="true" aria-label="Microsoft Rewards " class="id_button toolTip" h="ID=SERP,5053.1" href="javascript:void(0)" id="id_rh" role="button">
+     <span class="serp" id="id_rc">
+      Rewards
+     </span>
+     <span class="rwds_svg serp pc" id="rewards_header_icon serp">
+      <span class="rhlined serp">
+      </span>
+      <span class="rhfill serp">
+      </span>
+      <svg id="rh_meter" xmlns="http://www.w3.org/2000/svg">
+       <circle class="serp" cx="20" cy="20" id="rh_animcrcl" r="14" stroke-dasharray="88, 88" transform="rotate(-90,20,20)">
+       </circle>
+      </svg>
+     </span>
+    </a>
+    <a class="b_hide" data-title="Microsoft Rewards" h="ID=SERP,5052.1" href="/rewards/dashboard" id="id_rwl">
+    </a>
+    <span _ig="56243D86F2C4482F8078392B76A20654" _iid="SERP.5051" id="nc_iid">
+    </span>
+    <a aria-controls="id_hbfo" aria-expanded="false" aria-haspopup="true" aria-label="SetÄri Èi linkuri rapide" class="idp_ham nohphbtop" h="ID=SERP,5062.1" href="javascript:void(0);" id="id_sc" role="button" tabindex="0">
+    </a>
+    <span _iid="SERP.5063" aria-hidden="true" aria-labelledby="id_sc" aria-modal="true" class="slide_up nohpfo" id="id_hbfo" role="menu" tabindex="-1">
+    </span>
+   </div>
+   <span class="b_hide" id="langChange">
+    <a data-noajax="1" h="ID=SERP,5036.1" href="/search?q=wolfram+alpha&amp;setlang=en&amp;sid=30CDD38EB74F671A1A08C7C2B6426659">
+     English
+    </a>
+   </span>
+   <nav aria-label="Filtru de cÄutare" class="b_scopebar" role="navigation">
+    <ul class="b_scopehide">
+     <li class="b_active" data-menuurl="" data-query="" id="b-scopeListItem-web">
+      <a aria-current="page" class="" h="ID=SERP,5027.1" href="/?scope=web&amp;FORM=HDRSC1">
+       <span class="conv_mode_scope_title">
+        Toate
+       </span>
+       <span class="serp_mode_scope_title">
+        Toate
+       </span>
+      </a>
+     </li>
+     <li class="" data-menuurl="" data-query="" id="b-scopeListItem-images">
+      <a aria-current="false" class="" h="ID=SERP,5028.1" href="/images/search?q=wolfram+alpha&amp;FORM=HDRSC2">
+       Imagini
+      </a>
+     </li>
+     <li class="" data-menuurl="" data-query="" id="b-scopeListItem-video">
+      <a aria-current="false" class="" h="ID=SERP,5029.1" href="/videos/search?q=wolfram+alpha&amp;FORM=HDRSC3">
+       Videoclipuri
+      </a>
+     </li>
+     <li class="" data-menuurl="" data-query="" id="b-scopeListItem-local">
+      <a aria-current="false" class="" h="ID=SERP,5030.1" href="/maps?q=wolfram+alpha&amp;FORM=HDRSC4">
+       HÄrÈi
+      </a>
+     </li>
+     <li class="" data-menuurl="" data-query="" id="b-scopeListItem-news">
+      <a aria-current="false" class="" h="ID=SERP,5031.1" href="/news/search?q=wolfram+alpha&amp;FORM=HDRSC6">
+       Ètiri
+      </a>
+     </li>
+     <li id="b-scopeListItem-menu">
+      <a aria-current="false" aria-haspopup="true" aria-label="Dropdown Menu" href="javascript:void(0);" role="button" tabindex="0" target="_self">
+       <span class="b_sp_menu_separ" id="b_sp_menu_separ">
+        <svg focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+         </path>
+        </svg>
+       </span>
+       Mai multe
+      </a>
+      <div class="b_sp_over_cont">
+       <ul class="b_sp_over_menu">
+        <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-flights">
+         <a aria-current="false" class="" h="ID=SERP,5032.1" href="/travel/search?q=wolfram+alpha&amp;m=flights&amp;FORM=FBSCOP">
+          Zboruri
          </a>
-         shows how to adapt it;
-        </p>
-       </li>
-       <li>
-        <p>
-         We issued an HTTP request, but nowadays everybody uses HTTPS — the secure, that is
-         <em>
-          encrypted
-         </em>
-         version of HTTP. The code doesn't change much, but you need to encrypt and decrypt the data. The Python's
-         <code>
-          ssl
-         </code>
-         module helps with that and I will probably write an article about it in the future.
-        </p>
-       </li>
-      </ul>
+        </li>
+        <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-travelhub">
+         <a aria-current="false" class="" h="ID=SERP,5033.1" href="/travel/search?q=wolfram+alpha&amp;m=travel&amp;FORM=THSCOP">
+          CÄlÄtorii
+         </a>
+        </li>
+        <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-hotels">
+         <a aria-current="false" class="" h="ID=SERP,5034.1" href="/travel/search?q=wolfram+alpha&amp;m=hotels&amp;FORM=HTSCOP">
+          Hoteluri
+         </a>
+        </li>
+        <li class="b_sp_over_item b_scopebar_item" data-menuurl="" data-query="" id="b-scopeListItem-bingpages">
+         <a aria-current="false" class="" h="ID=SERP,5035.1" href="/bp/verify?FORM=000061">
+          Bing-ul meu
+         </a>
+        </li>
+       </ul>
+      </div>
+     </li>
+     <li class="" id="b-scopeListItem-notebook">
+      <a h="ID=SERP,5044.1" href="javascript:void(0);">
+       <svg fill="none" height="16" width="12" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 .5a.5.5 0 0 0-1 0V1h-.5A1.5 1.5 0 0 0 0 2.5v12A1.5 1.5 0 0 0 1.5 16H7v-3.5A1.5 1.5 0 0 1 8.5 11H12V2.5A1.5 1.5 0 0 0 10.5 1H10V.5a.5.5 0 0 0-1 0V1H6.5V.5a.5.5 0 0 0-1 0V1H3zm0 5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5M3.5 8h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M3 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m8.69.5H8.5a.5.5 0 0 0-.5.5v3.19q.077-.06.146-.13l3.415-3.414q.07-.07.128-.146">
+        </path>
+       </svg>
+       Blocnotes
+      </a>
+     </li>
+     <li class="tools_scope b_hide" id="scope_tools_wrapper">
+      <a h="ID=SERP,5043.1" href="javascript:void(0);">
+       Unelte
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <script type="text/javascript">
+   //<![CDATA[
+var sj_b=_d.body;(function(n){var i,r,t;if(document.querySelector){i=[];r="ad";function u(){var w=sb_gt(),l=document.documentElement,s=document.body,t=0,r=-1,b=l.clientHeight,a=["#b_results ."+_G.adc,".sb_adsWv2",".ads"],n,f,e,p,c,o,u;if(s){n=0;f=document.querySelector("#b_pole .b_PolePAContainer");f&&(n=f.offsetHeight,r=f.offsetTop);var v=document.querySelector("#b_results #productAdCarousel"),h=document.querySelector("#b_results .pa_b_supertop"),y=document.querySelector("#b_results .bn_wide");for(h?(r=h.offsetTop,n=h.offsetHeight):y?n+=y.offsetHeight:v&&(n+=v.offsetHeight),t=n,e=0;e<a.length;e++)for(p=a[e],c=document.querySelectorAll(p),o=0;o<c.length;o++)u=c[o],u&&u.className.indexOf("b_adTop")!==-1&&(t+=u.offsetHeight,r===-1&&(r=u.offsetTop));t===0&&(t=-1);i=[r,t,l.clientWidth,b,s.offsetWidth,s.offsetHeight,sb_gt()-w]}}n?(t=n.onbeforefire,n.onbeforefire=function(){t&&t();u();n.mark(r,i)}):(t=si_PP,si_PP=function(){u();var n='"'+r+'":['+i.join()+"]";_G.C1=_G.C1?_G.C1+","+n:n;t.apply(null,[].slice.apply(arguments))})}})(_w.pp);_w.AM=["live.com","azureedge.net","virtualearth.net","windows.net","onenote","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com","chinacloudapp.cn","cbsnews.com","swx.cdn.skype.com","swc.cdn.skype.com","latest-swx.cdn.skype.com","a.config.skype.com","b.config.skype.com","platform.bing.com","microsofttranslator.com","bing.com","facebook.net",".delve.office.com",".uservoice.com",".cdn.office.net","platform.twitter.com","cdn.syndication.twimg.com","spoprod-a.akamaihd.net","bingstatic.com","yahoo.co.jp","youtube.com","ytimg.com","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","s.cn.bing.net","xpaycdn-int.azureedge.net","xpaycdn.azureedge.net","ssl.kaptcha.com","tst.kaptcha.com","snrproxy.bingint
+00000AE3
+ernal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","cetonc.binginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","ewlmaakam.staging-bing-int.com","bngpiglbalmenaabohcooocpnljgfemj","rwww.bing.com","vlscppe.microsoft.com","ov-df.microsoft.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com","cdn.fluidpreview.office.net"];_w.APD=[".delve.office.com",".uservoice.com",".cdn.office.net","a.config.skype.com","abcnews.go.com","amazon.com","apps.powerapps.com","app.powerbi.com","app.powerbi.cn","app.powerbi.de","app.powerbigov.us","b.config.skype.com","bfb","bfb-int","bing.com","bing.net","bing-int.com","bingsandbox.com","bingweathermap.azureedge.net","bloomberg.com","c.tenor.com","cbsnews.com","cdn.syndication.twimg.com","channel9.msdn.com","chinacloudapp.cn","clarity.ms","cnn.com","covid19healthbot.cdc.gov","covid19healthbot-dev.cdc.gov","ctmbing.azurefd.net","dailymotion.com","dict.bing.com.cn","downvids.com","downvids.net","edition.cnn.com","embed.vevo.com","euronews.com","facebook.com","fave.api.cnn.io","hexun.com","huffingtonpost.com","idsync.rlcdn.com","ign.com","imdb.com","latest-swx.cdn.skype.com","live.com","login.live-int.com","mashable.com","microsoft.com","microsoftonline.com","microsofttranslator.com","mathsolver.microsoft.com","msecnd.net","msftoffers.com","msit.powerbi.com","msn.com","mtv.com","onenote","photosynth.net","platform.bing.com","platform.twitter.com","powerbi-df.analysis-df.windows.net","r.msftstatic.com","rafd.bing.com","rafd.staging-bing-int.com","raka.bing.com","r.bing.com","r.staging-bing-int.com","raka.staging-bing-int.com","rcf.staging-bing-int.com","rcf.bing.com","rottentomatoes.com","s.cn.bing.net","skype.com","snrproxy.binginternal.com","snrproxyeast.binginternal.com","snrproxync.binginternal.com","snrproxysc.binginternal.com","snrproxywest.binginternal.com","spoprod-a.akamaihd.net","substrate.office.com","swc.cdn.skype.com","swx.cdn.skype.com","variflight.com","video.disney.com","videoplayercdn.osi.office.net","vimeo.com","azureedge.net","virtualearth.net","web.powerapps.com","widgets.icanbuy.com","widgets.ign.com","windows.net","wsj.com","xpaycdn-int.azureedge.net","xpaycdn.azureed
+0000256A
+ge.net","ssl.kaptcha.com","tst.kaptcha.com","yahoo.co.jp","youtube.com","ytimg.com","zdnet.com","chrome-extension://haldlgldplgnggkjaafhelgiaglafanh","player.twitch.tv","mixer.com","3pcookiecheck.azureedge.net","cetonc.binginternal.com","cetosc.binginternal.com","cetoeast.binginternal.com","cetowest.binginternal.com","akam.bing.com","akam.staging-bing-int.com","ewlmaakam.staging-bing-int.com","akamproxyeast.staging-bing-int.com","akamproxync.staging-bing-int.com","akamproxysc.staging-bing-int.com","akamproxywest.staging-bing-int.com","cjfdbemmaeeohgibnhdhlakiahifjjcf","bngpiglbalmenaabohcooocpnljgfemj","opentable.com","wolframalpha.com","mswolfram-staging-tm.office.net","instacart.com","kayak.com","klarna.com","redfin.com","shopify.com","zillow.com","rwww.bing.com","content.lifecycle.officeppe.net","content.lifecycle.office.net","pmservices.cp.microsoft.com","paymentinstruments.mp.microsoft.com","paymentinstruments-int.mp.microsoft.com","edge.payments.microsoft.com","uniblends.www.microsoft.com","login.microsoftonline.com","login.live.com","fpt.microsoft.com"];_w.APC=["bm_","fb_","panelWrapper","df_topAlAs","df_playBut","df_vidTime","na_cai","ckt_","Light","Dark","taskbar","ssSIV","square_","partial-det","tall_","item","sw_","syd_","sb_","sml","ftrd","sa_","id_","sc_","flt_","fc_","cca","tab-","emb","ctx","dc_","cipa","dict","btm","wtr","wpc","fin","sp-","carousel","vp_","vid","nav_","vt","va_","avc","cic","sports","lc_","bing","dmap_","pvc_","ans_","mcd","composite","mt_","irp","iap","tv","aggtv","irhc","vrh","det","tit","sub","col","card","hlsel","hlblk","ovl","ctpt","bubble","memodal","meoverlay","c_","spl-","microsoft","skp","saa","unlockButton","overlay","MapPushpinBase","pa_","aa_","skype_","ftrSbR","quizContainer","alrt_","st_","expan","word","rpt_","o_","e_","searchbar","row","Traffic","tl","gray","bep","wk_","crs_","w10","personal","fs3_","ezp_","hp","post","mc_","fb","lgb","el_","perf","stb","PP","bw","infobubble","l_","ms-","NavBar_","cmt_","bottom","Copyright","upsell","ab_","w_","hlig","eachStep","close_","cGifIcon","cThIcon","autosuggest","showtimesMovie","sel","dish","formatShowtimes","wp_","hasExpandText","forecast","as_","ecmp","cmp","comp","userChat","bot","bTyp","team","serp","preG","option","azBxInsert","ec_","cs_","spin","skype-conversation","conversation","fs_","grammarly","filterBar","withFilters","textanno","mv_lm","usagTpVsDosage","trans_button_group","algo_action_template","meg_item","ev_","ol_","offer","embed","videoplayercdn","searchNearby","directionsPanel","dragOverlay","infobox","mss","noneG","usage","drImp","sf_","dfindOverModal","circuit","swc","CodeMirror","cm-s-default","msg msg-warning","LogoContainer","quadrantOverride","ac-","gc-","fsmd-","fsg-","fsmf-","msto_","rq","geoItm","bqaq_quotes","bqap_padding","loc","ent_cnt","r_mf","exp_","btOverlay","mnot_container","info_C","ev_talkbox_notification","ev_talkbox_wrapper_min","p_tr_","slide","bnc-","itr_poi","cg-","elmlr_","scrl","gam-","htv-","genel-","gs_","qo_","jss_","mapsresp","geochainContainer","scaleBar","ae-","CalendarSync","spl_","adbDef","layerFrame","esp-","elis-","elcan-","elec-","sharegeneralcard","edu_","br-","covt_dd","covt_dd_sel","msac_sel","msac_ddi","cov_tt_tr","cov_tt_tn","cov_","dr_","bt_","epv_","rich_card","mf-item-cntr","footer_mcp","ntro-","ntro_","th-answer-explanation-wrapper","th-questions-completed","th-next-question","th-modal-wrapper","th-show-hint-wrapper","th-show-hint-description","th-show-hint-example","th-word-carousel","th-audio-player","retail_btf","na_","news_","nws_","scs_","scadt","jb_","peregrine-","opalfeedblock","expnd_c","wfr_grid  ldeft","rwgradienttitle","azuremediaplayer","amp-","vjs-","logo-title-row","rwrl","wpt_hdrs","actionitem","sl_","ml_","wc_","rcld_","pst_expand_btn","pst_collapse_btn","hdr_rating","disambig-outline","editor-","sto_","tt_","nc_","dr_","pt_","qna-","qna_","paahybrid_content","b_floatrt","pec_","maplibregl","atlas-map","marker-collection-container","fui-","recharts","edgwklg_","dime-","msalSilentIframe"];_w.APN=["fb_ovrly_cnt","b_bfb","b_bfb_context_ans","b_mapOverlay","m365ChatPromptLibraryDialogSurface"];0;(function(){function t(t,i){if(!t)return!1;var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",i,u.substr(0,1)+":"+n.href.substr(0,r)),!1):!0}function e(n){for(var t=0;t<i.length;t++)if(n.indexOf(i[t])>=0)return!0;return!1}var i=_w.AM,r=100,n=document.createElement("A"),u,f;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,r))};typeof Element!="undefined"&&Element.prototype&&(u=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return t(n,"AC")?u.apply(this,arguments):null},f=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return t(n,"IB")?f.apply(this,arguments):null})})();_G!==undefined&&_G.EF!==undefined&&_G.EF.bmasynctrigger===1&&window.requestAnimationFrame!==undefined&&document.visibilityState!==undefined&&document.visibilityState==="visible"?requestAnimationFrame(function(){_G.EF.bmasynctrigger2===1?requestAnimationFrame(function(){BM.trigger()}):_G.EF.bmasynctrigger3===1?requestAnimationFrame(function(){setTimeout(function(){BM.trigger()},0)}):setTimeout(function(){BM.trigger()},0)}):BM.trigger();var NetworkPerformance;(function(){function n(){var r=window.navigator,n,t=0,i=0;typeof r!="undefined"&&(n=r.connection);typeof n!="undefined"&&(t=n.rtt||t,i=n.downlink||i,typeof Log!="undefined"&&typeof Log.Log==typeof Function&&Log.Log("NetworkPerformance","NetworkPerformanceDetails","timinginfo",!1,"Rtt",t.toString(),"Downlink",i.toString()))}sj_evt.bind("onPP",n,!0)})(NetworkPerformance||(NetworkPerformance={}));var AwayTimeThreshold = 15; var AwayTimeThresholdCustomControl = false; var AwayTimeScrollTopPoleRS = false;;var SBI;(function(n){var t;(function(n){function u(n){function r(){sj_evt.unbind(t,r);sj_evt.fire("sbidlg.show",n.parentElement)}i||(n.clicked||(sj_evt.bind(t,r,!0),n.clicked=!0),sj_log("CI.VisualSearch","SbiPreClick","BeforeLoad"))}function r(){i=!0;sj_evt.unbind(t,r)}var t="sbiLoaded",i=!1;n.handleIconClick=u;sj_evt.bind(t,r,!0)})(t=n.IconLoader||(n.IconLoader={}))})(SBI||(SBI={}));var Identity; (function(Identity) { Identity.sglid =false; Identity.orgIdPhotoUrl ="https://business.bing.com/api/v3/search/person/photo?caller=IP\u0026id={0}"; Identity.setLoginPreference =false; Identity.isExplicitMsaSignIn =false; })(Identity || (Identity = {}));;var wlc_d =10, wlc_t =63846921501, wlc_wfa =false;;window.data_iid = "SERP.5060";;var DynScopesDropdownRE;(function(n){function v(n,t,r,e,s,h,c){var a,l,v;u||(i=n,f=e,o=c,sj_evt.fire("dynamicscopesrearranging",t),o||(w(t,n,s,h),nt(r)),sj_evt.bind("onP1",p),((a=_G===null||_G===void 0?void 0:_G.EF)===null||a===void 0?void 0:a.logforctl)===1&&(l=_ge("b_header"),v=l===null||l===void 0?void 0:l.querySelector(".b_logoArea"),sj_be(v,"click",y)),u=!0)}function y(){var n="WebLogoClick";document.querySelector("cib-serp[mode='conversation']")&&(n="ConversationLogoClick");_w.sj_log&&sj_log("CI.HeaderMSLogo",n,(_G===null||_G===void 0?void 0:_G.V)||"other")}function p(){if(sj_cook&&sj_cook.set&&sj_cook.clear){var n="dsc";sj_cook.clear(n,"/");i&&sj_cook.set(n,"order",i,!1,"/")}}function w(n,t,i,r){var c=tt(),e,o,s,h,u;if(c){if(e=rt(c),b(e,i,r),n){var a=n.split(","),v=e.length,l=[],y=[];for(u=0;u<a.length;u++)o=a[u].split(":"),o&&o.length==2&&(s=parseInt(o[0]),h=parseInt(o[1]),s<v&&h<v&&(l[h]=e[s].innerHTML,y[h]=e[s].id));for(u=0;u<l.length;u++)e[u].innerHTML=l[u],e[u].id=y[u]}f&&k(e);c.className=""}}function b(n,t,i){var r,u;if(i)t?sessionStorage.setItem("RealEstateQuery",t):sessionStorage.removeItem("RealEstateQuery");else if(t)for(r=0;r<n.length;r++)n[r].id===a&&(u=n[r].innerHTML,n[r].innerHTML=u.replace(/href="[^"]*"/,'href="https://www.bing.com/homes/map?q='+t+'&FORM=000060"'))}function k(n){for(var i,u,f,t=0;t<n.length;t++)if(n[t].id===c||n[t].id===l){i=n.length-1;e&&r>0&&(i=r-1);t!=i&&(u=n[t].innerHTML,f=n[t].id,t<i?d(n,t,i):g(n,i,t),n[i].innerHTML=u,n[i].id=f,sj_evt.fire("dynamicchatscoperelocate"));break}}function d(n,t,i){for(var r=t;r<i;r++)n[r].innerHTML=n[r+1].innerHTML,n[r].id=n[r+1].id}function g(n,t,i){for(var r=i;r>t;r--)n[r].innerHTML=n[r-1].innerHTML,n[r].id=n[r-1].id}function nt(n){var e,o,h,u,c,l,f,a,r,i;if(n&&(h=n.split(":"),u=it(),(e=u===null||u===void 0?void 0:u.children)===null||e===void 0?void 0:e.length))for(c=u.children,l=s(),f=0;f<h.length;f++){for(a=t+h[f],r=0;r<c.length;r++)if(i=c[r],i.id===a){u.removeChild(i);break}for(r=0;r<l.length;r++)if(i=l[r],i.id===a){(o=i===null||i===void 0?void 0:i.parentElement)===null||o===void 0?void 0:o.removeChild(i);break}}}function tt(){var n=_d.querySelectorAll(".b_scopebar > .b_scopehide");return n&&n.length>0?n[0]:null}function it(){var n=_d.querySelectorAll(".b_scopebar");return(n===null||n===void 0?void 0:n.length)?n[0].firstChild:null}function rt(n){for(var f,i=[],u=n.children,t=0;t<u.length;t++)u[t].id===h?(r=t,f=s(),i.push.apply(i,f),e=!0):i.push(u[t]);return i}function s(){var n=_d.querySelectorAll(".b_scopebar #b-scopeListItem-menu .b_sp_over_menu .b_scopebar_item");return Array.prototype.slice.call(n)}var u=!1,i,f=!1,e=!1,r=-1,o=!1,t="b-scopeListItem-",h=t+"menu",c=t+"conv",l=t+"convups",a=t+"realestate";n.init=v})(DynScopesDropdownRE||(DynScopesDropdownRE={}));_G.AppVer="44708659";
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+_G.FCT=new Date;
+//]]>
+  </script>
+  0000005A
+  <script type="text/javascript">
+   //<![CDATA[
+_G.BCT=new Date;
+//]]>
+  </script>
+  <link href="/rp/GMw-emKtBI4niBEd1QYct2VdwMA.css" rel="st 00000004 yles 0000005A heet" type="text/css"/>
+  <link 00003f9c="" h="" ref="/rp/T0alytyTRnhWDuOgX_RPliEUL0g.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/9Z_VGwmfEjJgLeE8Le77khSS-Os.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/jd_KiktC3sAWYJsOn4s4PoSvu18.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/99qjl7T6mB_lkyHiZ8-j-xXwTqA.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/OVhMHAhkq7bCatxdkWpknGOSppw.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/o2XE53Emfk-rLc4XqBpGz3uySZ4.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/opcLbWzzKDXAt7OOso4_av7nD1U.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/dGVKyFljVlqrEyAUqxWukFvLG1s.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/HQ4tPWnGCQf3VvZ3gmTBCqHDPpU.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/-kOKVlBm-bVq20_zFZBlq1udLhY.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/P4nVm9cQ78FaxD0VO8pzAuFypbk.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/rway94-HvrsojFu2NvvkNbS_jAE.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/F-IF4wgehfRGX-BIpe9lrxew-Eo.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/iUcoezJYOt0ROQ8xiYOm_7e96aA.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/EpR1iHlQbv86VKrI0rWd8XuDGXg.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/vJG6QkR9vyUmM05ksDfTtldkbJI.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/ihYUI2GVpPjr_SdswXuJ_mTxxwI.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rs/7c/4o/cc,nc/AMXGnaW6DcZhCS1RFU6K_U6siV8.css?or=d" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/4o/cc,nc/ZOYbVXpq18yLnUtuc0-dHAFFlHs.css?bu=ApICrQI&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/1eKIeyooZiEJw30ckcqbIrA6364.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/9Z7TZcFuApTnbjn4WeglGvmfTC4.css" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+   #b_results>li#mfa_root { padding: 40px; bottom: 0px; ; } #mfa_root .mfa_btn { background: #fff; width: 56px; height: 56px; } #b_results>li#mfa_root:not(.b_fabexp):focus-within { padding: 39px; }
+  </style>
+  <link href="/rp/yHfkgBT96zLCsI5DopEUGPkimIg.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/eY234AwxGmrCQcfqcZnPeTQQyVc.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/fYVBfPjqhjimiAgnc-MTWjGV7n0.css" rel="stylesheet" type="text/css"/>
+  <link href="/rp/wfK_1Egb7Xq3WYLX8Ys1HHy-FnQ.css" rel="stylesheet" type="text/css"/>
+  <link href="https://r.bing.com/rb/6F/cc,nc/o7B3FK6ymEOn7sBfZSmifVTwxPk.css?bu=AWg&amp;or=d" rel="stylesheet" type="text/css"/>
+  <link href="/rp/wW3Q74DesGWZzmnySeEOqLWAbT8.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   //<![CDATA[
+if (typeof DynScopesDropdownRE !== 'undefined') { DynScopesDropdownRE.init("", "", "marketplace", false, "", false, false); } else if (typeof DynScopesDropdown !== 'undefined') { DynScopesDropdown.init("", "", "marketplace", false, false); };function ge_cl(n,t){var u,f,r,i;if(n){if(n.getElementsByClassName)return n.getElementsByClassName(t);for(u=n.getElementsByTagName("*"),f=[],r=0;r<u.length;r++)i=u[r],i&&i.className&&i.className.indexOf(t)!==-1&&f.push(i);return f}return[]};function sa_cl(n,t,i){if(n&&t){var r=n.className;i?r.indexOf(t)==-1&&(r=r.concat(" ",t)):r=r.replace(t,"");n.className=r}};var EntityPreviewConfig = { featureList: "", testHooks: false };
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+var fab_config ={"fabStyle":1,"fabSbAction":"FocusSearchBox","fabSbActionHover":"None","fabSbActionData":"None","fabTooltip":"","micFabAlwaysVisible":false,"fabClickNoAS":false,"FabAddSuggestions":false,"DisableAlsoTryWhenHasPoleRS":false};;sj_be(_w, "click", function() { _G.UIWP = true; }, 1);;
+//]]>
+  </script>
+  <div class="" id="b_content">
+   <main aria-label="Rezultatele cÄutÄrii">
+    <div class="" id="b_tween">
+     <div id="b_tween_searchResults">
+      <span class="sb_count">
+       Circa 1,300,000 rezultate
+      </span>
+     </div>
+     <div class="b_hide" id="b_tween_searchTools">
+      <span class="ftrB">
+       <a aria-controls="d20095" aria-expanded="false" aria-haspopup="true" aria-label="Filtrat dupÄ DatÄ" class="ftrH" h="ID=SERP,5321.1" href="javascript:" id="h20095" role="button">
+        <span class="fs_label">
+         DatÄ
+        </span>
+        <span class="sw_ddbk">
+        </span>
+       </a>
+      </span>
+     </div>
+    </div>
+    <ol class="" id="b_results">
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5119.1" href="https://www.wolframalpha.com/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            https://
+            <strong>
+             www.wolframalpha.com
+            </strong>
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
       <h2>
-       Sources
+       <a h="ID=SERP,5119.2" href="https://www.wolframalpha.com/">
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        : Computational Intelligence
+       </a>
       </h2>
-      <p>
-       <a href="https://docs.python.org/3/library/socket.html">
-        Python docs — socket — Low-level networking interface
-       </a>
-       <br/>
-       <a href="https://docs.python.org/3/howto/sockets.html">
-        Python docs — Socket Programming HOWTO
-       </a>
-       <br/>
-       <a href="https://beej.us/guide/bgnet/html">
-        Beej's Guide to Network Programming
-       </a>
-       <br/>
-       <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection">
-        MDN Web Docs — Connection
-       </a>
-       <br/>
-       <a href="https://www.scottklement.com/rpg/socktut/nonblocking.html">
-        RPG IV Socket Tutorial — 6.5. Blocking vs. non-blocking sockets
-       </a>
-       <br/>
-       <a href="https://stackoverflow.com/questions/34252273/what-is-the-difference-between-socket-send-and-socket-sendall/34252690">
-        StackOverflow — What is the difference between socket.send() and socket.sendall()?
-       </a>
-       <br/>
-       <a href="https://stackoverflow.com/questions/41382127/how-does-the-python-socket-recv-method-know-that-the-end-of-the-message-has-be">
-        StackOverflow — How does the python socket.recv() method know that the end of the message has been reached?
-       </a>
-       <br/>
-       <a href="https://stackoverflow.com/questions/2862071/how-large-should-my-recv-buffer-be-when-calling-recv-in-the-socket-library">
-        StackOverflow — How large should my recv buffer be when calling recv in the socket library
-       </a>
-       <br/>
-       <a href="https://stackoverflow.com/questions/2618736/why-is-it-assumed-that-send-may-return-with-less-than-requested-data-transmitted">
-        StackOverflow — Why is it assumed that send may return with less than requested data transmitted on a blocking socket?
-       </a>
-       <br/>
-       <a href="https://superuser.com/questions/1540053/do-socket-and-buffer-mean-the-same-thing">
-        SuperUser — Do socket and buffer mean the same thing?
-       </a>
-      </p>
-     </div>
-     <div class="ip-post__tags">
-      <a class="ip-tag" href="/tag/internet">
-       internet
-      </a>
-      •
-      <a class="ip-tag" href="/tag/network-programming">
-       network programming
-      </a>
-      •
-      <a class="ip-tag" href="/tag/socket">
-       socket
-      </a>
-      •
-      <a class="ip-tag" href="/tag/python">
-       Python
-      </a>
-      •
-      <a class="ip-tag" href="/tag/http">
-       http
-      </a>
-     </div>
-     <div class="ip-post__neighbor-posts">
-      <div class="ip-post__neighbor-posts__prev">
-       <div class="ip-post__neighbor-posts__prev__label">
-        previous article
-       </div>
-       <div class="ip-post__neighbor-posts__prev__title">
-        <a href="/post/network-programming-beginners-overview">
-         Network programming for beginners: introduction to sockets
-        </a>
-       </div>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        Everyday Life âº. Compute answers using
+        <strong>
+         Wolfram
+        </strong>
+        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦.
+       </p>
       </div>
-     </div>
-     <div class="ip-post__comments">
-      <div class="ip-post__comments__title">
-       comments
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5134.1" href="https://www.wolframalpha.com/input/?i=">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            https://
+            <strong>
+             www.wolframalpha.com
+            </strong>
+            /input/?i=
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
       </div>
-      <div class="ip-post__comments__list">
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          david
-         </span>
-         on
-         <span class="date">
-          March 03, 2022 at 21:55
-         </span>
-        </div>
-        <div class="body">
-         it's better starting point.....you deserve some credits
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          Maya
-         </span>
-         on
-         <span class="date">
-          May 17, 2022 at 16:45
-         </span>
-        </div>
-        <div class="body">
-         This is by far the best networking course I've seen. I hope, you'll continue this great work!
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          arvin
-         </span>
-         on
-         <span class="date">
-          May 28, 2022 at 04:18
-         </span>
-        </div>
-        <div class="body">
-         very good
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          total idiot who cant code well
-         </span>
-         on
-         <span class="date">
-          July 18, 2022 at 12:40
-         </span>
-        </div>
-        <div class="body">
-         good tutorial
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          a
-         </span>
-         on
-         <span class="date">
-          August 16, 2022 at 12:40
-         </span>
-        </div>
-        <div class="body">
-         please just put in the full code at the end
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          sleepytw
-         </span>
-         on
-         <span class="date">
-          August 20, 2022 at 13:23
-         </span>
-        </div>
-        <div class="body">
-         bare sockets this is good asf got me into a big ass project like 2 weeks ago and its going pretty well rn, good looks :D
-         <br>
-         </br>
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          Alexey
-         </span>
-         on
-         <span class="date">
-          September 06, 2022 at 17:58
-         </span>
-        </div>
-        <div class="body">
-         Please, continue this course!! It is the frst course, that has helped me understand all this difficult Internet things! Thank you very much)
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          Alexey
-         </span>
-         on
-         <span class="date">
-          September 06, 2022 at 18:00
-         </span>
-        </div>
-        <div class="body">
-         And what I really want are lessons about udp and about ssl. Hope I will be able to read them someday
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          Kenneth
-         </span>
-         on
-         <span class="date">
-          December 09, 2022 at 08:15
-         </span>
-        </div>
-        <div class="body">
-         Waiting on more tutorials. You're very good at explaining every little step. Please keep up the good work.
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          Noah
-         </span>
-         on
-         <span class="date">
-          April 23, 2023 at 19:24
-         </span>
-        </div>
-        <div class="body">
-         Awesome article, thanks for your clear explanations and great examples!
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          czar
-         </span>
-         on
-         <span class="date">
-          May 07, 2023 at 19:30
-         </span>
-        </div>
-        <div class="body">
-         Hey, thanks for this series , this is good, concise &amp; well organized. better than many explanations from various other websites
-        </div>
-       </div>
-       <div class="ip-post__comments__list__comment">
-        <div class="info">
-         <span class="author">
-          jam
-         </span>
-         on
-         <span class="date">
-          August 23, 2023 at 17:44
-         </span>
-        </div>
-        <div class="body">
-         thank you very much for this article
-        </div>
-       </div>
+      <h2>
+       <a h="ID=SERP,5134.2" href="https://www.wolframalpha.com/input/?i=">
+        -
+        <strong>
+         Wolfram|Alpha
+        </strong>
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        Compute answers using
+        <strong>
+         Wolfram
+        </strong>
+        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦
+       </p>
       </div>
-     </div>
-     <div class="ip-post__social-tools">
-      <div class="ip-post__social-tools__title">
-       share!
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5149.1" href="http://www3.wolframalpha.com/resources/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            http://www3.
+            <strong>
+             wolframalpha
+            </strong>
+            .com/resources
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
       </div>
-      <div class="ip-post__social-tools__twitter item">
+      <h2>
+       <a h="ID=SERP,5149.2" href="http://www3.wolframalpha.com/resources/">
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        Resources &amp; Tools
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        for Math » Browse resources specifically for mathâfrom learning more about Math Input to the Step-by-Step Solutions feature, find what you need to improve your math skills.
+        <strong>
+         Wolfram
+        </strong>
+        Problem Generator » Unlimited AI-generated practice problems and answers with online practice problems, printable worksheets and step-by-step solutions.
+       </p>
       </div>
-     </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5164.1" href="http://products.wolframalpha.com/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            http://products.
+            <strong>
+             wolframalpha
+            </strong>
+            .com
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5164.2" href="http://products.wolframalpha.com/">
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        : Products
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        Products and Services. Free
+        <strong>
+         WolframAlpha
+        </strong>
+        .com Website » Access the computational knowledge engine in any standard web browser. Plus, sign up for free to save favorites, history and more. Toolbars and Extensions » Download free toolbars and extensions for Chrome, Firefox and Edge.
+        <strong>
+         Wolfram
+        </strong>
+        Problem Generator »
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5180.1" href="https://en.wikipedia.org/wiki/WolframAlpha">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wikipedia.org
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="4|5090|4757389625355978|ecW7WtuHIjtzaWBhT_5as1K-46OoWW2H">
+           <cite>
+            https://
+            <strong>
+             en.wikipedia.org
+            </strong>
+            /wiki/
+            <strong>
+             WolframAlpha
+            </strong>
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5181.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5180.2" href="https://en.wikipedia.org/wiki/WolframAlpha">
+        <strong>
+         WolframAlpha
+        </strong>
+        -
+        <strong>
+         Wikipedia
+        </strong>
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        <strong>
+         WolframAlpha
+        </strong>
+        (/ Ë w Ê l f. r Ém-/ WUULf-rÉm-) is an answer engine developed by
+        <strong>
+         Wolfram
+        </strong>
+        Research. It is offered as an online service that answers factual queries by computing answers from externally sourced data.
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5197.1" href="https://www.wolfram.com/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolfram.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="5|5091|4682575591189883|cBY1p3zu91JRY9uKlChAc6O6aN7Pbg2m">
+           <cite>
+            https://www.
+            <strong>
+             wolfram
+            </strong>
+            .com
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5198.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5197.2" href="https://www.wolfram.com/">
+        <strong>
+         Wolfram
+        </strong>
+        : Computation Meets Knowledge
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        SCIENCE &amp; TECHNOLOGY INNOVATION.
+        <strong>
+         Wolfram
+        </strong>
+        is more than a software company. Over the past 35 years, we've been responsible for a stream of major new directions in both technology and basic science.
+        <strong>
+         Wolfram
+        </strong>
+        Notebooks A New Kind of Science
+        <strong>
+         Wolfram
+        </strong>
+        Physics Project. Just Use.
+        <strong>
+         Wolfram
+        </strong>
+        . Language.
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        . Intelligence. Our Experts, Your â¦
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5214.1" href="https://www.wolfram.com/wolfram-alpha-notebook-edition/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolfram.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="6|5092|4613946304842539|RKUYPrsK_UsyLlpQucxHW1zwHcB_Intn">
+           <cite>
+            https://www.
+            <strong>
+             wolfram
+            </strong>
+            .com/
+            <strong>
+             wolfram-alpha
+            </strong>
+            -notebook-edition
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5215.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5214.2" href="https://www.wolfram.com/wolfram-alpha-notebook-edition/">
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        Notebook Edition
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        Notebook Edition combines the best of both
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        and Mathematica into a single, unified tool perfect for teaching and learning. Use free-form input to get instant answers to questions, create and customize graphs, and turn static examples into dynamic models.
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5230.1" href="https://products.wolframalpha.com/mobile/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            https://products.
+            <strong>
+             wolframalpha
+            </strong>
+            .com/mobile
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5230.2" href="https://products.wolframalpha.com/mobile/">
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        Mobile Apps
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        Apps. Use
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        how and where you want with our natively designed apps. From additional features to specially designed keyboards, weâve made it easy to use
+        <strong>
+         Wolfram|Alpha
+        </strong>
+        on the go. Download for iOS â¦
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5246.1" href="https://www.wolfram.com/mathematica/">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+          00004000
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolfram.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0" u="8|5094|4932087423172771|iSNj09GPTYTC2ovuZlr5SyU8fMkigJTp">
+           <cite>
+            https://www.
+            <strong>
+             wolfram
+            </strong>
+            .com/
+            <strong>
+             mathematica
+            </strong>
+           </cite>
+           <span class="c_tlbxTrg">
+            <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5247.1">
+            </span>
+           </span>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5246.2" href="https://www.wolfram.com/mathematica/">
+        <strong>
+         Wolfram Mathematica
+        </strong>
+        : Modern Technical Computing
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        <strong>
+         Wolfram Mathematica
+        </strong>
+        : Modern Technical Computing. The world's definitive system for modern technical computing. Available on desktop, cloud &amp; mobile. Overview. Core Areas. What's New. Customer Stories. Resources. Pricing. Try Now.
+       </p>
+      </div>
+     </li>
+     <li class="b_algo" data-id="">
+      <div class="b_tpcn">
+       <a class="tilk" h="ID=SERP,5262.1" href="https://www.wolframalpha.com/input/?i=calculator">
+        <div class="tpic">
+         <div class="wr_fav" data-priority="2">
+          <div class="cico siteicon" style="width:32px;height:32px;">
+           <div class="rms_iac" data-alt="PictogramÄ web globalÄ" data-class="rms_img" data-height="32" data-src="//th.bing.com/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&amp;w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="tptxt">
+         <div class="tptt">
+          wolframalpha.com
+         </div>
+         <div class="tpmeta">
+          <div class="b_attribution" tabindex="0">
+           <cite>
+            https://
+            <strong>
+             www.wolframalpha.com
+            </strong>
+            /input/?i=calculator
+           </cite>
+          </div>
+         </div>
+        </div>
+       </a>
+      </div>
+      <h2>
+       <a h="ID=SERP,5262.2" href="https://www.wolframalpha.com/input/?i=calculator">
+        <strong>
+         calculator - Wolfram|Alpha
+        </strong>
+       </a>
+      </h2>
+      <div class="b_caption" role="contentinfo">
+       <p class="b_lineclamp4 b_algoSlug">
+        <span class="algoSlug_icon" data-priority="2">
+         web
+        </span>
+        Compute answers using
+        <strong>
+         Wolfram
+        </strong>
+        's breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, musicâ¦
+       </p>
+      </div>
+     </li>
+     <li class="b_msg b_canvas">
+      <a h="ID=SERP,5084.1" href="http://go.microsoft.com/fwlink/?LinkID=617350">
+       Unele rezultate au fost eliminate
+      </a>
+     </li>
+     <li class="b_pag">
+      <nav aria-label="Mai multe rezultate pentru wolfram alpha" role="navigation">
+       <h4 class="b_hide">
+        Paginare
+       </h4>
+       <ul class="sb_pagF">
+        <li>
+         <a class="sb_pagS sb_pagS_bp b_widePag sb_bp sb_pag_first">
+          1
+         </a>
+        </li>
+        <li>
+         <a aria-label="Pagina 2" class="b_widePag sb_bp" h="ID=SERP,5305.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=11&amp;FORM=PERE">
+          2
+         </a>
+        </li>
+        <li>
+         <a aria-label="Pagina 3" class="b_widePag sb_bp" h="ID=SERP,5306.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=21&amp;FORM=PERE1">
+          3
+         </a>
+        </li>
+        <li>
+         <a aria-label="Pagina 4" class="b_widePag sb_bp" h="ID=SERP,5307.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=31&amp;FORM=PERE2">
+          4
+         </a>
+        </li>
+        <li>
+         <a aria-label="Pagina 5" class="b_widePag sb_bp" h="ID=SERP,5308.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=41&amp;FORM=PERE3">
+          5
+         </a>
+        </li>
+        <li>
+         <a class="sb_pagN sb_pagN_bp b_widePag sb_bp" h="ID=SERP,5309.1" href="/search?q=wolfram+alpha&amp;FPIG=56243D86F2C4482F8078392B76A20654&amp;first=11&amp;FORM=PORE" title="Pagina urmÄtoare">
+          <div class="sw_next">
+           UrmÄtoarea
+          </div>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </li>
+     <li class="b_fabHide fabcolapse" data-priority="2" id="mfa_root">
+      <div class="b_ds5">
+       <a aria-label="CÄutaÈi mai multe" class="mfa_btn" h="ID=SERP,5331.1" href="javascript:void(0);" id="mfa_srch" role="button">
+        <div class="fba_sbicn" style="width: 40px; height: 40px;">
+        </div>
+       </a>
+      </div>
+     </li>
+    </ol>
+   </main>
+   <aside aria-label="Rezultate suplimentare">
+    <div class="crhide" data-priority="2" id="b_mtp">
+     <a class="mtprt" h="ID=SERP,5346.1" href="javascript: void(0);">
+      <img class="mtpsvg mtparr rms_img" height="40" src="/rp/iHQfTi0EehsP4io4sHfua6J2vo4.svg" width="40"/>
+      <div class="mtpseem">
+       VedeÈi mai multe
+      </div>
+     </a>
+    </div>
+    <ol class="crinvis" id="b_context">
+    </ol>
+   </aside>
+   <aside aria-label="ExploraÈi mai mult">
+    <ol id="b_dynRail">
+    </ol>
+   </aside>
+  </div>
+  <footer aria-label="Subsol" class="b_footer" id="b_footer" role="contentinfo">
+   <div id="b_footerItems">
+    <span>
+     © 2024 Microsoft
+    </span>
+    <ul>
+     <li>
+      <div class="mcp_footer" data-mcp-url="https://www.bing.com:443/shared/mcp" id="mcp_footer">
+       <span>
+        GestionaÈi preferinÈele privind modulele cookie
+       </span>
+      </div>
+     </li>
+     <li>
+      <a h="ID=SERP,5070.1" href="http://go.microsoft.com/fwlink/?LinkId=521839" id="sb_privacy">
+       ConfidenÈialitate Èi module cookie
+      </a>
+     </li>
+     <li>
+      <a h="ID=SERP,5071.1" href="http://go.microsoft.com/fwlink/?LinkID=246338" id="sb_legal">
+       Juridic
+      </a>
+     </li>
+     <li>
+      <a h="ID=SERP,5072.1" href="https://go.microsoft.com/fwlink/?linkid=868922" id="sb_advertise">
+       Publicitate
+      </a>
+     </li>
+     <li>
+      <a h="ID=SERP,5073.1" href="https://support.microsoft.com/topic/82d20721-2d6f-4012-a13d-d1910ccf203f" id="sb_help" target="_blank">
+       Ajutor
+      </a>
+     </li>
+     <li>
+      <a h="ID=SERP,5074.1" href="#" id="sb_feedback" role="button">
+       PÄrere
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!--foo-->
+  </footer>
+  <link as="style" fetchpriority="low" href="/rp/j5ZgBzT08a9bR15qx6n9isMU7NE.css" id="as-css-link" rel="prefetch" type="text/css"/>
+  <div id="b_TriviaOverlay">
+  </div>
+  <div class="sb_hbop">
+   <div class="b_hide" data-check="true" data-dist="0" data-lat="0" data-lon="0" data-norefresh="true" id="PromptDetails">
+   </div>
+   <div class="b_hide b_dropdown" data-filterkey="" id="d20095" role="menu">
+    <div class="ftrD" id="ftrD_DatÄ">
+     <a class="b_toggle" h="ID=SERP,5333.1" href="/search?q=wolfram+alpha&amp;FORM=000017&amp;qpvt=wolfram+alpha" role="menuitem">
+      Toate
+     </a>
+     <a class="b_toggle" h="ID=SERP,5334.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez1%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Ultimele 24 de ore
+     </a>
+     <a class="b_toggle" h="ID=SERP,5335.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez2%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Ultima sÄptÄmânÄ
+     </a>
+     <a class="b_toggle" h="ID=SERP,5336.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez3%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Ultima lunÄ
+     </a>
+     <a class="b_toggle" h="ID=SERP,5337.1" href="/search?q=wolfram+alpha&amp;filters=ex1%3a%22ez5_19441_19806%22&amp;FORM=000017" role="menuitem" tabindex="-1" target="">
+      Anul trecut
+     </a>
+     <span data-url="/control/tfcalendar?q=wolfram%20alpha&amp;IG=56243D86F2C4482F8078392B76A20654&amp;StartDate=03%2f15%2f2024+01%3a58%3a21&amp;EndDate=03%2f25%2f2024+01%3a58%3a21&amp;IsApplied=False&amp;DisplayText=Interval+particularizat&amp;DateOffset=0&amp;FormCode=&amp;ApplyLinkUrl=%2fsearch%3fq%3dwolfram%2balpha%26filters%3dex1%253a%2522ez5_0_0%2522%26FORM%3d000017%26qpvt%3dwolfram%2balpha&amp;ApplyLinkText=ez5&amp;IID=SERP.20095" id="drvph">
+     </span>
     </div>
    </div>
   </div>
-  <div class="ip-footer">
-   <div class="ip-container">
-    © 2015-2024 — Monocasual Laboratories —
-    <a href="/tos" rel="nofollow">
-     terms of service
-    </a>
-    —
-    <a href="/privacy" rel="nofollow">
-     privacy policy
-    </a>
-    —
-    <a href="/about">
-     about
-    </a>
-    —
-    <a href="/rss">
-     RSS feed
-    </a>
+  <script crossorigin="anonymous" src="/rp/yqfi1pmvijkeGoWkoPNMRO_duGI.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+{ const icon = _ge("sb_sbi"); if (icon) { icon.addEventListener("click", function() { SBI.IconLoader.handleIconClick(icon); }); } };var img_p = document.getElementById('id_p'); img_p && img_p.addEventListener('error', function() {FallBackToDefaultProfilePic(img_p) });;
+//]]>
+  </script>
+  <script crossorigin="anonymous" src="/rp/yS1hb12h5cPMQsXtTHTldZJ3n_s.js" type="text/javascript">
+  </script>
+  <script crossorigin="anonymous" src="/rp/t6bXI1ycFrvir_-AR5eBmZoeDFQ.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+loadMultiKeyBoardScript=function(){_w.rms.js({'rms:answers:VisualSystem:MultiLingualKeyboardBundle':'\/rp\/-Tn1NcCtCsEVjS3K_wYDzmhenpY.js',d:1});};;sa_loader=function(){_w.rms.js({'rms:answers:AutoSuggest:AutoSug':'\/rp\/9-gQ9ORJg2434f-jNO7YuDBe-Fg.js',d:1});};;_w.rms.js({'A:JavaScriptErrorHandler':'https:\/\/r.bing.com\/rs\/7c\/fR\/jnc,nj\/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d'},{'A:rms:answers:Shared:BingCore.ClientErrorHelper':'\/rp\/YxySe71e4-ptMcQNFSlyDcFRu6E.js'},{'A:0':0},{'A:rms:answers:Shared:mlibCssClass':'\/rp\/KkY9l6-STTsQwlAYHQ2QJWJJQYQ.js'},{'A:rms:answers:VisualSystem:QuickSearchCursor':'\/rp\/jsRPtKLwS_Lf2tYWOX74QFkJTd0.js'},{'A:rms:answers:VisualSystem:FocusScrollToBTop':'\/rp\/F1QQhpvkMhnU6vD6p5weEWrUo7A.js'},{'A:rms:answers:VisualSystem:SkipToContent':'\/rp\/Lo-yTVWKhQidjMmvvKittFie07o.js'},{'A:rms:answers:VisualSystem:MultiLingualKeyboardScriptLoader':'\/rp\/RJCuLkK5GWeRhlsFY0jtwWOl9ZM.js'},{'A:1':1},{'A:rms:answers:Shared:WireUp':'https:\/\/r.bing.com\/rb\/5v\/jnc,nj\/WjC77O8uVx9--UZpQC4Qfpa7qaE.js?bu=A7o0vTTANA&or=d'},{'A:rms:answers:Shared:Button':'\/rp\/da3XTE4E24gCNAQJm5tKrqZDeuc.js'},{'A:mlibCssClass':'https:\/\/r.bing.com\/rs\/7c\/fR\/jnc,nj\/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d'},{'A:2':2},{'A:rms:answers:Rewards:LightLogger':'\/rp\/GkeGDcmu3-ad3G4UpsS_xYPCTU4.js'},{'A:rms:answers:MeFramework:HamburgerServicesHeaderBootstrap':'\/rp\/FobDk9EZlyAfzaHFxibj-Bg5o84.js'},{'A:rms:answers:VisualSystem:SearchBox':'\/rp\/15W7D6hgTQoPD5VQsNxgRnlKdQE.js'},{'A:rms:answers:Web:SydneyFSCLocationHelper':'\/rp\/PIoykFvRyVu6t5FLCQebRCMg5Cg.js'},{'A:rms:answers:Web:PersonaGPTHandler':'\/rp\/7qb8-srzTqF9lpyHUznWJTZCiOQ.js'},{'A:rms:answers:VisualSystem:ScopeBarTools':'\/rp\/ocHT7AnoCzSA3wAfTPs1Gv0J3UU.js'},{'A:ClientOSLogging':'https:\/\/r.bing.com\/rs\/7c\/fR\/jnc,nj\/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d'},{'A:Client_UaMismatchLogging':'https:\/\/r.bing.com\/rs\/7c\/fR\/jnc,nj\/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d'},{'A:rms:answers:VisualSystem:ClientWidth':'\/rp\/njGWTBVoZM960kI6U_tD3TJglXM.js'},{'A:ClientWidth':'https:\/\/r.bing.com\/rs\/7c\/fR\/jnc,nj\/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d'},{'A:rms:answers:VisualSystem:ClientDimensionNotSent':'\/rp\/VaxGlni2LracXj8cPXimPXA81wo.js'},{'A:3':3},{'A:rms:answers:Web:CheckContextRegion':'\/rp\/iIzN_pKPfRSyzPqJa6C_bov59gI.js'},{'A:4':4},{'A:rms:answers:Web:MiniTaskpane':'\/rp\/XKPYNqs3VCSpLDLenV1f6sBWXmY.js'},{'A:5':5},{'A:rms:answers:Feedback:FeedbackAccessibility':'\/rp\/rmSo7lElFJjqhc_h042yOrJsPyk.js'},{'A:rms:answers:Feedback:FeedbackBootstrapBundle':'\/rp\/x4W9TGgBhZ5jhf7hLYdIKGjsE18.js'},{'A:6':6},{'A:rms:answers:AutoSuggest:AutoSuggestBootstrap':'\/rp\/yR52uXCr1O5NqMGZvIhfQN7uIsE.js'},{'A:rms:answers:Web:SwitchToImageVerticalHandler':'\/rp\/Jj6fInHKUSdFOnx3-3sjngippKI.js'},{'A:rms:answers:Shared:UrlLib':'\/rp\/ieB-1wwp68-dcNeQs5leFvDAMDw.js'},{'A:rms:answers:Geolocation:WriteLocationHelper':'\/rp\/MPne8KsztjxFChy1sUZdAU_2Ofk.js'},{'A:rms:answers:Geolocation:LocationHelper':'\/rp\/EmZ0bd_TDbT022Ch35LOaWN49_0.js'},{'A:rms:answers:Geolocation:GetlocationHelper':'\/rp\/rq6Tmln_IfV6R1rR-9byP6tPQdw.js'},{'A:rms:answers:Geolocation:PromptForUserLocation':'\/rp\/0tMUMPG6S9kJaE_A_LPF2GbKu6E.js'},{'A:RMSImageAfterOnLoadLoader':'https:\/\/r.bing.com\/rs\/7c\/v6\/jnc,nj\/Qp5q6DtDal0Q6zp3EOeEQbFTsW0.js?or=d'},{'A:rms:answers:VisualSystem:QuickSearch':'\/rp\/aD8vs9SzhnU8HxqW7ePKCFR_DgI.js'},{'A:7':7},{'A:rms:answers:Shared:mlibCssClassAfterOnLoad':'\/rp\/KkY9l6-STTsQwlAYHQ2QJWJJQYQ.js'},{'A:rms:answers:VisualSystem:DecorateHeaderWithAutosuggestState':'\/rp\/Eu8GG4Zlg6d7hkyQw7bD7Gqlch0.js'},{'A:8':8},{'A:rms:answers:VisualSystem:LogQueryLength':'\/rp\/2fX1eytZGzRfJDiTXDJqJPsLA5k.js'},{'A:rms:answers:Web:ClearSearchBox':'\/rp\/rfwivDBRwX561Waug8h7nAI1UzM.js'},{'A:rms:answers:MultimediaComponents:AccessibilityHelper':'\/rp\/Ji5V4mav6PqM0qPl6ZuxuAEowdU.js'},{'A:AppendHTML':'https:\/\/r.bing.com\/rs\/7c\/lA\/nj\/pxzfjFIjWTDQikh0A5aT_cguYyc.js?or=d'},{'A:rms:answers:MultimediaComponents:SearchByImageComponentLoader':'\/rp\/_cTVIwHRhwQtCi8TbO7ywAXcu4s.js'},{'A:rms:answers:Identity:BlueIdentityDropdownBootStrap':'\/rp\/fEzca4bKO4pRulhVlOoat7eLgmU.js'},{'A:rms:answers:Identity:BlueIdentityHeader':'\/rp\/No5xIZMVh9KdmI4bjLD9p4Xl0Ys.js'},{'A:rms:answers:Identity:WindowsLiveConnect':'\/rp\/PhCQNJkAvbMBdvXdF5WHLPz62yY.js'},{'A:rms:answers:Identity:SnrWindowsLiveConnectBootstrap':'\/rp\/MWgq_OYohQuMsx-qjpxMXsnruVc.js'},{'A:rms:answers:OrgId:SsoFrame':'\/rp\/KjCBfzuZ475zX0-Fu2bdXt9qifQ.js'},{'A:9':9},{'A:rms:answers:Identity:ProfilePicturePostLoader':'\/rp\/kmQOPQp8vl1HvI8PfMk2LoJInSM.js'},{'A:rms:answers:Identity:AccountLinkLoadProfileIcon':'\/rp\/VMYMrXeSZyOXW5LQn-ede-_1jZk.js'},{'A:rms:answers:OrgId:AccountLink':'\/rp\/zeCxMEtVi23nUD1VnJIBRkRzb4g.js'},{'A:10':10},{'A:rms:answers:Rewards:RewardsHeaderSVG':'\/rp\/QtZcquNOunoFE0KySXJmXmH6auI.js'},{'A:rms:answers:Rewards:RewardsNcHeaderBootstrap':'\/rp\/2LpcFhWkqO2O6Txcji6g-0kKCZQ.js'},{'A:RewardsReportActivity':'https:\/\/r.bing.com\/rs\/7c\/xb\/nj\/jQ1w07qyCcc9l2abcuV-aLzD-d8.js?or=d'},{'A:rms:answers:Rewards:RewardsCreditRefresh':'\/rp\/FdV4c_-YGVxX40_HeKzMQcIRcuc.js'},{'A:rms:answers:Rewards:ModernReportActivity':'\/rp\/KvAYmCNiB9WgV799ptSzPRDT9gQ.js'},{'A:rms:answers:Rewards:ReportActivityBootstrap':'\/rp\/t6Bkpkzq5ckAnvfW2PY7kNOTPJ0.js'},{'A:rms:answers:VisualSystem:LanguageSwitch':'\/rp\/WzXD9EMxzJH8S6t9LXEMkOU4vIs.js'},{'A:rms:answers:VisualSystem:ScopeBarAppShortcuts':'\/rp\/ishJygyEUAqCT8_WiLb5ZbiszEw.js'},{'A:rms:answers:Web:SydneyCameraProviderFactory':'\/rp\/CQcTMZzCTfQ3SeJGm9rBN0Smwkc.js'},{'A:rms:answers:Web:SydneyCameraProviderBase':'\/rp\/zx9w4Zt521NQQSS9mH1q7izAzkw.js'},{'A:rms:answers:Web:SydneyTestHelper':'\/rp\/foZX8XrpUwcFubygBTa4GMiJEsE.js'},{'A:rms:answers:Web:FreeSydneyHelper':'\/rp\/SVtLJ-w1vPBL2reT-CmrpQoVVyY.js'},{'A:rms:answers:Web:SydneyFSCHelper':'\/rp\/lcsEJ5wX3oY6VI-1GUtVjQ8eE1I.js'},{'A:rms:answers:VisualSystem:NotebookScope':'\/rp\/vGm-wzqYV11V_vroiDyLtjYGEAc.js'},{'A:rms:answers:VisualSystem:ScopeBarRankInst':'\/rp\/2NNJBOURscmq4VZboQzNBFyUAzM.js'},{'A:rms:answers:VisualSystem:LogAccessibilityEvents':'\/rp\/ALaXHW220NyJTJ2Wn8bxwDcmd_w.js'},{'A:rms:answers:VisualSystem:TextSpacing':'\/rp\/z0jng4Yr_Zis-vH4uhzUqzJERkA.js'},{'A:11':11},{'A:rms:answers:Web:UetTag':'\/rp\/lHJQIO-n0-6PrtK33_xaQQY2O14.js'},{'A:rms:answers:Web:UpdateDefaults':'\/rp\/chRhkXPE7Aab4f8A3WEJL9KYGvA.js'},{'A:rms:answers:Web:KeyPressScroll':'\/rp\/SF5GIPQzwCZ4vpjfcGuYgN0mq3Q.js'},{'A:rms:answers:Web:AlgoTitleColorOnMousedown':'\/rp\/9IaydF5GN9iBQi04x3gMBBYYFoo.js'},{'A:rms:answers:Web:CursorProgressOnClick_Rebind':'\/rp\/Qyrq7lsQVC_DuFBUIAK3IoRAiQo.js'},{'A:rms:answers:Web:CursorProgressOnClick':'\/rp\/pNapkjHZUfN9lRvYNW2dF2ZL9Ec.js'},{'A:AjaxLoad':'https:\/\/r.bing.com\/rs\/7c\/lO\/nj\/EmG-XMIMCcq8zmcVBBO7jkFERAE.js?or=d'},{'A:rms:answers:SegmentFilters:DropDown':'\/rp\/VzJCCN2zqegKvTNGYH1xLJmcLlA.js'},{'A:rms:answers:Web:DnsExperimentA':'\/rp\/927Cz2OI3S9hrbXauDAfIEUYRvo.js'},{'A:rms:answers:WebResult:WebResultToolbox':'\/rp\/-MeFTvOHDYi8oElxQA3CpPbInlE.js'},{'A:rms:answers:Web:PaginationWithBFPRResults':'\/rp\/9dtaIiTSA2FTkdS10qvlDFBpITg.js'},{'A:rms:answers:VisualSystem:SearchFloatingActionButtonTriggering':'\/rp\/0UmQfjaUOrsaTx4YiaPnDpNIcHs.js'},{'A:rms:answers:VisualSystem:FloatingActionButtonCore':'\/rp\/LgE-JO8kQyFcaxhOnf4YC35WKEg.js'},{'A:rms:answers:VisualSystem:SearchFloatingActionButton':'\/rp\/HlaXtFDbFiJNQsr1DecRpAXEteY.js'},{'A:12':12},{'A:rms:answers:VisualSystem:ShowMCP':'\/rp\/LH3diTvAgw3Kc2teOyxyTEPuqgg.js'},{'A:13':13},{'A:rms:answers:Web:SerpKeyboardNavigation_Selector':'\/rp\/GIka8UxMSDuqbLNcmFxt66stnIo.js'},{'A:rms:answers:Web:SerpKeyboardNavigation':'\/rp\/JxCc1B9rHyCEyBtdN16oEeUaxWc.js'},{'A:14':14});;
+//]]>
+  </script>
+  <div id="aRmsDefer">
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+sj_be(_d.body, 'load', function(){if(_w.lb)lb();}, false);;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+MultiLingualKeyboardScriptLoader.init("rost:Rom&#226;nÄ (Romanian)",1, 0, true, false);;var Identity = Identity || {}; (function(i) { i.wlImgSm ="https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026sid=30CDD38EB74F671A1A08C7C2B6426659\u0026fofoff=1"; i.wlImgLg ="https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026sid=30CDD38EB74F671A1A08C7C2B6426659\u0026fofoff=1";i.popupLoginUrls = {"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1711324701\u0026rver=6.0.5286.0\u0026wp=MBI_SSL\u0026wreply=https:%2F%2fwww.bing.com%2Fsecu
+0000093A
+re%2FPassport.aspx%3Fpopup%3D1\u0026lc=4096\u0026id=264960"}; })(Identity);;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+sj_evt.bind("onP1", function() { window["RewardsHeaderSVG"] && RewardsHeaderSVG.fireDefaultEvent(); }, 1, 0);;var bepcfg = bepcfg || {};;bepcfg.wb =true? '1' : '0';;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+if (typeof (performance) !== 'undefined' && _G.BCT && performance.timing && performance.timing.navigationStart){ var SCArrivalTimeRelativeToNavStart = (_G.BCT - performance.timing.navigationStart); typeof (Log) !== 'undefined' && Log && Log.Log && Log.Log("SCArrST", "SCArrST", SCArrivalTimeRelativeToNavStart); };var ContextRegionPresent = false;;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+sa_CTBConfig={"CU":"http://cc.bingj.com/cache.aspx?q=wolfram+alpha\u0026d={0}\u0026mkt=en-WW\u0026setlang=ro-RO\u0026w={1}","CT":"Memorat Ã®n cache","NW":"0","disableMetaData":"0","GenCapString":"Subtitrare generatÄ de inteligenÈa artificialÄ","useOffsetParent":"1","TRGT":"AcÅ£iuni pentru acest site","selectedIconClass":"sw_ddw","toolboxTriggerClassName":"c_tlbxTrg","staticIconClass":"sw_ddgn","parentId":"b_results"};var webResultsUrls =["6266F2EE4BB8D13DD30D06857D5C972A","196EA4C05C2E4C4686D6629EEEB6D93B","E772772D28921F6BB1A101E87085C7F1","68433D3DBEBF2F0A62EB7FBA8ACBDBB4","736960614FFE5AB352BEE3A3A8596D87","5163DB8A94284073A3BA68DECF6E0DA6","322E5A50B9CC475B5CF01DC07F227B67","825D653AD5355CDD320E3BD8F0E4C24C","C2DA8BEE665AF94B253C7CC9228094E9","CBD934EC86CDE9CC86F00C86FDC61D0F"];var MiniTPTriggerWidth = 1020; var EnableMiniTPRightRailRS = false; var EnableSuperCaptionContextRegionTrigger = false; var ZoomThreshhold = 1164;;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+var fbpkgiid = fbpkgiid || {}; fbpkgiid.page = 'SERP.5347';;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+sj_evt.bind("ajax.feedback.initialized", function(args) { args[1].debugCollector.setContextValue("FederationDebugInfo", "QueryID : 2f7621d1d03948afb92bc6a0bfdd5411"); });;sa_config={"f":"sb_form","i":"sb_form_q","c":"sw_as","zisParent":"sa_zis_parent","aadManageHistoryUrl":"/profile/history?FORM=O2HV46","u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dwolfram%2balpha%26mkt%3dro-md%26qry%3d","removeSuggUrl":"/historyHandler?oma=delete_matching_queries\u0026qt=%7b0%7d\u002
+00001199
+6sig=30CDD38EB74F671A1A08C7C2B6426659\u0026response=json\u0026FORM=ASRMHS","searchHistoryUrl":"/profile/history?FORM=ASRMHP","partner":"page.serp","ghostingWithGreyText":"","enableTabPrompt":"","enabledSearchTypes":["RS","PASF"],"enabledDataSources":["Web"],"eHC":1,"fetchOnEmpty":1,"fetchOnDownArrowKey":1,"t":1,"enableSbUpdate":1,"isPathSearch":1,"asmobbacks":1,"longquery":1,"dsarialv":1,"aslogtel":1,"asszrdc":1,"eNw":1,"nwLim":1,"IsRequeryPresent":1,"ezis":1,"imeghmb":1,"leftIconOnSuggestions":1,"EnableHistoryIcon":1,"leftIconOnMsbSuggestions":1,"waitForCompositionEnd":1,"enableClientPerfLatencyCalc":1,"asLowNetworkScneario":1,"noNextWordTermination":1,"nextWordNFullSuggsOne":1,"enableAsPanelExpansion":1,"hitHighlightPaa":1,"backfillRichRequery":1,"rrboxshadow":1,"prioritizePAAInterrogative":1,"FastEntMulti":1,"CommonFooter":1,"asdsg":1,"asoptcss":1,"aspreinitcss":1,"aschaturl":1,"ascssdis":1,"zisPaneexpansion":1,"asbugfix":1,"easpm":1,"handleDuplicateFetch":1,"maxRSSuggLenLimitRichRequery":48,"maxPAASuggLenLimitRichRequery":48,"prioritizePAAMinWords":3,"d":5,"removeTextLength":53,"ascqsl":100,"zisr1":5,"maxSuggestionsToShow":[3,5]};sa_loc= {"Suggestions":"Sugestii","Feedback":"Feedback privind aceste sugestii","SearchRemoved":"AceastÄ cÄutare a fost eliminatÄ din %eIstoric cÄutÄri%E","ManageHistory":"%eGestionaÈi istoricul cÄutÄrilor%E","RelatedSearches":"CÄutÄri asociate","PeopleAlsoAsk":"Oamenii au mai Ã®ntrebat Èi","PeopleAlsoSearchFor":"Persoanele mai cautÄ","SeeMore":"VedeÈi mai multe","NudgesAStoChatClickthrough":"Un clic pe aceasta va redirecÈiona cÄtre Copilot","MsbBannerClickThrough":"DacÄ faceÈi clic pe aceasta, se va redirecÈiona la Verticala de lucru"};;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+var pinnedHeaderParams ={};;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+BingAtWork.HeaderWithAutoSuggestState.init && BingAtWork.HeaderWithAutoSuggestState.init(false);;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+(function() { var config ={"url":"https%3a%2f%2flogin.microsoftonline.com%2fcommon%2foauth2%2fauthorize%3fclient_id%3d9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%26response_type%3did_token%26nonce%3df043aa32-fb7e-4514-a0d5-12ab9a52f3d2%26redirect_uri%3dhttps%253a%252f%252fwww.bing.com%252forgid%252fidtoken%252fnosignin%26scope%3dopenid%2520email%2520profile%25209ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%2f.default%26response_mode%3dform_post%26instance_aware%3dtrue%26msafed%3d0%26prompt%3dnone%26state%3d%257b%2522ig%2522%253a%252256243D86F2C4482F8078392B76A20654%2522%257d","sandbox":"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts","currentEpoch":"1711324701000"}; if (false) { if (typeof dbg !== "undefined") { dbg.trace("OrgId", "Delaying SSO on postRBComplete event"); } sj_evt.bind('postRBComplete', function() { setTimeout(function() {_w.rms.js({'rms:answers:OrgId:SsoFrame':'\/rp\/KjCBfzuZ475zX0-Fu2bdXt9qifQ.js',d:1});sj_evt.fire('ssoFrameExists', config); }, 500); }, true, null, true); } else { sj_evt.fire('ssoFrameExists', config); } })();;(function () { var identityBtn = document.getElementById("id_l"); if (identityBtn) { identityBtn.addEventListener("click", function () { sj_log("CI.ICPopup", "popup", "1"); }); } })();;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+(function() { var accLinkParams ={"accLinkRefreshEndPointUrl":"/orgid/acclink/refresh","isAadAuthenticated":false,"refreshAccountLinkInfoTimeInSeconds":3600,"refreshAccountLinkInfoRetryTimeInSeconds":600,"correlationId":"6600be1dcfad4cf097ce3dd5c7f5afd3","hasActiveLinkedAccount":false}; AccountLink.init(accLinkParams); })();;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+TextSpacing.init("/rp/wxSWeiAIp4Qj9e9vceSPNt05aFc.css");
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+window["fbk_12"] = function() { Feedback.Bootstrap.InitializeFeedback({page:true},"sb_feedback",1,0,0); sj_evt.unbind("fdbkbtstrp_init", window["fbk_12"]); }; sj_evt.bind("fdbkbtstrp_init", window["fbk_12"], 1);;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+(function loadAutoSuggestCss(){ document.getElementById("as-css-link").rel = "stylesheet"; }());;
+//]]>-->
+   </div>
+   <div "="" style="display:none">
+    <!--//<![CDATA[
+sj_evt.bind("promptForUserLocationInit", function() { SHPromptForUserLocation.init(true,"30CDD38EB74F671A1A08C7C2B6426659"); }, 1);;
+//]]>-->
    </div>
   </div>
+  <script type="text/javascript">
+   //<![CDATA[
+_G.HT=new Date;
+//]]>
+  </script>
  </body>
 </html>
+00000000

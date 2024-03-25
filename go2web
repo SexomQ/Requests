@@ -45,10 +45,7 @@ def return_content(response):
                 pass
 
         elif tag.name == 'p':
-            print(tag.get_text().strip())
-        
-            
-            
+            print(tag.get_text().strip())    
 
 def return_search_results(response):
     # Get top 10 search results
@@ -65,7 +62,6 @@ def return_search_results(response):
             print(f"   {link.get_text()}")
             description = result.find('p')
             print(f"   {description.get_text()}\n")
-        
 
 def make_http_request(url):
     # Parse the URL to get host and path
@@ -107,7 +103,7 @@ def make_http_request(url):
     # Parse the response using BeautifulSoup
     soup = BeautifulSoup(response, 'html.parser')
 
-    print(soup.prettify())
+    # print(soup.prettify())
     
     # Check if the response is a redirect
     if soup.decode().startswith("HTTP/1.1 301") or soup.decode().startswith("HTTP/1.1 302") or soup.decode().startswith("HTTP/1.1 303") or soup.decode().startswith("HTTP/1.1 307") or soup.decode().startswith("HTTP/1.1 308"):
@@ -130,15 +126,6 @@ def make_http_request(url):
     
     return response
 
-def search(search_term):
-    # Parse the search term
-    search_term = search_term.replace(' ', '+')
-
-    # Make an HTTP request to search the term using Bing
-    make_http_request(f"https://www.bing.com/search?q={search_term}")
-
-    return
-
 def main():
     # Check if the correct number of arguments is provided
     if len(sys.argv) > 5 or len(sys.argv) < 1 or sys.argv[1] == "-h":
@@ -156,9 +143,6 @@ def main():
         # Print the content
         return_content(content)
 
-        # Save the last response in a file
-        http_cache(content)
-
         return
 
     elif sys.argv[1] == "-s" and len(sys.argv) == 3:
@@ -167,14 +151,29 @@ def main():
         search_term = search_term.replace(" ", "+")
         print(f"Searching for: {search_term}")
 
-        # Make the HTTP request
-        results = make_http_request(f"https://www.bing.com/search?q={search_term}")
+        # Get the last search term from last_term.txt
+        last_term = ""
+        with open("last_term.txt", "r") as file:
+            last_term = file.read()
+
+        if search_term == last_term:
+            # Get the last response from the cache file
+            with open("cache.txt", "r") as file:
+                results = file.read()
+        
+        else:
+        # Save the last search term in a file
+            with open("last_term.txt", "w") as file:
+                file.write(search_term)
+
+            # Make the HTTP request
+            results = make_http_request(f"https://www.bing.com/search?q={search_term}")
+
+            # Save the last response in a file
+            http_cache(results.decode('latin-1'))
 
         # Print the search results
         return_search_results(results)
-
-        # Save the last response in a file
-        http_cache(results)
 
         return
 
@@ -194,7 +193,7 @@ def main():
         return_content(results)
 
         # Save the last response in a file
-        http_cache(results)
+        # http_cache(results)
 
         return
     
